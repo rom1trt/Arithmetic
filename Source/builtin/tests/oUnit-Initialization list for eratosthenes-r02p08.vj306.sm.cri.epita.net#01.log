@@ -1,0 +1,6 @@
+2018-12-21T09:57:52+00:00 r02p08.vj306.sm.cri.epita.net#01 I: Start test Initialization list for eratosthenes:0:2 -> [2].
+2018-12-21T09:57:52+00:00 r02p08.vj306.sm.cri.epita.net#01 I: Test Initialization list for eratosthenes:0:2 -> [2] is successful.
+2018-12-21T09:57:52+00:00 r02p08.vj306.sm.cri.epita.net#01 I: End test Initialization list for eratosthenes:0:2 -> [2].
+2018-12-21T09:57:52+00:00 r02p08.vj306.sm.cri.epita.net#01 I: Start test Initialization list for eratosthenes:2:6 -> [2; 3; 5].
+2018-12-21T09:57:52+00:00 r02p08.vj306.sm.cri.epita.net#01 I: Test Initialization list for eratosthenes:2:6 -> [2; 3; 5] is successful.
+2018-12-21T09:57:52+00:00 r02p08.vj306.sm.cri.epita.net#01 I: End test Initialization list for eratosthenes:2:6 -> [2; 3; 5].

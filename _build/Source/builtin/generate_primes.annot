@@ -1,0 +1,2521 @@
+"Source/builtin/generate_primes.ml" 13 265 269 "Source/builtin/generate_primes.ml" 13 265 286
+type(
+  int -> int list
+)
+ident(
+  def init_eratosthenes "Source/builtin/generate_primes.ml" 33 744 744 "Source/builtin/generate_primes.ml" 1 0 -1
+)
+"Source/builtin/generate_primes.ml" 13 265 287 "Source/builtin/generate_primes.ml" 13 265 288
+type(
+  int
+)
+ident(
+  def n "Source/builtin/generate_primes.ml" 14 291 293 "Source/builtin/generate_primes.ml" 26 602 634
+)
+"Source/builtin/generate_primes.ml" 14 291 296 "Source/builtin/generate_primes.ml" 14 291 297
+type(
+  int
+)
+ident(
+  int_ref n "Source/builtin/generate_primes.ml" 13 265 287 "Source/builtin/generate_primes.ml" 13 265 288
+)
+"Source/builtin/generate_primes.ml" 14 291 298 "Source/builtin/generate_primes.ml" 14 291 299
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 57 2220 2220 "stdlib.mli" 57 2220 2264
+)
+"Source/builtin/generate_primes.ml" 14 291 300 "Source/builtin/generate_primes.ml" 14 291 301
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 14 291 296 "Source/builtin/generate_primes.ml" 14 291 301
+type(
+  bool
+)
+"Source/builtin/generate_primes.ml" 14 291 307 "Source/builtin/generate_primes.ml" 14 291 309
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 16 317 329 "Source/builtin/generate_primes.ml" 16 317 350
+type(
+  int -> int -> int list
+)
+ident(
+  def init_eratosthenes_rec "Source/builtin/generate_primes.ml" 16 317 321 "Source/builtin/generate_primes.ml" 26 602 634
+)
+"Source/builtin/generate_primes.ml" 16 317 351 "Source/builtin/generate_primes.ml" 16 317 352
+type(
+  int
+)
+ident(
+  def n "Source/builtin/generate_primes.ml" 16 317 353 "Source/builtin/generate_primes.ml" 24 550 595
+)
+"Source/builtin/generate_primes.ml" 16 317 353 "Source/builtin/generate_primes.ml" 16 317 354
+type(
+  int
+)
+ident(
+  def d "Source/builtin/generate_primes.ml" 17 357 363 "Source/builtin/generate_primes.ml" 24 550 595
+)
+"Source/builtin/generate_primes.ml" 17 357 366 "Source/builtin/generate_primes.ml" 17 357 367
+type(
+  int
+)
+ident(
+  int_ref d "Source/builtin/generate_primes.ml" 16 317 353 "Source/builtin/generate_primes.ml" 16 317 354
+)
+"Source/builtin/generate_primes.ml" 17 357 367 "Source/builtin/generate_primes.ml" 17 357 368
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( < ) "stdlib.mli" 70 2854 2854 "stdlib.mli" 70 2854 2901
+)
+"Source/builtin/generate_primes.ml" 17 357 368 "Source/builtin/generate_primes.ml" 17 357 369
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 17 357 366 "Source/builtin/generate_primes.ml" 17 357 369
+type(
+  bool
+)
+"Source/builtin/generate_primes.ml" 18 375 383 "Source/builtin/generate_primes.ml" 18 375 385
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 20 397 411 "Source/builtin/generate_primes.ml" 20 397 412
+type(
+  int
+)
+ident(
+  int_ref n "Source/builtin/generate_primes.ml" 16 317 351 "Source/builtin/generate_primes.ml" 16 317 352
+)
+"Source/builtin/generate_primes.ml" 22 425 432 "Source/builtin/generate_primes.ml" 22 425 433
+type(
+  int
+)
+ident(
+  def n "Source/builtin/generate_primes.ml" 22 425 439 "Source/builtin/generate_primes.ml" 22 425 484
+)
+"Source/builtin/generate_primes.ml" 22 425 439 "Source/builtin/generate_primes.ml" 22 425 440
+type(
+  int
+)
+ident(
+  int_ref n "Source/builtin/generate_primes.ml" 22 425 432 "Source/builtin/generate_primes.ml" 22 425 433
+)
+"Source/builtin/generate_primes.ml" 22 425 441 "Source/builtin/generate_primes.ml" 22 425 442
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 57 2220 2220 "stdlib.mli" 57 2220 2264
+)
+"Source/builtin/generate_primes.ml" 22 425 443 "Source/builtin/generate_primes.ml" 22 425 444
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 22 425 439 "Source/builtin/generate_primes.ml" 22 425 444
+type(
+  bool
+)
+"Source/builtin/generate_primes.ml" 22 425 448 "Source/builtin/generate_primes.ml" 22 425 449
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 22 425 451 "Source/builtin/generate_primes.ml" 22 425 472
+type(
+  int -> int -> int list
+)
+ident(
+  int_ref init_eratosthenes_rec "Source/builtin/generate_primes.ml" 16 317 329 "Source/builtin/generate_primes.ml" 16 317 350
+)
+"Source/builtin/generate_primes.ml" 22 425 474 "Source/builtin/generate_primes.ml" 22 425 475
+type(
+  int
+)
+ident(
+  int_ref n "Source/builtin/generate_primes.ml" 22 425 432 "Source/builtin/generate_primes.ml" 22 425 433
+)
+"Source/builtin/generate_primes.ml" 22 425 475 "Source/builtin/generate_primes.ml" 22 425 476
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 267 10384 10384 "stdlib.mli" 267 10384 10430
+)
+"Source/builtin/generate_primes.ml" 22 425 476 "Source/builtin/generate_primes.ml" 22 425 477
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 22 425 473 "Source/builtin/generate_primes.ml" 22 425 478
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 22 425 480 "Source/builtin/generate_primes.ml" 22 425 481
+type(
+  int
+)
+ident(
+  int_ref d "Source/builtin/generate_primes.ml" 16 317 353 "Source/builtin/generate_primes.ml" 16 317 354
+)
+"Source/builtin/generate_primes.ml" 22 425 481 "Source/builtin/generate_primes.ml" 22 425 482
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 271 10513 10513 "stdlib.mli" 271 10513 10559
+)
+"Source/builtin/generate_primes.ml" 22 425 482 "Source/builtin/generate_primes.ml" 22 425 483
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 22 425 479 "Source/builtin/generate_primes.ml" 22 425 484
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 22 425 451 "Source/builtin/generate_primes.ml" 22 425 484
+call(
+  stack
+)
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 22 425 448 "Source/builtin/generate_primes.ml" 22 425 484
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 23 485 492 "Source/builtin/generate_primes.ml" 23 485 493
+type(
+  int
+)
+ident(
+  def n "Source/builtin/generate_primes.ml" 23 485 499 "Source/builtin/generate_primes.ml" 23 485 549
+)
+"Source/builtin/generate_primes.ml" 23 485 499 "Source/builtin/generate_primes.ml" 23 485 500
+type(
+  int
+)
+ident(
+  int_ref n "Source/builtin/generate_primes.ml" 23 485 492 "Source/builtin/generate_primes.ml" 23 485 493
+)
+"Source/builtin/generate_primes.ml" 23 485 501 "Source/builtin/generate_primes.ml" 23 485 504
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( mod ) "stdlib.mli" 288 11226 11226 "stdlib.mli" 288 11226 11274
+)
+"Source/builtin/generate_primes.ml" 23 485 505 "Source/builtin/generate_primes.ml" 23 485 506
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 23 485 499 "Source/builtin/generate_primes.ml" 23 485 506
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 23 485 507 "Source/builtin/generate_primes.ml" 23 485 508
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 57 2220 2220 "stdlib.mli" 57 2220 2264
+)
+"Source/builtin/generate_primes.ml" 23 485 508 "Source/builtin/generate_primes.ml" 23 485 509
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 23 485 499 "Source/builtin/generate_primes.ml" 23 485 509
+type(
+  bool
+)
+"Source/builtin/generate_primes.ml" 23 485 513 "Source/builtin/generate_primes.ml" 23 485 514
+type(
+  int
+)
+ident(
+  int_ref n "Source/builtin/generate_primes.ml" 23 485 492 "Source/builtin/generate_primes.ml" 23 485 493
+)
+"Source/builtin/generate_primes.ml" 23 485 516 "Source/builtin/generate_primes.ml" 23 485 537
+type(
+  int -> int -> int list
+)
+ident(
+  int_ref init_eratosthenes_rec "Source/builtin/generate_primes.ml" 16 317 329 "Source/builtin/generate_primes.ml" 16 317 350
+)
+"Source/builtin/generate_primes.ml" 23 485 539 "Source/builtin/generate_primes.ml" 23 485 540
+type(
+  int
+)
+ident(
+  int_ref n "Source/builtin/generate_primes.ml" 23 485 492 "Source/builtin/generate_primes.ml" 23 485 493
+)
+"Source/builtin/generate_primes.ml" 23 485 540 "Source/builtin/generate_primes.ml" 23 485 541
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 267 10384 10384 "stdlib.mli" 267 10384 10430
+)
+"Source/builtin/generate_primes.ml" 23 485 541 "Source/builtin/generate_primes.ml" 23 485 542
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 23 485 538 "Source/builtin/generate_primes.ml" 23 485 543
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 23 485 545 "Source/builtin/generate_primes.ml" 23 485 546
+type(
+  int
+)
+ident(
+  int_ref d "Source/builtin/generate_primes.ml" 16 317 353 "Source/builtin/generate_primes.ml" 16 317 354
+)
+"Source/builtin/generate_primes.ml" 23 485 546 "Source/builtin/generate_primes.ml" 23 485 547
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 271 10513 10513 "stdlib.mli" 271 10513 10559
+)
+"Source/builtin/generate_primes.ml" 23 485 547 "Source/builtin/generate_primes.ml" 23 485 548
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 23 485 544 "Source/builtin/generate_primes.ml" 23 485 549
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 23 485 516 "Source/builtin/generate_primes.ml" 23 485 549
+call(
+  stack
+)
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 23 485 513 "Source/builtin/generate_primes.ml" 23 485 549
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 24 550 557 "Source/builtin/generate_primes.ml" 24 550 558
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 24 550 562 "Source/builtin/generate_primes.ml" 24 550 583
+type(
+  int -> int -> int list
+)
+ident(
+  int_ref init_eratosthenes_rec "Source/builtin/generate_primes.ml" 16 317 329 "Source/builtin/generate_primes.ml" 16 317 350
+)
+"Source/builtin/generate_primes.ml" 24 550 585 "Source/builtin/generate_primes.ml" 24 550 586
+type(
+  int
+)
+ident(
+  int_ref n "Source/builtin/generate_primes.ml" 16 317 351 "Source/builtin/generate_primes.ml" 16 317 352
+)
+"Source/builtin/generate_primes.ml" 24 550 586 "Source/builtin/generate_primes.ml" 24 550 587
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 267 10384 10384 "stdlib.mli" 267 10384 10430
+)
+"Source/builtin/generate_primes.ml" 24 550 587 "Source/builtin/generate_primes.ml" 24 550 588
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 24 550 584 "Source/builtin/generate_primes.ml" 24 550 589
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 24 550 591 "Source/builtin/generate_primes.ml" 24 550 592
+type(
+  int
+)
+ident(
+  int_ref d "Source/builtin/generate_primes.ml" 16 317 353 "Source/builtin/generate_primes.ml" 16 317 354
+)
+"Source/builtin/generate_primes.ml" 24 550 592 "Source/builtin/generate_primes.ml" 24 550 593
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 271 10513 10513 "stdlib.mli" 271 10513 10559
+)
+"Source/builtin/generate_primes.ml" 24 550 593 "Source/builtin/generate_primes.ml" 24 550 594
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 24 550 590 "Source/builtin/generate_primes.ml" 24 550 595
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 24 550 562 "Source/builtin/generate_primes.ml" 24 550 595
+call(
+  tail
+)
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 20 397 405 "Source/builtin/generate_primes.ml" 24 550 595
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 17 357 363 "Source/builtin/generate_primes.ml" 24 550 595
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 26 602 609 "Source/builtin/generate_primes.ml" 26 602 630
+type(
+  int -> int -> int list
+)
+ident(
+  int_ref init_eratosthenes_rec "Source/builtin/generate_primes.ml" 16 317 329 "Source/builtin/generate_primes.ml" 16 317 350
+)
+"Source/builtin/generate_primes.ml" 26 602 631 "Source/builtin/generate_primes.ml" 26 602 632
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 26 602 633 "Source/builtin/generate_primes.ml" 26 602 634
+type(
+  int
+)
+ident(
+  int_ref n "Source/builtin/generate_primes.ml" 13 265 287 "Source/builtin/generate_primes.ml" 13 265 288
+)
+"Source/builtin/generate_primes.ml" 26 602 609 "Source/builtin/generate_primes.ml" 26 602 634
+call(
+  tail
+)
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 16 317 321 "Source/builtin/generate_primes.ml" 26 602 634
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 14 291 293 "Source/builtin/generate_primes.ml" 26 602 634
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 33 744 748 "Source/builtin/generate_primes.ml" 33 744 756
+type(
+  int list -> int -> int list
+)
+ident(
+  def multiple "Source/builtin/generate_primes.ml" 42 984 984 "Source/builtin/generate_primes.ml" 1 0 -1
+)
+"Source/builtin/generate_primes.ml" 33 744 757 "Source/builtin/generate_primes.ml" 33 744 758
+type(
+  int list
+)
+ident(
+  def l "Source/builtin/generate_primes.ml" 33 744 759 "Source/builtin/generate_primes.ml" 40 959 980
+)
+"Source/builtin/generate_primes.ml" 33 744 759 "Source/builtin/generate_primes.ml" 33 744 760
+type(
+  int
+)
+ident(
+  def n "Source/builtin/generate_primes.ml" 34 764 766 "Source/builtin/generate_primes.ml" 40 959 980
+)
+"Source/builtin/generate_primes.ml" 34 764 774 "Source/builtin/generate_primes.ml" 34 764 786
+type(
+  int list -> int -> int list
+)
+ident(
+  def multiple_rec "Source/builtin/generate_primes.ml" 34 764 766 "Source/builtin/generate_primes.ml" 40 959 980
+)
+"Source/builtin/generate_primes.ml" 34 764 787 "Source/builtin/generate_primes.ml" 34 764 788
+type(
+  int list
+)
+ident(
+  def l "Source/builtin/generate_primes.ml" 34 764 789 "Source/builtin/generate_primes.ml" 39 928 958
+)
+"Source/builtin/generate_primes.ml" 34 764 789 "Source/builtin/generate_primes.ml" 34 764 790
+type(
+  int
+)
+ident(
+  def n "Source/builtin/generate_primes.ml" 34 764 793 "Source/builtin/generate_primes.ml" 39 928 958
+)
+"Source/builtin/generate_primes.ml" 34 764 799 "Source/builtin/generate_primes.ml" 34 764 800
+type(
+  int list
+)
+ident(
+  int_ref l "Source/builtin/generate_primes.ml" 34 764 787 "Source/builtin/generate_primes.ml" 34 764 788
+)
+"Source/builtin/generate_primes.ml" 35 806 811 "Source/builtin/generate_primes.ml" 35 806 813
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 35 806 817 "Source/builtin/generate_primes.ml" 35 806 819
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 36 820 825 "Source/builtin/generate_primes.ml" 36 820 826
+type(
+  int
+)
+ident(
+  def e "Source/builtin/generate_primes.ml" 36 820 834 "Source/builtin/generate_primes.ml" 39 928 958
+)
+"Source/builtin/generate_primes.ml" 36 820 828 "Source/builtin/generate_primes.ml" 36 820 830
+type(
+  int list
+)
+ident(
+  def l2 "Source/builtin/generate_primes.ml" 36 820 834 "Source/builtin/generate_primes.ml" 39 928 958
+)
+"Source/builtin/generate_primes.ml" 36 820 825 "Source/builtin/generate_primes.ml" 36 820 830
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 36 820 838 "Source/builtin/generate_primes.ml" 36 820 839
+type(
+  int
+)
+ident(
+  int_ref e "Source/builtin/generate_primes.ml" 36 820 825 "Source/builtin/generate_primes.ml" 36 820 826
+)
+"Source/builtin/generate_primes.ml" 36 820 840 "Source/builtin/generate_primes.ml" 36 820 843
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( mod ) "stdlib.mli" 288 11226 11226 "stdlib.mli" 288 11226 11274
+)
+"Source/builtin/generate_primes.ml" 36 820 844 "Source/builtin/generate_primes.ml" 36 820 845
+type(
+  int
+)
+ident(
+  int_ref n "Source/builtin/generate_primes.ml" 34 764 789 "Source/builtin/generate_primes.ml" 34 764 790
+)
+"Source/builtin/generate_primes.ml" 36 820 838 "Source/builtin/generate_primes.ml" 36 820 845
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 36 820 846 "Source/builtin/generate_primes.ml" 36 820 847
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 57 2220 2220 "stdlib.mli" 57 2220 2264
+)
+"Source/builtin/generate_primes.ml" 36 820 848 "Source/builtin/generate_primes.ml" 36 820 849
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 36 820 837 "Source/builtin/generate_primes.ml" 36 820 850
+type(
+  bool
+)
+"Source/builtin/generate_primes.ml" 37 856 882 "Source/builtin/generate_primes.ml" 37 856 894
+type(
+  int list -> int -> int list
+)
+ident(
+  int_ref multiple_rec "Source/builtin/generate_primes.ml" 34 764 774 "Source/builtin/generate_primes.ml" 34 764 786
+)
+"Source/builtin/generate_primes.ml" 37 856 895 "Source/builtin/generate_primes.ml" 37 856 897
+type(
+  int list
+)
+ident(
+  int_ref l2 "Source/builtin/generate_primes.ml" 36 820 828 "Source/builtin/generate_primes.ml" 36 820 830
+)
+"Source/builtin/generate_primes.ml" 37 856 898 "Source/builtin/generate_primes.ml" 37 856 899
+type(
+  int
+)
+ident(
+  int_ref n "Source/builtin/generate_primes.ml" 34 764 789 "Source/builtin/generate_primes.ml" 34 764 790
+)
+"Source/builtin/generate_primes.ml" 37 856 882 "Source/builtin/generate_primes.ml" 37 856 899
+call(
+  tail
+)
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 39 928 936 "Source/builtin/generate_primes.ml" 39 928 937
+type(
+  int
+)
+ident(
+  int_ref e "Source/builtin/generate_primes.ml" 36 820 825 "Source/builtin/generate_primes.ml" 36 820 826
+)
+"Source/builtin/generate_primes.ml" 39 928 940 "Source/builtin/generate_primes.ml" 39 928 952
+type(
+  int list -> int -> int list
+)
+ident(
+  int_ref multiple_rec "Source/builtin/generate_primes.ml" 34 764 774 "Source/builtin/generate_primes.ml" 34 764 786
+)
+"Source/builtin/generate_primes.ml" 39 928 953 "Source/builtin/generate_primes.ml" 39 928 955
+type(
+  int list
+)
+ident(
+  int_ref l2 "Source/builtin/generate_primes.ml" 36 820 828 "Source/builtin/generate_primes.ml" 36 820 830
+)
+"Source/builtin/generate_primes.ml" 39 928 956 "Source/builtin/generate_primes.ml" 39 928 957
+type(
+  int
+)
+ident(
+  int_ref n "Source/builtin/generate_primes.ml" 34 764 789 "Source/builtin/generate_primes.ml" 34 764 790
+)
+"Source/builtin/generate_primes.ml" 39 928 939 "Source/builtin/generate_primes.ml" 39 928 958
+call(
+  stack
+)
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 39 928 936 "Source/builtin/generate_primes.ml" 39 928 958
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 36 820 834 "Source/builtin/generate_primes.ml" 39 928 958
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 34 764 793 "Source/builtin/generate_primes.ml" 39 928 958
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 40 959 964 "Source/builtin/generate_primes.ml" 40 959 976
+type(
+  int list -> int -> int list
+)
+ident(
+  int_ref multiple_rec "Source/builtin/generate_primes.ml" 34 764 774 "Source/builtin/generate_primes.ml" 34 764 786
+)
+"Source/builtin/generate_primes.ml" 40 959 977 "Source/builtin/generate_primes.ml" 40 959 978
+type(
+  int list
+)
+ident(
+  int_ref l "Source/builtin/generate_primes.ml" 33 744 757 "Source/builtin/generate_primes.ml" 33 744 758
+)
+"Source/builtin/generate_primes.ml" 40 959 979 "Source/builtin/generate_primes.ml" 40 959 980
+type(
+  int
+)
+ident(
+  int_ref n "Source/builtin/generate_primes.ml" 33 744 759 "Source/builtin/generate_primes.ml" 33 744 760
+)
+"Source/builtin/generate_primes.ml" 40 959 964 "Source/builtin/generate_primes.ml" 40 959 980
+call(
+  tail
+)
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 34 764 766 "Source/builtin/generate_primes.ml" 40 959 980
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 42 984 988 "Source/builtin/generate_primes.ml" 42 984 1000
+type(
+  int -> int list
+)
+ident(
+  def eratosthenes "Source/builtin/generate_primes.ml" 59 1390 1390 "Source/builtin/generate_primes.ml" 1 0 -1
+)
+"Source/builtin/generate_primes.ml" 42 984 1001 "Source/builtin/generate_primes.ml" 42 984 1002
+type(
+  int
+)
+ident(
+  def n "Source/builtin/generate_primes.ml" 43 1005 1007 "Source/builtin/generate_primes.ml" 51 1189 1222
+)
+"Source/builtin/generate_primes.ml" 43 1005 1015 "Source/builtin/generate_primes.ml" 43 1005 1031
+type(
+  int -> int list
+)
+ident(
+  def eratosthenes_rec "Source/builtin/generate_primes.ml" 43 1005 1007 "Source/builtin/generate_primes.ml" 51 1189 1222
+)
+"Source/builtin/generate_primes.ml" 43 1005 1032 "Source/builtin/generate_primes.ml" 43 1005 1033
+type(
+  int
+)
+ident(
+  def m "Source/builtin/generate_primes.ml" 44 1037 1041 "Source/builtin/generate_primes.ml" 50 1139 1188
+)
+"Source/builtin/generate_primes.ml" 44 1037 1045 "Source/builtin/generate_primes.ml" 44 1037 1046
+type(
+  int
+)
+ident(
+  int_ref m "Source/builtin/generate_primes.ml" 43 1005 1032 "Source/builtin/generate_primes.ml" 43 1005 1033
+)
+"Source/builtin/generate_primes.ml" 44 1037 1046 "Source/builtin/generate_primes.ml" 44 1037 1047
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 74 2992 2992 "stdlib.mli" 74 2992 3042
+)
+"Source/builtin/generate_primes.ml" 44 1037 1047 "Source/builtin/generate_primes.ml" 44 1037 1048
+type(
+  int
+)
+ident(
+  int_ref n "Source/builtin/generate_primes.ml" 42 984 1001 "Source/builtin/generate_primes.ml" 42 984 1002
+)
+"Source/builtin/generate_primes.ml" 44 1037 1045 "Source/builtin/generate_primes.ml" 44 1037 1048
+type(
+  bool
+)
+"Source/builtin/generate_primes.ml" 45 1054 1060 "Source/builtin/generate_primes.ml" 45 1054 1062
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 47 1072 1081 "Source/builtin/generate_primes.ml" 47 1072 1082
+type(
+  int
+)
+ident(
+  int_ref m "Source/builtin/generate_primes.ml" 43 1005 1032 "Source/builtin/generate_primes.ml" 43 1005 1033
+)
+"Source/builtin/generate_primes.ml" 47 1072 1082 "Source/builtin/generate_primes.ml" 47 1072 1083
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( * ) "stdlib.mli" 275 10645 10645 "stdlib.mli" 275 10645 10691
+)
+"Source/builtin/generate_primes.ml" 47 1072 1083 "Source/builtin/generate_primes.ml" 47 1072 1084
+type(
+  int
+)
+ident(
+  int_ref m "Source/builtin/generate_primes.ml" 43 1005 1032 "Source/builtin/generate_primes.ml" 43 1005 1033
+)
+"Source/builtin/generate_primes.ml" 47 1072 1081 "Source/builtin/generate_primes.ml" 47 1072 1084
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 47 1072 1084 "Source/builtin/generate_primes.ml" 47 1072 1085
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 74 2992 2992 "stdlib.mli" 74 2992 3042
+)
+"Source/builtin/generate_primes.ml" 47 1072 1085 "Source/builtin/generate_primes.ml" 47 1072 1086
+type(
+  int
+)
+ident(
+  int_ref n "Source/builtin/generate_primes.ml" 42 984 1001 "Source/builtin/generate_primes.ml" 42 984 1002
+)
+"Source/builtin/generate_primes.ml" 47 1072 1081 "Source/builtin/generate_primes.ml" 47 1072 1086
+type(
+  bool
+)
+"Source/builtin/generate_primes.ml" 48 1092 1100 "Source/builtin/generate_primes.ml" 48 1092 1101
+type(
+  int
+)
+ident(
+  int_ref m "Source/builtin/generate_primes.ml" 43 1005 1032 "Source/builtin/generate_primes.ml" 43 1005 1033
+)
+"Source/builtin/generate_primes.ml" 48 1092 1104 "Source/builtin/generate_primes.ml" 48 1092 1120
+type(
+  int -> int list
+)
+ident(
+  int_ref eratosthenes_rec "Source/builtin/generate_primes.ml" 43 1005 1015 "Source/builtin/generate_primes.ml" 43 1005 1031
+)
+"Source/builtin/generate_primes.ml" 48 1092 1122 "Source/builtin/generate_primes.ml" 48 1092 1123
+type(
+  int
+)
+ident(
+  int_ref m "Source/builtin/generate_primes.ml" 43 1005 1032 "Source/builtin/generate_primes.ml" 43 1005 1033
+)
+"Source/builtin/generate_primes.ml" 48 1092 1123 "Source/builtin/generate_primes.ml" 48 1092 1124
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 267 10384 10384 "stdlib.mli" 267 10384 10430
+)
+"Source/builtin/generate_primes.ml" 48 1092 1124 "Source/builtin/generate_primes.ml" 48 1092 1125
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 48 1092 1121 "Source/builtin/generate_primes.ml" 48 1092 1126
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 48 1092 1103 "Source/builtin/generate_primes.ml" 48 1092 1127
+call(
+  stack
+)
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 48 1092 1100 "Source/builtin/generate_primes.ml" 48 1092 1127
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 50 1139 1147 "Source/builtin/generate_primes.ml" 50 1139 1148
+type(
+  int
+)
+ident(
+  int_ref m "Source/builtin/generate_primes.ml" 43 1005 1032 "Source/builtin/generate_primes.ml" 43 1005 1033
+)
+"Source/builtin/generate_primes.ml" 50 1139 1151 "Source/builtin/generate_primes.ml" 50 1139 1159
+type(
+  int list -> int -> int list
+)
+ident(
+  int_ref multiple "Source/builtin/generate_primes.ml" 33 744 748 "Source/builtin/generate_primes.ml" 33 744 756
+)
+"Source/builtin/generate_primes.ml" 50 1139 1161 "Source/builtin/generate_primes.ml" 50 1139 1177
+type(
+  int -> int list
+)
+ident(
+  int_ref eratosthenes_rec "Source/builtin/generate_primes.ml" 43 1005 1015 "Source/builtin/generate_primes.ml" 43 1005 1031
+)
+"Source/builtin/generate_primes.ml" 50 1139 1179 "Source/builtin/generate_primes.ml" 50 1139 1180
+type(
+  int
+)
+ident(
+  int_ref m "Source/builtin/generate_primes.ml" 43 1005 1032 "Source/builtin/generate_primes.ml" 43 1005 1033
+)
+"Source/builtin/generate_primes.ml" 50 1139 1180 "Source/builtin/generate_primes.ml" 50 1139 1181
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 267 10384 10384 "stdlib.mli" 267 10384 10430
+)
+"Source/builtin/generate_primes.ml" 50 1139 1181 "Source/builtin/generate_primes.ml" 50 1139 1182
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 50 1139 1178 "Source/builtin/generate_primes.ml" 50 1139 1183
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 50 1139 1160 "Source/builtin/generate_primes.ml" 50 1139 1184
+call(
+  stack
+)
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 50 1139 1185 "Source/builtin/generate_primes.ml" 50 1139 1186
+type(
+  int
+)
+ident(
+  int_ref m "Source/builtin/generate_primes.ml" 43 1005 1032 "Source/builtin/generate_primes.ml" 43 1005 1033
+)
+"Source/builtin/generate_primes.ml" 50 1139 1150 "Source/builtin/generate_primes.ml" 50 1139 1188
+call(
+  stack
+)
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 50 1139 1147 "Source/builtin/generate_primes.ml" 50 1139 1188
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 47 1072 1078 "Source/builtin/generate_primes.ml" 50 1139 1188
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 44 1037 1041 "Source/builtin/generate_primes.ml" 50 1139 1188
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 51 1189 1204 "Source/builtin/generate_primes.ml" 51 1189 1220
+type(
+  int -> int list
+)
+ident(
+  int_ref eratosthenes_rec "Source/builtin/generate_primes.ml" 43 1005 1015 "Source/builtin/generate_primes.ml" 43 1005 1031
+)
+"Source/builtin/generate_primes.ml" 51 1189 1221 "Source/builtin/generate_primes.ml" 51 1189 1222
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 51 1189 1204 "Source/builtin/generate_primes.ml" 51 1189 1222
+call(
+  tail
+)
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 43 1005 1007 "Source/builtin/generate_primes.ml" 51 1189 1222
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 59 1390 1394 "Source/builtin/generate_primes.ml" 59 1390 1404
+type(
+  'a -> string -> unit
+)
+ident(
+  def write_list "Source/builtin/generate_primes.ml" 71 1769 1769 "Source/builtin/generate_primes.ml" 1 0 -1
+)
+"Source/builtin/generate_primes.ml" 59 1390 1405 "Source/builtin/generate_primes.ml" 59 1390 1407
+type(
+  'a
+)
+ident(
+  def li "Source/builtin/generate_primes.ml" 59 1390 1408 "Source/builtin/generate_primes.ml" 66 1599 1621
+)
+"Source/builtin/generate_primes.ml" 59 1390 1408 "Source/builtin/generate_primes.ml" 59 1390 1412
+type(
+  string
+)
+ident(
+  def file "Source/builtin/generate_primes.ml" 60 1415 1417 "Source/builtin/generate_primes.ml" 66 1599 1621
+)
+"Source/builtin/generate_primes.ml" 60 1415 1421 "Source/builtin/generate_primes.ml" 60 1415 1422
+type(
+  in_channel
+)
+ident(
+  def a "Source/builtin/generate_primes.ml" 61 1441 1443 "Source/builtin/generate_primes.ml" 66 1599 1621
+)
+"Source/builtin/generate_primes.ml" 60 1415 1425 "Source/builtin/generate_primes.ml" 60 1415 1432
+type(
+  string -> in_channel
+)
+ident(
+  int_ref Stdlib.open_in "stdlib.mli" 928 35075 35075 "stdlib.mli" 928 35075 35109
+)
+"Source/builtin/generate_primes.ml" 60 1415 1433 "Source/builtin/generate_primes.ml" 60 1415 1437
+type(
+  string
+)
+ident(
+  int_ref file "Source/builtin/generate_primes.ml" 59 1390 1408 "Source/builtin/generate_primes.ml" 59 1390 1412
+)
+"Source/builtin/generate_primes.ml" 60 1415 1425 "Source/builtin/generate_primes.ml" 60 1415 1437
+call(
+  stack
+)
+type(
+  in_channel
+)
+"Source/builtin/generate_primes.ml" 61 1441 1451 "Source/builtin/generate_primes.ml" 61 1441 1465
+type(
+  'b -> unit
+)
+ident(
+  def write_list_rec "Source/builtin/generate_primes.ml" 61 1441 1443 "Source/builtin/generate_primes.ml" 66 1599 1621
+)
+"Source/builtin/generate_primes.ml" 61 1441 1466 "Source/builtin/generate_primes.ml" 61 1441 1468
+type(
+  'b
+)
+ident(
+  def li "Source/builtin/generate_primes.ml" 62 1471 1475 "Source/builtin/generate_primes.ml" 65 1564 1598
+)
+"Source/builtin/generate_primes.ml" 62 1471 1479 "Source/builtin/generate_primes.ml" 62 1471 1491
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.print_string "stdlib.mli" 721 26812 26812 "stdlib.mli" 721 26812 26845
+)
+"Source/builtin/generate_primes.ml" 62 1471 1493 "Source/builtin/generate_primes.ml" 62 1471 1503
+type(
+  in_channel -> string
+)
+ident(
+  int_ref Stdlib.input_line "stdlib.mli" 949 36046 36046 "stdlib.mli" 949 36046 36083
+)
+"Source/builtin/generate_primes.ml" 62 1471 1504 "Source/builtin/generate_primes.ml" 62 1471 1505
+type(
+  in_channel
+)
+ident(
+  int_ref a "Source/builtin/generate_primes.ml" 60 1415 1421 "Source/builtin/generate_primes.ml" 60 1415 1422
+)
+"Source/builtin/generate_primes.ml" 62 1471 1492 "Source/builtin/generate_primes.ml" 62 1471 1506
+call(
+  stack
+)
+type(
+  string
+)
+"Source/builtin/generate_primes.ml" 62 1471 1479 "Source/builtin/generate_primes.ml" 62 1471 1506
+call(
+  stack
+)
+type(
+  unit
+)
+"Source/builtin/generate_primes.ml" 63 1508 1518 "Source/builtin/generate_primes.ml" 63 1508 1531
+type(
+  unit -> unit
+)
+ident(
+  int_ref Stdlib.print_newline "stdlib.mli" 738 27318 27318 "stdlib.mli" 738 27318 27350
+)
+"Source/builtin/generate_primes.ml" 63 1508 1531 "Source/builtin/generate_primes.ml" 63 1508 1533
+type(
+  unit
+)
+"Source/builtin/generate_primes.ml" 63 1508 1518 "Source/builtin/generate_primes.ml" 63 1508 1533
+call(
+  stack
+)
+type(
+  unit
+)
+"Source/builtin/generate_primes.ml" 64 1535 1545 "Source/builtin/generate_primes.ml" 64 1535 1559
+type(
+  'b -> unit
+)
+ident(
+  int_ref write_list_rec "Source/builtin/generate_primes.ml" 61 1441 1451 "Source/builtin/generate_primes.ml" 61 1441 1465
+)
+"Source/builtin/generate_primes.ml" 64 1535 1560 "Source/builtin/generate_primes.ml" 64 1535 1562
+type(
+  'b
+)
+ident(
+  int_ref li "Source/builtin/generate_primes.ml" 61 1441 1466 "Source/builtin/generate_primes.ml" 61 1441 1468
+)
+"Source/builtin/generate_primes.ml" 64 1535 1545 "Source/builtin/generate_primes.ml" 64 1535 1562
+call(
+  stack
+)
+type(
+  unit
+)
+"Source/builtin/generate_primes.ml" 63 1508 1518 "Source/builtin/generate_primes.ml" 64 1535 1563
+type(
+  unit
+)
+"Source/builtin/generate_primes.ml" 62 1471 1479 "Source/builtin/generate_primes.ml" 64 1535 1563
+type(
+  unit
+)
+"Source/builtin/generate_primes.ml" 65 1564 1573 "Source/builtin/generate_primes.ml" 65 1564 1584
+type(
+  exn
+)
+"Source/builtin/generate_primes.ml" 65 1564 1588 "Source/builtin/generate_primes.ml" 65 1564 1596
+type(
+  in_channel -> unit
+)
+ident(
+  int_ref Stdlib.close_in "stdlib.mli" 1022 39483 39483 "stdlib.mli" 1022 39483 39516
+)
+"Source/builtin/generate_primes.ml" 65 1564 1597 "Source/builtin/generate_primes.ml" 65 1564 1598
+type(
+  in_channel
+)
+ident(
+  int_ref a "Source/builtin/generate_primes.ml" 60 1415 1421 "Source/builtin/generate_primes.ml" 60 1415 1422
+)
+"Source/builtin/generate_primes.ml" 65 1564 1588 "Source/builtin/generate_primes.ml" 65 1564 1598
+call(
+  tail
+)
+type(
+  unit
+)
+"Source/builtin/generate_primes.ml" 62 1471 1475 "Source/builtin/generate_primes.ml" 65 1564 1598
+type(
+  unit
+)
+"Source/builtin/generate_primes.ml" 66 1599 1604 "Source/builtin/generate_primes.ml" 66 1599 1618
+type(
+  'a -> unit
+)
+ident(
+  int_ref write_list_rec "Source/builtin/generate_primes.ml" 61 1441 1451 "Source/builtin/generate_primes.ml" 61 1441 1465
+)
+"Source/builtin/generate_primes.ml" 66 1599 1619 "Source/builtin/generate_primes.ml" 66 1599 1621
+type(
+  'a
+)
+ident(
+  int_ref li "Source/builtin/generate_primes.ml" 59 1390 1405 "Source/builtin/generate_primes.ml" 59 1390 1407
+)
+"Source/builtin/generate_primes.ml" 66 1599 1604 "Source/builtin/generate_primes.ml" 66 1599 1621
+call(
+  tail
+)
+type(
+  unit
+)
+"Source/builtin/generate_primes.ml" 61 1441 1443 "Source/builtin/generate_primes.ml" 66 1599 1621
+type(
+  unit
+)
+"Source/builtin/generate_primes.ml" 60 1415 1417 "Source/builtin/generate_primes.ml" 66 1599 1621
+type(
+  unit
+)
+"Source/builtin/generate_primes.ml" 71 1769 1773 "Source/builtin/generate_primes.ml" 71 1769 1790
+type(
+  int -> string -> unit
+)
+ident(
+  def write_list_primes "Source/builtin/generate_primes.ml" 81 2032 2032 "Source/builtin/generate_primes.ml" 1 0 -1
+)
+"Source/builtin/generate_primes.ml" 71 1769 1791 "Source/builtin/generate_primes.ml" 71 1769 1792
+type(
+  int
+)
+ident(
+  def n "Source/builtin/generate_primes.ml" 71 1769 1793 "Source/builtin/generate_primes.ml" 73 1829 1847
+)
+"Source/builtin/generate_primes.ml" 71 1769 1793 "Source/builtin/generate_primes.ml" 71 1769 1797
+type(
+  string
+)
+ident(
+  def file "Source/builtin/generate_primes.ml" 72 1800 1802 "Source/builtin/generate_primes.ml" 73 1829 1847
+)
+"Source/builtin/generate_primes.ml" 72 1800 1806 "Source/builtin/generate_primes.ml" 72 1800 1808
+type(
+  int list
+)
+ident(
+  def li "Source/builtin/generate_primes.ml" 73 1829 1829 "Source/builtin/generate_primes.ml" 73 1829 1847
+)
+"Source/builtin/generate_primes.ml" 72 1800 1811 "Source/builtin/generate_primes.ml" 72 1800 1823
+type(
+  int -> int list
+)
+ident(
+  int_ref eratosthenes "Source/builtin/generate_primes.ml" 42 984 988 "Source/builtin/generate_primes.ml" 42 984 1000
+)
+"Source/builtin/generate_primes.ml" 72 1800 1824 "Source/builtin/generate_primes.ml" 72 1800 1825
+type(
+  int
+)
+ident(
+  int_ref n "Source/builtin/generate_primes.ml" 71 1769 1791 "Source/builtin/generate_primes.ml" 71 1769 1792
+)
+"Source/builtin/generate_primes.ml" 72 1800 1811 "Source/builtin/generate_primes.ml" 72 1800 1825
+call(
+  stack
+)
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 73 1829 1829 "Source/builtin/generate_primes.ml" 73 1829 1839
+type(
+  int list -> string -> unit
+)
+ident(
+  int_ref write_list "Source/builtin/generate_primes.ml" 59 1390 1394 "Source/builtin/generate_primes.ml" 59 1390 1404
+)
+"Source/builtin/generate_primes.ml" 73 1829 1840 "Source/builtin/generate_primes.ml" 73 1829 1842
+type(
+  int list
+)
+ident(
+  int_ref li "Source/builtin/generate_primes.ml" 72 1800 1806 "Source/builtin/generate_primes.ml" 72 1800 1808
+)
+"Source/builtin/generate_primes.ml" 73 1829 1843 "Source/builtin/generate_primes.ml" 73 1829 1847
+type(
+  string
+)
+ident(
+  int_ref file "Source/builtin/generate_primes.ml" 71 1769 1793 "Source/builtin/generate_primes.ml" 71 1769 1797
+)
+"Source/builtin/generate_primes.ml" 73 1829 1829 "Source/builtin/generate_primes.ml" 73 1829 1847
+call(
+  tail
+)
+type(
+  unit
+)
+"Source/builtin/generate_primes.ml" 72 1800 1802 "Source/builtin/generate_primes.ml" 73 1829 1847
+type(
+  unit
+)
+"Source/builtin/generate_primes.ml" 81 2032 2036 "Source/builtin/generate_primes.ml" 81 2032 2050
+type(
+  in_channel -> string
+)
+ident(
+  def input_line_opt "Source/builtin/generate_primes.ml" 88 2216 2216 "Source/builtin/generate_primes.ml" 1 0 -1
+)
+"Source/builtin/generate_primes.ml" 81 2032 2051 "Source/builtin/generate_primes.ml" 81 2032 2055
+type(
+  in_channel
+)
+ident(
+  def in_c "Source/builtin/generate_primes.ml" 82 2058 2060 "Source/builtin/generate_primes.ml" 83 2080 2119
+)
+"Source/builtin/generate_primes.ml" 82 2058 2064 "Source/builtin/generate_primes.ml" 82 2058 2074
+type(
+  in_channel -> string
+)
+ident(
+  int_ref Stdlib.input_line "stdlib.mli" 949 36046 36046 "stdlib.mli" 949 36046 36083
+)
+"Source/builtin/generate_primes.ml" 82 2058 2075 "Source/builtin/generate_primes.ml" 82 2058 2079
+type(
+  in_channel
+)
+ident(
+  int_ref in_c "Source/builtin/generate_primes.ml" 81 2032 2051 "Source/builtin/generate_primes.ml" 81 2032 2055
+)
+"Source/builtin/generate_primes.ml" 82 2058 2064 "Source/builtin/generate_primes.ml" 82 2058 2079
+call(
+  stack
+)
+type(
+  string
+)
+"Source/builtin/generate_primes.ml" 83 2080 2087 "Source/builtin/generate_primes.ml" 83 2080 2098
+type(
+  exn
+)
+"Source/builtin/generate_primes.ml" 83 2080 2102 "Source/builtin/generate_primes.ml" 83 2080 2110
+type(
+  in_channel -> unit
+)
+ident(
+  int_ref Stdlib.close_in "stdlib.mli" 1022 39483 39483 "stdlib.mli" 1022 39483 39516
+)
+"Source/builtin/generate_primes.ml" 83 2080 2111 "Source/builtin/generate_primes.ml" 83 2080 2115
+type(
+  in_channel
+)
+ident(
+  int_ref in_c "Source/builtin/generate_primes.ml" 81 2032 2051 "Source/builtin/generate_primes.ml" 81 2032 2055
+)
+"Source/builtin/generate_primes.ml" 83 2080 2102 "Source/builtin/generate_primes.ml" 83 2080 2115
+call(
+  stack
+)
+type(
+  unit
+)
+"Source/builtin/generate_primes.ml" 83 2080 2117 "Source/builtin/generate_primes.ml" 83 2080 2119
+type(
+  string
+)
+"Source/builtin/generate_primes.ml" 83 2080 2102 "Source/builtin/generate_primes.ml" 83 2080 2119
+type(
+  string
+)
+"Source/builtin/generate_primes.ml" 82 2058 2060 "Source/builtin/generate_primes.ml" 83 2080 2119
+type(
+  string
+)
+"Source/builtin/generate_primes.ml" 88 2216 2220 "Source/builtin/generate_primes.ml" 88 2216 2231
+type(
+  in_channel -> int list
+)
+ident(
+  def create_list "Source/builtin/generate_primes.ml" 99 2502 2502 "Source/builtin/generate_primes.ml" 1 0 -1
+)
+"Source/builtin/generate_primes.ml" 88 2216 2232 "Source/builtin/generate_primes.ml" 88 2216 2236
+type(
+  in_channel
+)
+ident(
+  def in_c "Source/builtin/generate_primes.ml" 89 2239 2241 "Source/builtin/generate_primes.ml" 93 2384 2407
+)
+"Source/builtin/generate_primes.ml" 89 2239 2245 "Source/builtin/generate_primes.ml" 89 2239 2246
+type(
+  string
+)
+ident(
+  def u "Source/builtin/generate_primes.ml" 90 2273 2275 "Source/builtin/generate_primes.ml" 93 2384 2407
+)
+"Source/builtin/generate_primes.ml" 89 2239 2249 "Source/builtin/generate_primes.ml" 89 2239 2263
+type(
+  in_channel -> string
+)
+ident(
+  int_ref input_line_opt "Source/builtin/generate_primes.ml" 81 2032 2036 "Source/builtin/generate_primes.ml" 81 2032 2050
+)
+"Source/builtin/generate_primes.ml" 89 2239 2263 "Source/builtin/generate_primes.ml" 89 2239 2269
+type(
+  in_channel
+)
+ident(
+  int_ref in_c "Source/builtin/generate_primes.ml" 88 2216 2232 "Source/builtin/generate_primes.ml" 88 2216 2236
+)
+"Source/builtin/generate_primes.ml" 89 2239 2249 "Source/builtin/generate_primes.ml" 89 2239 2269
+call(
+  stack
+)
+type(
+  string
+)
+"Source/builtin/generate_primes.ml" 90 2273 2283 "Source/builtin/generate_primes.ml" 90 2273 2298
+type(
+  int list -> int list
+)
+ident(
+  def create_list_rec "Source/builtin/generate_primes.ml" 90 2273 2275 "Source/builtin/generate_primes.ml" 93 2384 2407
+)
+"Source/builtin/generate_primes.ml" 90 2273 2299 "Source/builtin/generate_primes.ml" 90 2273 2303
+type(
+  int list
+)
+ident(
+  def list "Source/builtin/generate_primes.ml" 90 2273 2306 "Source/builtin/generate_primes.ml" 92 2370 2383
+)
+"Source/builtin/generate_primes.ml" 90 2273 2309 "Source/builtin/generate_primes.ml" 90 2273 2310
+type(
+  string
+)
+ident(
+  int_ref u "Source/builtin/generate_primes.ml" 89 2239 2245 "Source/builtin/generate_primes.ml" 89 2239 2246
+)
+"Source/builtin/generate_primes.ml" 90 2273 2311 "Source/builtin/generate_primes.ml" 90 2273 2313
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( <> ) "stdlib.mli" 66 2708 2708 "stdlib.mli" 66 2708 2756
+)
+"Source/builtin/generate_primes.ml" 90 2273 2314 "Source/builtin/generate_primes.ml" 90 2273 2316
+type(
+  string
+)
+"Source/builtin/generate_primes.ml" 90 2273 2309 "Source/builtin/generate_primes.ml" 90 2273 2316
+type(
+  bool
+)
+"Source/builtin/generate_primes.ml" 91 2322 2328 "Source/builtin/generate_primes.ml" 91 2322 2343
+type(
+  int list -> int list
+)
+ident(
+  int_ref create_list_rec "Source/builtin/generate_primes.ml" 90 2273 2283 "Source/builtin/generate_primes.ml" 90 2273 2298
+)
+"Source/builtin/generate_primes.ml" 91 2322 2346 "Source/builtin/generate_primes.ml" 91 2322 2359
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.int_of_string "stdlib.mli" 628 23625 23625 "stdlib.mli" 628 23625 23686
+)
+"Source/builtin/generate_primes.ml" 91 2322 2360 "Source/builtin/generate_primes.ml" 91 2322 2361
+type(
+  string
+)
+ident(
+  int_ref u "Source/builtin/generate_primes.ml" 89 2239 2245 "Source/builtin/generate_primes.ml" 89 2239 2246
+)
+"Source/builtin/generate_primes.ml" 91 2322 2345 "Source/builtin/generate_primes.ml" 91 2322 2362
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 91 2322 2364 "Source/builtin/generate_primes.ml" 91 2322 2368
+type(
+  int list
+)
+ident(
+  int_ref list "Source/builtin/generate_primes.ml" 90 2273 2299 "Source/builtin/generate_primes.ml" 90 2273 2303
+)
+"Source/builtin/generate_primes.ml" 91 2322 2344 "Source/builtin/generate_primes.ml" 91 2322 2369
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 91 2322 2328 "Source/builtin/generate_primes.ml" 91 2322 2369
+call(
+  tail
+)
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 92 2370 2379 "Source/builtin/generate_primes.ml" 92 2370 2383
+type(
+  int list
+)
+ident(
+  int_ref list "Source/builtin/generate_primes.ml" 90 2273 2299 "Source/builtin/generate_primes.ml" 90 2273 2303
+)
+"Source/builtin/generate_primes.ml" 90 2273 2306 "Source/builtin/generate_primes.ml" 92 2370 2383
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 93 2384 2389 "Source/builtin/generate_primes.ml" 93 2384 2404
+type(
+  int list -> int list
+)
+ident(
+  int_ref create_list_rec "Source/builtin/generate_primes.ml" 90 2273 2283 "Source/builtin/generate_primes.ml" 90 2273 2298
+)
+"Source/builtin/generate_primes.ml" 93 2384 2405 "Source/builtin/generate_primes.ml" 93 2384 2407
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 93 2384 2389 "Source/builtin/generate_primes.ml" 93 2384 2407
+call(
+  tail
+)
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 90 2273 2275 "Source/builtin/generate_primes.ml" 93 2384 2407
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 89 2239 2241 "Source/builtin/generate_primes.ml" 93 2384 2407
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 99 2502 2506 "Source/builtin/generate_primes.ml" 99 2502 2522
+type(
+  string -> int list
+)
+ident(
+  def read_list_primes "Source/builtin/generate_primes.ml" 110 2728 2728 "Source/builtin/generate_primes.ml" 1 0 -1
+)
+"Source/builtin/generate_primes.ml" 99 2502 2523 "Source/builtin/generate_primes.ml" 99 2502 2527
+type(
+  string
+)
+ident(
+  def file "Source/builtin/generate_primes.ml" 100 2530 2532 "Source/builtin/generate_primes.ml" 101 2557 2579
+)
+"Source/builtin/generate_primes.ml" 100 2530 2536 "Source/builtin/generate_primes.ml" 100 2530 2541
+type(
+  in_channel
+)
+ident(
+  def input "Source/builtin/generate_primes.ml" 101 2557 2562 "Source/builtin/generate_primes.ml" 101 2557 2579
+)
+"Source/builtin/generate_primes.ml" 100 2530 2544 "Source/builtin/generate_primes.ml" 100 2530 2551
+type(
+  string -> in_channel
+)
+ident(
+  int_ref Stdlib.open_in "stdlib.mli" 928 35075 35075 "stdlib.mli" 928 35075 35109
+)
+"Source/builtin/generate_primes.ml" 100 2530 2552 "Source/builtin/generate_primes.ml" 100 2530 2556
+type(
+  string
+)
+ident(
+  int_ref file "Source/builtin/generate_primes.ml" 99 2502 2523 "Source/builtin/generate_primes.ml" 99 2502 2527
+)
+"Source/builtin/generate_primes.ml" 100 2530 2544 "Source/builtin/generate_primes.ml" 100 2530 2556
+call(
+  stack
+)
+type(
+  in_channel
+)
+"Source/builtin/generate_primes.ml" 101 2557 2562 "Source/builtin/generate_primes.ml" 101 2557 2573
+type(
+  in_channel -> int list
+)
+ident(
+  int_ref create_list "Source/builtin/generate_primes.ml" 88 2216 2220 "Source/builtin/generate_primes.ml" 88 2216 2231
+)
+"Source/builtin/generate_primes.ml" 101 2557 2574 "Source/builtin/generate_primes.ml" 101 2557 2579
+type(
+  in_channel
+)
+ident(
+  int_ref input "Source/builtin/generate_primes.ml" 100 2530 2536 "Source/builtin/generate_primes.ml" 100 2530 2541
+)
+"Source/builtin/generate_primes.ml" 101 2557 2562 "Source/builtin/generate_primes.ml" 101 2557 2579
+call(
+  tail
+)
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 100 2530 2532 "Source/builtin/generate_primes.ml" 101 2557 2579
+type(
+  int list
+)
+"Source/builtin/generate_primes.ml" 110 2728 2736 "Source/builtin/generate_primes.ml" 110 2728 2748
+type(
+  'a list -> 'a
+)
+ident(
+  def last_element "Source/builtin/generate_primes.ml" 110 2728 2728 "Source/builtin/generate_primes.ml" 1 0 -1
+)
+"Source/builtin/generate_primes.ml" 110 2728 2749 "Source/builtin/generate_primes.ml" 110 2728 2750
+type(
+  'a list
+)
+ident(
+  def l "Source/builtin/generate_primes.ml" 110 2728 2753 "Source/builtin/generate_primes.ml" 114 2885 2911
+)
+"Source/builtin/generate_primes.ml" 110 2728 2759 "Source/builtin/generate_primes.ml" 110 2728 2760
+type(
+  'a list
+)
+ident(
+  int_ref l "Source/builtin/generate_primes.ml" 110 2728 2749 "Source/builtin/generate_primes.ml" 110 2728 2750
+)
+"Source/builtin/generate_primes.ml" 111 2766 2770 "Source/builtin/generate_primes.ml" 111 2766 2772
+type(
+  'a list
+)
+"Source/builtin/generate_primes.ml" 111 2766 2776 "Source/builtin/generate_primes.ml" 111 2766 2784
+type(
+  string -> 'a
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 47 1981 1981 "stdlib.mli" 47 1981 2008
+)
+"Source/builtin/generate_primes.ml" 111 2766 2785 "Source/builtin/generate_primes.ml" 112 2838 2869
+type(
+  string
+)
+"Source/builtin/generate_primes.ml" 111 2766 2776 "Source/builtin/generate_primes.ml" 112 2838 2869
+call(
+  tail
+)
+type(
+  'a
+)
+"Source/builtin/generate_primes.ml" 113 2870 2874 "Source/builtin/generate_primes.ml" 113 2870 2875
+type(
+  'a
+)
+ident(
+  def e "Source/builtin/generate_primes.ml" 113 2870 2883 "Source/builtin/generate_primes.ml" 113 2870 2884
+)
+"Source/builtin/generate_primes.ml" 113 2870 2877 "Source/builtin/generate_primes.ml" 113 2870 2879
+type(
+  'a list
+)
+"Source/builtin/generate_primes.ml" 113 2870 2874 "Source/builtin/generate_primes.ml" 113 2870 2879
+type(
+  'a list
+)
+"Source/builtin/generate_primes.ml" 113 2870 2883 "Source/builtin/generate_primes.ml" 113 2870 2884
+type(
+  'a
+)
+ident(
+  int_ref e "Source/builtin/generate_primes.ml" 113 2870 2874 "Source/builtin/generate_primes.ml" 113 2870 2875
+)
+"Source/builtin/generate_primes.ml" 114 2885 2889 "Source/builtin/generate_primes.ml" 114 2885 2890
+type(
+  'a
+)
+ident(
+  def h "Source/builtin/generate_primes.ml" 114 2885 2897 "Source/builtin/generate_primes.ml" 114 2885 2911
+)
+"Source/builtin/generate_primes.ml" 114 2885 2892 "Source/builtin/generate_primes.ml" 114 2885 2893
+type(
+  'a list
+)
+ident(
+  def t "Source/builtin/generate_primes.ml" 114 2885 2897 "Source/builtin/generate_primes.ml" 114 2885 2911
+)
+"Source/builtin/generate_primes.ml" 114 2885 2889 "Source/builtin/generate_primes.ml" 114 2885 2893
+type(
+  'a list
+)
+"Source/builtin/generate_primes.ml" 114 2885 2897 "Source/builtin/generate_primes.ml" 114 2885 2909
+type(
+  'a list -> 'a
+)
+ident(
+  int_ref last_element "Source/builtin/generate_primes.ml" 110 2728 2736 "Source/builtin/generate_primes.ml" 110 2728 2748
+)
+"Source/builtin/generate_primes.ml" 114 2885 2910 "Source/builtin/generate_primes.ml" 114 2885 2911
+type(
+  'a list
+)
+ident(
+  int_ref t "Source/builtin/generate_primes.ml" 114 2885 2892 "Source/builtin/generate_primes.ml" 114 2885 2893
+)
+"Source/builtin/generate_primes.ml" 114 2885 2897 "Source/builtin/generate_primes.ml" 114 2885 2911
+call(
+  tail
+)
+type(
+  'a
+)
+"Source/builtin/generate_primes.ml" 110 2728 2753 "Source/builtin/generate_primes.ml" 114 2885 2911
+type(
+  'a
+)
+"Source/builtin/generate_primes.ml" 119 2981 2989 "Source/builtin/generate_primes.ml" 119 2981 2997
+type(
+  'a list -> 'a * 'a
+)
+ident(
+  def last_two "Source/builtin/generate_primes.ml" 119 2981 2981 "Source/builtin/generate_primes.ml" 1 0 -1
+)
+"Source/builtin/generate_primes.ml" 119 2981 2998 "Source/builtin/generate_primes.ml" 119 2981 2999
+type(
+  'a list
+)
+ident(
+  def l "Source/builtin/generate_primes.ml" 119 2981 3002 "Source/builtin/generate_primes.ml" 123 3172 3194
+)
+"Source/builtin/generate_primes.ml" 119 2981 3008 "Source/builtin/generate_primes.ml" 119 2981 3009
+type(
+  'a list
+)
+ident(
+  int_ref l "Source/builtin/generate_primes.ml" 119 2981 2998 "Source/builtin/generate_primes.ml" 119 2981 2999
+)
+"Source/builtin/generate_primes.ml" 120 3015 3019 "Source/builtin/generate_primes.ml" 120 3015 3021
+type(
+  'a list
+)
+"Source/builtin/generate_primes.ml" 120 3015 3025 "Source/builtin/generate_primes.ml" 120 3015 3026
+type(
+  'a
+)
+"Source/builtin/generate_primes.ml" 120 3015 3024 "Source/builtin/generate_primes.ml" 120 3015 3027
+type(
+  'a list
+)
+"Source/builtin/generate_primes.ml" 120 3015 3019 "Source/builtin/generate_primes.ml" 120 3015 3027
+type(
+  'a list
+)
+"Source/builtin/generate_primes.ml" 120 3015 3031 "Source/builtin/generate_primes.ml" 120 3015 3039
+type(
+  string -> 'a * 'a
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 47 1981 1981 "stdlib.mli" 47 1981 2008
+)
+"Source/builtin/generate_primes.ml" 120 3015 3040 "Source/builtin/generate_primes.ml" 121 3086 3148
+type(
+  string
+)
+"Source/builtin/generate_primes.ml" 120 3015 3031 "Source/builtin/generate_primes.ml" 121 3086 3148
+call(
+  tail
+)
+type(
+  'a * 'a
+)
+"Source/builtin/generate_primes.ml" 122 3149 3153 "Source/builtin/generate_primes.ml" 122 3149 3154
+type(
+  'a
+)
+ident(
+  def e "Source/builtin/generate_primes.ml" 122 3149 3165 "Source/builtin/generate_primes.ml" 122 3149 3171
+)
+"Source/builtin/generate_primes.ml" 122 3149 3156 "Source/builtin/generate_primes.ml" 122 3149 3157
+type(
+  'a
+)
+ident(
+  def g "Source/builtin/generate_primes.ml" 122 3149 3165 "Source/builtin/generate_primes.ml" 122 3149 3171
+)
+"Source/builtin/generate_primes.ml" 122 3149 3159 "Source/builtin/generate_primes.ml" 122 3149 3161
+type(
+  'a list
+)
+"Source/builtin/generate_primes.ml" 122 3149 3156 "Source/builtin/generate_primes.ml" 122 3149 3161
+type(
+  'a list
+)
+"Source/builtin/generate_primes.ml" 122 3149 3153 "Source/builtin/generate_primes.ml" 122 3149 3161
+type(
+  'a list
+)
+"Source/builtin/generate_primes.ml" 122 3149 3166 "Source/builtin/generate_primes.ml" 122 3149 3167
+type(
+  'a
+)
+ident(
+  int_ref e "Source/builtin/generate_primes.ml" 122 3149 3153 "Source/builtin/generate_primes.ml" 122 3149 3154
+)
+"Source/builtin/generate_primes.ml" 122 3149 3169 "Source/builtin/generate_primes.ml" 122 3149 3170
+type(
+  'a
+)
+ident(
+  int_ref g "Source/builtin/generate_primes.ml" 122 3149 3156 "Source/builtin/generate_primes.ml" 122 3149 3157
+)
+"Source/builtin/generate_primes.ml" 122 3149 3165 "Source/builtin/generate_primes.ml" 122 3149 3171
+type(
+  'a * 'a
+)
+"Source/builtin/generate_primes.ml" 123 3172 3176 "Source/builtin/generate_primes.ml" 123 3172 3177
+type(
+  'a
+)
+ident(
+  def h "Source/builtin/generate_primes.ml" 123 3172 3184 "Source/builtin/generate_primes.ml" 123 3172 3194
+)
+"Source/builtin/generate_primes.ml" 123 3172 3179 "Source/builtin/generate_primes.ml" 123 3172 3180
+type(
+  'a list
+)
+ident(
+  def t "Source/builtin/generate_primes.ml" 123 3172 3184 "Source/builtin/generate_primes.ml" 123 3172 3194
+)
+"Source/builtin/generate_primes.ml" 123 3172 3176 "Source/builtin/generate_primes.ml" 123 3172 3180
+type(
+  'a list
+)
+"Source/builtin/generate_primes.ml" 123 3172 3184 "Source/builtin/generate_primes.ml" 123 3172 3192
+type(
+  'a list -> 'a * 'a
+)
+ident(
+  int_ref last_two "Source/builtin/generate_primes.ml" 119 2981 2989 "Source/builtin/generate_primes.ml" 119 2981 2997
+)
+"Source/builtin/generate_primes.ml" 123 3172 3193 "Source/builtin/generate_primes.ml" 123 3172 3194
+type(
+  'a list
+)
+ident(
+  int_ref t "Source/builtin/generate_primes.ml" 123 3172 3179 "Source/builtin/generate_primes.ml" 123 3172 3180
+)
+"Source/builtin/generate_primes.ml" 123 3172 3184 "Source/builtin/generate_primes.ml" 123 3172 3194
+call(
+  tail
+)
+type(
+  'a * 'a
+)
+"Source/builtin/generate_primes.ml" 119 2981 3002 "Source/builtin/generate_primes.ml" 123 3172 3194
+type(
+  'a * 'a
+)
+"Source/builtin/generate_primes.ml" 135 3483 3487 "Source/builtin/generate_primes.ml" 135 3483 3500
+type(
+  int -> (int -> bool) -> (int * int) list
+)
+ident(
+  def double_primes "Source/builtin/generate_primes.ml" 150 3955 3955 "Source/builtin/generate_primes.ml" 1 0 -1
+)
+"Source/builtin/generate_primes.ml" 135 3483 3501 "Source/builtin/generate_primes.ml" 135 3483 3506
+type(
+  int
+)
+ident(
+  def limit "Source/builtin/generate_primes.ml" 135 3483 3507 "Source/builtin/generate_primes.ml" 143 3754 3792
+)
+"Source/builtin/generate_primes.ml" 135 3483 3507 "Source/builtin/generate_primes.ml" 135 3483 3514
+type(
+  int -> bool
+)
+ident(
+  def isprime "Source/builtin/generate_primes.ml" 136 3517 3519 "Source/builtin/generate_primes.ml" 143 3754 3792
+)
+"Source/builtin/generate_primes.ml" 136 3517 3527 "Source/builtin/generate_primes.ml" 136 3517 3544
+type(
+  int -> (int -> bool) -> int -> (int * int) list
+)
+ident(
+  def double_primes_rec "Source/builtin/generate_primes.ml" 136 3517 3519 "Source/builtin/generate_primes.ml" 143 3754 3792
+)
+"Source/builtin/generate_primes.ml" 136 3517 3545 "Source/builtin/generate_primes.ml" 136 3517 3550
+type(
+  int
+)
+ident(
+  def limit "Source/builtin/generate_primes.ml" 136 3517 3551 "Source/builtin/generate_primes.ml" 142 3708 3753
+)
+"Source/builtin/generate_primes.ml" 136 3517 3551 "Source/builtin/generate_primes.ml" 136 3517 3558
+type(
+  int -> bool
+)
+ident(
+  def isprime "Source/builtin/generate_primes.ml" 136 3517 3559 "Source/builtin/generate_primes.ml" 142 3708 3753
+)
+"Source/builtin/generate_primes.ml" 136 3517 3559 "Source/builtin/generate_primes.ml" 136 3517 3560
+type(
+  int
+)
+ident(
+  def i "Source/builtin/generate_primes.ml" 137 3563 3567 "Source/builtin/generate_primes.ml" 142 3708 3753
+)
+"Source/builtin/generate_primes.ml" 137 3563 3570 "Source/builtin/generate_primes.ml" 137 3563 3571
+type(
+  int
+)
+ident(
+  int_ref i "Source/builtin/generate_primes.ml" 136 3517 3559 "Source/builtin/generate_primes.ml" 136 3517 3560
+)
+"Source/builtin/generate_primes.ml" 137 3563 3571 "Source/builtin/generate_primes.ml" 137 3563 3572
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 57 2220 2220 "stdlib.mli" 57 2220 2264
+)
+"Source/builtin/generate_primes.ml" 137 3563 3572 "Source/builtin/generate_primes.ml" 137 3563 3577
+type(
+  int
+)
+ident(
+  int_ref limit "Source/builtin/generate_primes.ml" 136 3517 3545 "Source/builtin/generate_primes.ml" 136 3517 3550
+)
+"Source/builtin/generate_primes.ml" 137 3563 3570 "Source/builtin/generate_primes.ml" 137 3563 3577
+type(
+  bool
+)
+"Source/builtin/generate_primes.ml" 138 3583 3589 "Source/builtin/generate_primes.ml" 138 3583 3591
+type(
+  (int * int) list
+)
+"Source/builtin/generate_primes.ml" 139 3592 3605 "Source/builtin/generate_primes.ml" 139 3592 3612
+type(
+  int -> bool
+)
+ident(
+  int_ref isprime "Source/builtin/generate_primes.ml" 136 3517 3551 "Source/builtin/generate_primes.ml" 136 3517 3558
+)
+"Source/builtin/generate_primes.ml" 139 3592 3613 "Source/builtin/generate_primes.ml" 139 3592 3614
+type(
+  int
+)
+ident(
+  int_ref i "Source/builtin/generate_primes.ml" 136 3517 3559 "Source/builtin/generate_primes.ml" 136 3517 3560
+)
+"Source/builtin/generate_primes.ml" 139 3592 3605 "Source/builtin/generate_primes.ml" 139 3592 3614
+call(
+  stack
+)
+type(
+  bool
+)
+"Source/builtin/generate_primes.ml" 139 3592 3615 "Source/builtin/generate_primes.ml" 139 3592 3617
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 143 5989 5989 "stdlib.mli" 143 5989 6040
+)
+"Source/builtin/generate_primes.ml" 139 3592 3618 "Source/builtin/generate_primes.ml" 139 3592 3625
+type(
+  int -> bool
+)
+ident(
+  int_ref isprime "Source/builtin/generate_primes.ml" 136 3517 3551 "Source/builtin/generate_primes.ml" 136 3517 3558
+)
+"Source/builtin/generate_primes.ml" 139 3592 3627 "Source/builtin/generate_primes.ml" 139 3592 3628
+type(
+  int
+)
+ident(
+  int_ref i "Source/builtin/generate_primes.ml" 136 3517 3559 "Source/builtin/generate_primes.ml" 136 3517 3560
+)
+"Source/builtin/generate_primes.ml" 139 3592 3628 "Source/builtin/generate_primes.ml" 139 3592 3629
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( * ) "stdlib.mli" 275 10645 10645 "stdlib.mli" 275 10645 10691
+)
+"Source/builtin/generate_primes.ml" 139 3592 3629 "Source/builtin/generate_primes.ml" 139 3592 3630
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 139 3592 3627 "Source/builtin/generate_primes.ml" 139 3592 3630
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 139 3592 3630 "Source/builtin/generate_primes.ml" 139 3592 3631
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 267 10384 10384 "stdlib.mli" 267 10384 10430
+)
+"Source/builtin/generate_primes.ml" 139 3592 3631 "Source/builtin/generate_primes.ml" 139 3592 3632
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 139 3592 3626 "Source/builtin/generate_primes.ml" 139 3592 3633
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 139 3592 3618 "Source/builtin/generate_primes.ml" 139 3592 3633
+call(
+  stack
+)
+type(
+  bool
+)
+"Source/builtin/generate_primes.ml" 139 3592 3605 "Source/builtin/generate_primes.ml" 139 3592 3633
+type(
+  bool
+)
+"Source/builtin/generate_primes.ml" 140 3639 3648 "Source/builtin/generate_primes.ml" 140 3639 3649
+type(
+  int
+)
+ident(
+  int_ref i "Source/builtin/generate_primes.ml" 136 3517 3559 "Source/builtin/generate_primes.ml" 136 3517 3560
+)
+"Source/builtin/generate_primes.ml" 140 3639 3651 "Source/builtin/generate_primes.ml" 140 3639 3652
+type(
+  int
+)
+ident(
+  int_ref i "Source/builtin/generate_primes.ml" 136 3517 3559 "Source/builtin/generate_primes.ml" 136 3517 3560
+)
+"Source/builtin/generate_primes.ml" 140 3639 3652 "Source/builtin/generate_primes.ml" 140 3639 3653
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( * ) "stdlib.mli" 275 10645 10645 "stdlib.mli" 275 10645 10691
+)
+"Source/builtin/generate_primes.ml" 140 3639 3653 "Source/builtin/generate_primes.ml" 140 3639 3654
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 140 3639 3651 "Source/builtin/generate_primes.ml" 140 3639 3654
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 140 3639 3654 "Source/builtin/generate_primes.ml" 140 3639 3655
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 267 10384 10384 "stdlib.mli" 267 10384 10430
+)
+"Source/builtin/generate_primes.ml" 140 3639 3655 "Source/builtin/generate_primes.ml" 140 3639 3656
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 140 3639 3651 "Source/builtin/generate_primes.ml" 140 3639 3656
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 140 3639 3647 "Source/builtin/generate_primes.ml" 140 3639 3657
+type(
+  int * int
+)
+"Source/builtin/generate_primes.ml" 140 3639 3659 "Source/builtin/generate_primes.ml" 140 3639 3676
+type(
+  int -> (int -> bool) -> int -> (int * int) list
+)
+ident(
+  int_ref double_primes_rec "Source/builtin/generate_primes.ml" 136 3517 3527 "Source/builtin/generate_primes.ml" 136 3517 3544
+)
+"Source/builtin/generate_primes.ml" 140 3639 3677 "Source/builtin/generate_primes.ml" 140 3639 3682
+type(
+  int
+)
+ident(
+  int_ref limit "Source/builtin/generate_primes.ml" 136 3517 3545 "Source/builtin/generate_primes.ml" 136 3517 3550
+)
+"Source/builtin/generate_primes.ml" 140 3639 3683 "Source/builtin/generate_primes.ml" 140 3639 3690
+type(
+  int -> bool
+)
+ident(
+  int_ref isprime "Source/builtin/generate_primes.ml" 136 3517 3551 "Source/builtin/generate_primes.ml" 136 3517 3558
+)
+"Source/builtin/generate_primes.ml" 140 3639 3692 "Source/builtin/generate_primes.ml" 140 3639 3693
+type(
+  int
+)
+ident(
+  int_ref i "Source/builtin/generate_primes.ml" 136 3517 3559 "Source/builtin/generate_primes.ml" 136 3517 3560
+)
+"Source/builtin/generate_primes.ml" 140 3639 3693 "Source/builtin/generate_primes.ml" 140 3639 3694
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 267 10384 10384 "stdlib.mli" 267 10384 10430
+)
+"Source/builtin/generate_primes.ml" 140 3639 3694 "Source/builtin/generate_primes.ml" 140 3639 3695
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 140 3639 3691 "Source/builtin/generate_primes.ml" 140 3639 3696
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 140 3639 3659 "Source/builtin/generate_primes.ml" 140 3639 3696
+call(
+  stack
+)
+type(
+  (int * int) list
+)
+"Source/builtin/generate_primes.ml" 140 3639 3647 "Source/builtin/generate_primes.ml" 140 3639 3696
+type(
+  (int * int) list
+)
+"Source/builtin/generate_primes.ml" 142 3708 3716 "Source/builtin/generate_primes.ml" 142 3708 3733
+type(
+  int -> (int -> bool) -> int -> (int * int) list
+)
+ident(
+  int_ref double_primes_rec "Source/builtin/generate_primes.ml" 136 3517 3527 "Source/builtin/generate_primes.ml" 136 3517 3544
+)
+"Source/builtin/generate_primes.ml" 142 3708 3734 "Source/builtin/generate_primes.ml" 142 3708 3739
+type(
+  int
+)
+ident(
+  int_ref limit "Source/builtin/generate_primes.ml" 136 3517 3545 "Source/builtin/generate_primes.ml" 136 3517 3550
+)
+"Source/builtin/generate_primes.ml" 142 3708 3740 "Source/builtin/generate_primes.ml" 142 3708 3747
+type(
+  int -> bool
+)
+ident(
+  int_ref isprime "Source/builtin/generate_primes.ml" 136 3517 3551 "Source/builtin/generate_primes.ml" 136 3517 3558
+)
+"Source/builtin/generate_primes.ml" 142 3708 3749 "Source/builtin/generate_primes.ml" 142 3708 3750
+type(
+  int
+)
+ident(
+  int_ref i "Source/builtin/generate_primes.ml" 136 3517 3559 "Source/builtin/generate_primes.ml" 136 3517 3560
+)
+"Source/builtin/generate_primes.ml" 142 3708 3750 "Source/builtin/generate_primes.ml" 142 3708 3751
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 267 10384 10384 "stdlib.mli" 267 10384 10430
+)
+"Source/builtin/generate_primes.ml" 142 3708 3751 "Source/builtin/generate_primes.ml" 142 3708 3752
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 142 3708 3748 "Source/builtin/generate_primes.ml" 142 3708 3753
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 142 3708 3716 "Source/builtin/generate_primes.ml" 142 3708 3753
+call(
+  tail
+)
+type(
+  (int * int) list
+)
+"Source/builtin/generate_primes.ml" 139 3592 3602 "Source/builtin/generate_primes.ml" 142 3708 3753
+type(
+  (int * int) list
+)
+"Source/builtin/generate_primes.ml" 137 3563 3567 "Source/builtin/generate_primes.ml" 142 3708 3753
+type(
+  (int * int) list
+)
+"Source/builtin/generate_primes.ml" 143 3754 3759 "Source/builtin/generate_primes.ml" 143 3754 3776
+type(
+  int -> (int -> bool) -> int -> (int * int) list
+)
+ident(
+  int_ref double_primes_rec "Source/builtin/generate_primes.ml" 136 3517 3527 "Source/builtin/generate_primes.ml" 136 3517 3544
+)
+"Source/builtin/generate_primes.ml" 143 3754 3777 "Source/builtin/generate_primes.ml" 143 3754 3782
+type(
+  int
+)
+ident(
+  int_ref limit "Source/builtin/generate_primes.ml" 135 3483 3501 "Source/builtin/generate_primes.ml" 135 3483 3506
+)
+"Source/builtin/generate_primes.ml" 143 3754 3783 "Source/builtin/generate_primes.ml" 143 3754 3790
+type(
+  int -> bool
+)
+ident(
+  int_ref isprime "Source/builtin/generate_primes.ml" 135 3483 3507 "Source/builtin/generate_primes.ml" 135 3483 3514
+)
+"Source/builtin/generate_primes.ml" 143 3754 3791 "Source/builtin/generate_primes.ml" 143 3754 3792
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 143 3754 3759 "Source/builtin/generate_primes.ml" 143 3754 3792
+call(
+  tail
+)
+type(
+  (int * int) list
+)
+"Source/builtin/generate_primes.ml" 136 3517 3519 "Source/builtin/generate_primes.ml" 143 3754 3792
+type(
+  (int * int) list
+)
+"Source/builtin/generate_primes.ml" 150 3955 3959 "Source/builtin/generate_primes.ml" 150 3955 3970
+type(
+  int -> (int -> bool) -> (int * int) list
+)
+ident(
+  def twin_primes "Source/builtin/generate_primes.ml" 158 4293 4329 "Source/builtin/generate_primes.ml" 1 0 -1
+)
+"Source/builtin/generate_primes.ml" 150 3955 3971 "Source/builtin/generate_primes.ml" 150 3955 3976
+type(
+  int
+)
+ident(
+  def limit "Source/builtin/generate_primes.ml" 150 3955 3977 "Source/builtin/generate_primes.ml" 158 4293 4329
+)
+"Source/builtin/generate_primes.ml" 150 3955 3977 "Source/builtin/generate_primes.ml" 150 3955 3984
+type(
+  int -> bool
+)
+ident(
+  def isprime "Source/builtin/generate_primes.ml" 151 3987 3989 "Source/builtin/generate_primes.ml" 158 4293 4329
+)
+"Source/builtin/generate_primes.ml" 151 3987 3997 "Source/builtin/generate_primes.ml" 151 3987 4012
+type(
+  int -> (int -> bool) -> int -> (int * int) list
+)
+ident(
+  def twin_primes_rec "Source/builtin/generate_primes.ml" 151 3987 3989 "Source/builtin/generate_primes.ml" 158 4293 4329
+)
+"Source/builtin/generate_primes.ml" 151 3987 4013 "Source/builtin/generate_primes.ml" 151 3987 4018
+type(
+  int
+)
+ident(
+  def limit "Source/builtin/generate_primes.ml" 151 3987 4019 "Source/builtin/generate_primes.ml" 157 4249 4292
+)
+"Source/builtin/generate_primes.ml" 151 3987 4019 "Source/builtin/generate_primes.ml" 151 3987 4026
+type(
+  int -> bool
+)
+ident(
+  def isprime "Source/builtin/generate_primes.ml" 151 3987 4027 "Source/builtin/generate_primes.ml" 157 4249 4292
+)
+"Source/builtin/generate_primes.ml" 151 3987 4027 "Source/builtin/generate_primes.ml" 151 3987 4028
+type(
+  int
+)
+ident(
+  def i "Source/builtin/generate_primes.ml" 151 3987 4031 "Source/builtin/generate_primes.ml" 157 4249 4292
+)
+"Source/builtin/generate_primes.ml" 151 3987 4037 "Source/builtin/generate_primes.ml" 151 3987 4038
+type(
+  int
+)
+ident(
+  int_ref i "Source/builtin/generate_primes.ml" 151 3987 4027 "Source/builtin/generate_primes.ml" 151 3987 4028
+)
+"Source/builtin/generate_primes.ml" 152 4044 4049 "Source/builtin/generate_primes.ml" 152 4044 4050
+type(
+  int
+)
+ident(
+  def i "Source/builtin/generate_primes.ml" 152 4044 4056 "Source/builtin/generate_primes.ml" 152 4044 4071
+)
+"Source/builtin/generate_primes.ml" 152 4044 4056 "Source/builtin/generate_primes.ml" 152 4044 4057
+type(
+  int
+)
+ident(
+  int_ref i "Source/builtin/generate_primes.ml" 152 4044 4049 "Source/builtin/generate_primes.ml" 152 4044 4050
+)
+"Source/builtin/generate_primes.ml" 152 4044 4058 "Source/builtin/generate_primes.ml" 152 4044 4059
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 57 2220 2220 "stdlib.mli" 57 2220 2264
+)
+"Source/builtin/generate_primes.ml" 152 4044 4060 "Source/builtin/generate_primes.ml" 152 4044 4065
+type(
+  int
+)
+ident(
+  int_ref limit "Source/builtin/generate_primes.ml" 151 3987 4013 "Source/builtin/generate_primes.ml" 151 3987 4018
+)
+"Source/builtin/generate_primes.ml" 152 4044 4056 "Source/builtin/generate_primes.ml" 152 4044 4065
+type(
+  bool
+)
+"Source/builtin/generate_primes.ml" 152 4044 4069 "Source/builtin/generate_primes.ml" 152 4044 4071
+type(
+  (int * int) list
+)
+"Source/builtin/generate_primes.ml" 153 4072 4077 "Source/builtin/generate_primes.ml" 153 4072 4078
+type(
+  int
+)
+ident(
+  def i "Source/builtin/generate_primes.ml" 153 4072 4084 "Source/builtin/generate_primes.ml" 153 4072 4138
+)
+"Source/builtin/generate_primes.ml" 153 4072 4084 "Source/builtin/generate_primes.ml" 153 4072 4085
+type(
+  int
+)
+ident(
+  int_ref i "Source/builtin/generate_primes.ml" 153 4072 4077 "Source/builtin/generate_primes.ml" 153 4072 4078
+)
+"Source/builtin/generate_primes.ml" 153 4072 4086 "Source/builtin/generate_primes.ml" 153 4072 4087
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 57 2220 2220 "stdlib.mli" 57 2220 2264
+)
+"Source/builtin/generate_primes.ml" 153 4072 4088 "Source/builtin/generate_primes.ml" 153 4072 4089
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 153 4072 4084 "Source/builtin/generate_primes.ml" 153 4072 4089
+type(
+  bool
+)
+"Source/builtin/generate_primes.ml" 153 4072 4094 "Source/builtin/generate_primes.ml" 153 4072 4095
+type(
+  int
+)
+ident(
+  int_ref i "Source/builtin/generate_primes.ml" 153 4072 4077 "Source/builtin/generate_primes.ml" 153 4072 4078
+)
+"Source/builtin/generate_primes.ml" 153 4072 4097 "Source/builtin/generate_primes.ml" 153 4072 4098
+type(
+  int
+)
+ident(
+  int_ref i "Source/builtin/generate_primes.ml" 153 4072 4077 "Source/builtin/generate_primes.ml" 153 4072 4078
+)
+"Source/builtin/generate_primes.ml" 153 4072 4098 "Source/builtin/generate_primes.ml" 153 4072 4099
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 267 10384 10384 "stdlib.mli" 267 10384 10430
+)
+"Source/builtin/generate_primes.ml" 153 4072 4099 "Source/builtin/generate_primes.ml" 153 4072 4100
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 153 4072 4097 "Source/builtin/generate_primes.ml" 153 4072 4100
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 153 4072 4093 "Source/builtin/generate_primes.ml" 153 4072 4101
+type(
+  int * int
+)
+"Source/builtin/generate_primes.ml" 153 4072 4103 "Source/builtin/generate_primes.ml" 153 4072 4118
+type(
+  int -> (int -> bool) -> int -> (int * int) list
+)
+ident(
+  int_ref twin_primes_rec "Source/builtin/generate_primes.ml" 151 3987 3997 "Source/builtin/generate_primes.ml" 151 3987 4012
+)
+"Source/builtin/generate_primes.ml" 153 4072 4119 "Source/builtin/generate_primes.ml" 153 4072 4124
+type(
+  int
+)
+ident(
+  int_ref limit "Source/builtin/generate_primes.ml" 151 3987 4013 "Source/builtin/generate_primes.ml" 151 3987 4018
+)
+"Source/builtin/generate_primes.ml" 153 4072 4125 "Source/builtin/generate_primes.ml" 153 4072 4132
+type(
+  int -> bool
+)
+ident(
+  int_ref isprime "Source/builtin/generate_primes.ml" 151 3987 4019 "Source/builtin/generate_primes.ml" 151 3987 4026
+)
+"Source/builtin/generate_primes.ml" 153 4072 4134 "Source/builtin/generate_primes.ml" 153 4072 4135
+type(
+  int
+)
+ident(
+  int_ref i "Source/builtin/generate_primes.ml" 153 4072 4077 "Source/builtin/generate_primes.ml" 153 4072 4078
+)
+"Source/builtin/generate_primes.ml" 153 4072 4135 "Source/builtin/generate_primes.ml" 153 4072 4136
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 267 10384 10384 "stdlib.mli" 267 10384 10430
+)
+"Source/builtin/generate_primes.ml" 153 4072 4136 "Source/builtin/generate_primes.ml" 153 4072 4137
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 153 4072 4133 "Source/builtin/generate_primes.ml" 153 4072 4138
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 153 4072 4103 "Source/builtin/generate_primes.ml" 153 4072 4138
+call(
+  stack
+)
+type(
+  (int * int) list
+)
+"Source/builtin/generate_primes.ml" 153 4072 4093 "Source/builtin/generate_primes.ml" 153 4072 4138
+type(
+  (int * int) list
+)
+"Source/builtin/generate_primes.ml" 154 4139 4144 "Source/builtin/generate_primes.ml" 154 4139 4145
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 154 4139 4152 "Source/builtin/generate_primes.ml" 154 4139 4159
+type(
+  int -> bool
+)
+ident(
+  int_ref isprime "Source/builtin/generate_primes.ml" 151 3987 4019 "Source/builtin/generate_primes.ml" 151 3987 4026
+)
+"Source/builtin/generate_primes.ml" 154 4139 4160 "Source/builtin/generate_primes.ml" 154 4139 4161
+type(
+  int
+)
+ident(
+  int_ref i "Source/builtin/generate_primes.ml" 151 3987 4027 "Source/builtin/generate_primes.ml" 151 3987 4028
+)
+"Source/builtin/generate_primes.ml" 154 4139 4152 "Source/builtin/generate_primes.ml" 154 4139 4161
+call(
+  stack
+)
+type(
+  bool
+)
+"Source/builtin/generate_primes.ml" 154 4139 4162 "Source/builtin/generate_primes.ml" 154 4139 4164
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 143 5989 5989 "stdlib.mli" 143 5989 6040
+)
+"Source/builtin/generate_primes.ml" 154 4139 4165 "Source/builtin/generate_primes.ml" 154 4139 4172
+type(
+  int -> bool
+)
+ident(
+  int_ref isprime "Source/builtin/generate_primes.ml" 151 3987 4019 "Source/builtin/generate_primes.ml" 151 3987 4026
+)
+"Source/builtin/generate_primes.ml" 154 4139 4174 "Source/builtin/generate_primes.ml" 154 4139 4175
+type(
+  int
+)
+ident(
+  int_ref i "Source/builtin/generate_primes.ml" 151 3987 4027 "Source/builtin/generate_primes.ml" 151 3987 4028
+)
+"Source/builtin/generate_primes.ml" 154 4139 4175 "Source/builtin/generate_primes.ml" 154 4139 4176
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 267 10384 10384 "stdlib.mli" 267 10384 10430
+)
+"Source/builtin/generate_primes.ml" 154 4139 4176 "Source/builtin/generate_primes.ml" 154 4139 4177
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 154 4139 4173 "Source/builtin/generate_primes.ml" 154 4139 4178
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 154 4139 4165 "Source/builtin/generate_primes.ml" 154 4139 4178
+call(
+  stack
+)
+type(
+  bool
+)
+"Source/builtin/generate_primes.ml" 154 4139 4152 "Source/builtin/generate_primes.ml" 154 4139 4178
+type(
+  bool
+)
+"Source/builtin/generate_primes.ml" 155 4184 4193 "Source/builtin/generate_primes.ml" 155 4184 4194
+type(
+  int
+)
+ident(
+  int_ref i "Source/builtin/generate_primes.ml" 151 3987 4027 "Source/builtin/generate_primes.ml" 151 3987 4028
+)
+"Source/builtin/generate_primes.ml" 155 4184 4196 "Source/builtin/generate_primes.ml" 155 4184 4197
+type(
+  int
+)
+ident(
+  int_ref i "Source/builtin/generate_primes.ml" 151 3987 4027 "Source/builtin/generate_primes.ml" 151 3987 4028
+)
+"Source/builtin/generate_primes.ml" 155 4184 4197 "Source/builtin/generate_primes.ml" 155 4184 4198
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 267 10384 10384 "stdlib.mli" 267 10384 10430
+)
+"Source/builtin/generate_primes.ml" 155 4184 4198 "Source/builtin/generate_primes.ml" 155 4184 4199
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 155 4184 4196 "Source/builtin/generate_primes.ml" 155 4184 4199
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 155 4184 4192 "Source/builtin/generate_primes.ml" 155 4184 4200
+type(
+  int * int
+)
+"Source/builtin/generate_primes.ml" 155 4184 4202 "Source/builtin/generate_primes.ml" 155 4184 4217
+type(
+  int -> (int -> bool) -> int -> (int * int) list
+)
+ident(
+  int_ref twin_primes_rec "Source/builtin/generate_primes.ml" 151 3987 3997 "Source/builtin/generate_primes.ml" 151 3987 4012
+)
+"Source/builtin/generate_primes.ml" 155 4184 4218 "Source/builtin/generate_primes.ml" 155 4184 4223
+type(
+  int
+)
+ident(
+  int_ref limit "Source/builtin/generate_primes.ml" 151 3987 4013 "Source/builtin/generate_primes.ml" 151 3987 4018
+)
+"Source/builtin/generate_primes.ml" 155 4184 4224 "Source/builtin/generate_primes.ml" 155 4184 4231
+type(
+  int -> bool
+)
+ident(
+  int_ref isprime "Source/builtin/generate_primes.ml" 151 3987 4019 "Source/builtin/generate_primes.ml" 151 3987 4026
+)
+"Source/builtin/generate_primes.ml" 155 4184 4233 "Source/builtin/generate_primes.ml" 155 4184 4234
+type(
+  int
+)
+ident(
+  int_ref i "Source/builtin/generate_primes.ml" 151 3987 4027 "Source/builtin/generate_primes.ml" 151 3987 4028
+)
+"Source/builtin/generate_primes.ml" 155 4184 4234 "Source/builtin/generate_primes.ml" 155 4184 4235
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 267 10384 10384 "stdlib.mli" 267 10384 10430
+)
+"Source/builtin/generate_primes.ml" 155 4184 4235 "Source/builtin/generate_primes.ml" 155 4184 4236
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 155 4184 4232 "Source/builtin/generate_primes.ml" 155 4184 4237
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 155 4184 4202 "Source/builtin/generate_primes.ml" 155 4184 4237
+call(
+  stack
+)
+type(
+  (int * int) list
+)
+"Source/builtin/generate_primes.ml" 155 4184 4192 "Source/builtin/generate_primes.ml" 155 4184 4237
+type(
+  (int * int) list
+)
+"Source/builtin/generate_primes.ml" 157 4249 4257 "Source/builtin/generate_primes.ml" 157 4249 4272
+type(
+  int -> (int -> bool) -> int -> (int * int) list
+)
+ident(
+  int_ref twin_primes_rec "Source/builtin/generate_primes.ml" 151 3987 3997 "Source/builtin/generate_primes.ml" 151 3987 4012
+)
+"Source/builtin/generate_primes.ml" 157 4249 4273 "Source/builtin/generate_primes.ml" 157 4249 4278
+type(
+  int
+)
+ident(
+  int_ref limit "Source/builtin/generate_primes.ml" 151 3987 4013 "Source/builtin/generate_primes.ml" 151 3987 4018
+)
+"Source/builtin/generate_primes.ml" 157 4249 4279 "Source/builtin/generate_primes.ml" 157 4249 4286
+type(
+  int -> bool
+)
+ident(
+  int_ref isprime "Source/builtin/generate_primes.ml" 151 3987 4019 "Source/builtin/generate_primes.ml" 151 3987 4026
+)
+"Source/builtin/generate_primes.ml" 157 4249 4288 "Source/builtin/generate_primes.ml" 157 4249 4289
+type(
+  int
+)
+ident(
+  int_ref i "Source/builtin/generate_primes.ml" 151 3987 4027 "Source/builtin/generate_primes.ml" 151 3987 4028
+)
+"Source/builtin/generate_primes.ml" 157 4249 4289 "Source/builtin/generate_primes.ml" 157 4249 4290
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 267 10384 10384 "stdlib.mli" 267 10384 10430
+)
+"Source/builtin/generate_primes.ml" 157 4249 4290 "Source/builtin/generate_primes.ml" 157 4249 4291
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 157 4249 4287 "Source/builtin/generate_primes.ml" 157 4249 4292
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 157 4249 4257 "Source/builtin/generate_primes.ml" 157 4249 4292
+call(
+  tail
+)
+type(
+  (int * int) list
+)
+"Source/builtin/generate_primes.ml" 154 4139 4149 "Source/builtin/generate_primes.ml" 157 4249 4292
+type(
+  (int * int) list
+)
+"Source/builtin/generate_primes.ml" 151 3987 4031 "Source/builtin/generate_primes.ml" 157 4249 4292
+type(
+  (int * int) list
+)
+"Source/builtin/generate_primes.ml" 158 4293 4298 "Source/builtin/generate_primes.ml" 158 4293 4313
+type(
+  int -> (int -> bool) -> int -> (int * int) list
+)
+ident(
+  int_ref twin_primes_rec "Source/builtin/generate_primes.ml" 151 3987 3997 "Source/builtin/generate_primes.ml" 151 3987 4012
+)
+"Source/builtin/generate_primes.ml" 158 4293 4314 "Source/builtin/generate_primes.ml" 158 4293 4319
+type(
+  int
+)
+ident(
+  int_ref limit "Source/builtin/generate_primes.ml" 150 3955 3971 "Source/builtin/generate_primes.ml" 150 3955 3976
+)
+"Source/builtin/generate_primes.ml" 158 4293 4320 "Source/builtin/generate_primes.ml" 158 4293 4327
+type(
+  int -> bool
+)
+ident(
+  int_ref isprime "Source/builtin/generate_primes.ml" 150 3955 3977 "Source/builtin/generate_primes.ml" 150 3955 3984
+)
+"Source/builtin/generate_primes.ml" 158 4293 4328 "Source/builtin/generate_primes.ml" 158 4293 4329
+type(
+  int
+)
+"Source/builtin/generate_primes.ml" 158 4293 4298 "Source/builtin/generate_primes.ml" 158 4293 4329
+call(
+  tail
+)
+type(
+  (int * int) list
+)
+"Source/builtin/generate_primes.ml" 151 3987 3989 "Source/builtin/generate_primes.ml" 158 4293 4329
+type(
+  (int * int) list
+)

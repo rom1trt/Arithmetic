@@ -1,0 +1,18 @@
+2018-12-21T09:58:23+00:00 r02p08.vj306.sm.cri.epita.net#02 I: Start test GCD Function:1:((9, 6), 3).
+2018-12-21T09:58:23+00:00 r02p08.vj306.sm.cri.epita.net#02 E: Test GCD Function:1:((9, 6), 3) exited with an error.
+2018-12-21T09:58:23+00:00 r02p08.vj306.sm.cri.epita.net#02 E: File "Source/scalable/scalable.ml", line 37, characters 5-10: Pattern matching failed in test GCD Function:1:((9, 6), 3).
+2018-12-21T09:58:23+00:00 r02p08.vj306.sm.cri.epita.net#02 E: Raised at file "Source/scalable/scalable.ml", line 22, characters 2-65
+2018-12-21T09:58:23+00:00 r02p08.vj306.sm.cri.epita.net#02 E: Called from file "Source/scalable/tests/test_scalable_templates.ml", line 67, characters 41-52
+2018-12-21T09:58:23+00:00 r02p08.vj306.sm.cri.epita.net#02 E: Called from file "src/oUnitAssert.ml", line 120, characters 30-40
+2018-12-21T09:58:23+00:00 r02p08.vj306.sm.cri.epita.net#02 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2018-12-21T09:58:23+00:00 r02p08.vj306.sm.cri.epita.net#02 E: 
+2018-12-21T09:58:23+00:00 r02p08.vj306.sm.cri.epita.net#02 I: End test GCD Function:1:((9, 6), 3).
+2018-12-21T09:58:23+00:00 r02p08.vj306.sm.cri.epita.net#02 I: Start test GCD Function:2:((9, 6), 3).
+2018-12-21T09:58:23+00:00 r02p08.vj306.sm.cri.epita.net#02 E: Test GCD Function:2:((9, 6), 3) exited with an error.
+2018-12-21T09:58:23+00:00 r02p08.vj306.sm.cri.epita.net#02 E: File "Source/scalable/scalable.ml", line 37, characters 5-10: Pattern matching failed in test GCD Function:2:((9, 6), 3).
+2018-12-21T09:58:23+00:00 r02p08.vj306.sm.cri.epita.net#02 E: Raised at file "Source/scalable/scalable.ml", line 22, characters 2-65
+2018-12-21T09:58:23+00:00 r02p08.vj306.sm.cri.epita.net#02 E: Called from file "Source/scalable/tests/test_scalable_templates.ml", line 67, characters 41-52
+2018-12-21T09:58:23+00:00 r02p08.vj306.sm.cri.epita.net#02 E: Called from file "src/oUnitAssert.ml", line 120, characters 30-40
+2018-12-21T09:58:23+00:00 r02p08.vj306.sm.cri.epita.net#02 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2018-12-21T09:58:23+00:00 r02p08.vj306.sm.cri.epita.net#02 E: 
+2018-12-21T09:58:23+00:00 r02p08.vj306.sm.cri.epita.net#02 I: End test GCD Function:2:((9, 6), 3).

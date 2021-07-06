@@ -1,0 +1,9 @@
+2018-12-21T06:24:45+00:00 r05p03.vj303.sm.cri.epita.net#04 I: Start test Is Prime Function:3:(7 -> true).
+2018-12-21T06:24:45+00:00 r05p03.vj303.sm.cri.epita.net#04 I: Test Is Prime Function:3:(7 -> true) is successful.
+2018-12-21T06:24:45+00:00 r05p03.vj303.sm.cri.epita.net#04 I: End test Is Prime Function:3:(7 -> true).
+2018-12-21T06:24:45+00:00 r05p03.vj303.sm.cri.epita.net#04 I: Start test Is Prime Function:6:(4 -> false).
+2018-12-21T06:24:45+00:00 r05p03.vj303.sm.cri.epita.net#04 I: Test Is Prime Function:6:(4 -> false) is successful.
+2018-12-21T06:24:45+00:00 r05p03.vj303.sm.cri.epita.net#04 I: End test Is Prime Function:6:(4 -> false).
+2018-12-21T06:24:45+00:00 r05p03.vj303.sm.cri.epita.net#04 I: Start test Is Prime Function:11:(63 -> false).
+2018-12-21T06:24:45+00:00 r05p03.vj303.sm.cri.epita.net#04 I: Test Is Prime Function:11:(63 -> false) is successful.
+2018-12-21T06:24:45+00:00 r05p03.vj303.sm.cri.epita.net#04 I: End test Is Prime Function:11:(63 -> false).

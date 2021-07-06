@@ -1,0 +1,312 @@
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 151 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 153
+type(
+  unit
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 160 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 166
+type(
+  ((int * int) * int) list
+)
+ident(
+  def t_list "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 9 213 222 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 9 213 269
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 171 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 173
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 175 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 176
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 170 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 177
+type(
+  int * int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 179 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 180
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 170 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 180
+type(
+  (int * int) * int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 183 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 185
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 187 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 189
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 182 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 190
+type(
+  int * int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 192 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 193
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 182 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 193
+type(
+  (int * int) * int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 196 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 199
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 201 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 204
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 195 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 205
+type(
+  int * int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 207 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 208
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 195 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 208
+type(
+  (int * int) * int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 169 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 209
+type(
+  ((int * int) * int) list
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 9 213 222 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 9 213 230
+type(
+  (string -> (int -> int -> int) -> ((int * int) * int) list -> OUnit2.test) ->
+  string -> (int -> int -> int) -> ((int * int) * int) list -> unit
+)
+ident(
+  int_ref Test_builtin_templates.run_test "Source/builtin/tests/test_builtin_templates.ml" 124 4625 4629 "Source/builtin/tests/test_builtin_templates.ml" 124 4625 4637
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 9 213 231 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 9 213 243
+type(
+  string -> (int -> int -> int) -> ((int * int) * int) list -> OUnit2.test
+)
+ident(
+  int_ref Test_builtin_templates.template_2_1 "Source/builtin/tests/test_builtin_templates.ml" 103 3489 3493 "Source/builtin/tests/test_builtin_templates.ml" 103 3489 3505
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 9 213 244 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 9 213 258
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 9 213 259 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 9 213 262
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Basic_arithmetics.gcd "Source/builtin/basic_arithmetics.mli" 7 177 177 "Source/builtin/basic_arithmetics.mli" 7 177 204
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 9 213 263 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 9 213 269
+type(
+  ((int * int) * int) list
+)
+ident(
+  int_ref t_list "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 160 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 166
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 9 213 222 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 9 213 269
+call(
+  stack
+)
+type(
+  unit
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 8 147 156 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 9 213 269
+type(
+  unit
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 278 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 280
+type(
+  unit
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 287 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 293
+type(
+  ((int * int) * (int * int * int)) list
+)
+ident(
+  def t_list "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 15 420 429 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 15 420 482
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 298 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 300
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 302 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 304
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 297 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 305
+type(
+  int * int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 308 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 309
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 311 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 313
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 315 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 316
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 307 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 317
+type(
+  int * int * int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 297 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 317
+type(
+  (int * int) * (int * int * int)
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 320 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 322
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 324 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 326
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 319 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 327
+type(
+  int * int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 330 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 332
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 334 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 335
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 337 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 338
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 329 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 339
+type(
+  int * int * int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 319 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 339
+type(
+  (int * int) * (int * int * int)
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 13 341 365 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 13 341 367
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 13 341 369 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 13 341 371
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 13 341 364 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 13 341 372
+type(
+  int * int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 13 341 375 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 13 341 376
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 13 341 378 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 13 341 380
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 13 341 382 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 13 341 383
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 13 341 374 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 13 341 384
+type(
+  int * int * int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 13 341 364 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 13 341 384
+type(
+  (int * int) * (int * int * int)
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 13 341 387 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 13 341 389
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 13 341 391 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 13 341 393
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 13 341 386 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 13 341 394
+type(
+  int * int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 13 341 397 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 13 341 399
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 13 341 401 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 13 341 402
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 13 341 404 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 13 341 405
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 13 341 396 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 13 341 406
+type(
+  int * int * int
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 13 341 386 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 13 341 406
+type(
+  (int * int) * (int * int * int)
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 296 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 13 341 407
+type(
+  ((int * int) * (int * int * int)) list
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 15 420 429 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 15 420 437
+type(
+  (string ->
+   (int -> int -> int * int * int) ->
+   ((int * int) * (int * int * int)) list -> OUnit2.test) ->
+  string ->
+  (int -> int -> int * int * int) ->
+  ((int * int) * (int * int * int)) list -> unit
+)
+ident(
+  int_ref Test_builtin_templates.run_test "Source/builtin/tests/test_builtin_templates.ml" 124 4625 4629 "Source/builtin/tests/test_builtin_templates.ml" 124 4625 4637
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 15 420 438 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 15 420 450
+type(
+  string ->
+  (int -> int -> int * int * int) ->
+  ((int * int) * (int * int * int)) list -> OUnit2.test
+)
+ident(
+  int_ref Test_builtin_templates.template_2_3 "Source/builtin/tests/test_builtin_templates.ml" 105 3603 3607 "Source/builtin/tests/test_builtin_templates.ml" 105 3603 3619
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 15 420 451 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 15 420 468
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 15 420 469 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 15 420 475
+type(
+  int -> int -> int * int * int
+)
+ident(
+  int_ref Basic_arithmetics.bezout "Source/builtin/basic_arithmetics.mli" 15 447 447 "Source/builtin/basic_arithmetics.mli" 15 447 491
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 15 420 476 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 15 420 482
+type(
+  ((int * int) * (int * int * int)) list
+)
+ident(
+  int_ref t_list "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 287 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 293
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 15 420 429 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 15 420 482
+call(
+  stack
+)
+type(
+  unit
+)
+"Source/builtin/tests/test_builtin_basic_arithmetics.ml" 12 274 283 "Source/builtin/tests/test_builtin_basic_arithmetics.ml" 15 420 482
+type(
+  unit
+)

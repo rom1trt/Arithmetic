@@ -1,0 +1,26 @@
+"Source/builtin/break_ciphers.ml" 9 167 171 "Source/builtin/break_ciphers.ml" 9 167 176
+type(
+  'a -> int * int
+)
+ident(
+  def break "Source/builtin/break_ciphers.ml" 9 167 189 "Source/builtin/break_ciphers.ml" 1 0 -1
+)
+"Source/builtin/break_ciphers.ml" 9 167 177 "Source/builtin/break_ciphers.ml" 9 167 180
+type(
+  'a
+)
+ident(
+  def key "Source/builtin/break_ciphers.ml" 9 167 183 "Source/builtin/break_ciphers.ml" 9 167 189
+)
+"Source/builtin/break_ciphers.ml" 9 167 184 "Source/builtin/break_ciphers.ml" 9 167 185
+type(
+  int
+)
+"Source/builtin/break_ciphers.ml" 9 167 187 "Source/builtin/break_ciphers.ml" 9 167 188
+type(
+  int
+)
+"Source/builtin/break_ciphers.ml" 9 167 183 "Source/builtin/break_ciphers.ml" 9 167 189
+type(
+  int * int
+)

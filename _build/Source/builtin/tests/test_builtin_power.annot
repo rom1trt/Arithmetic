@@ -1,0 +1,1036 @@
+"Source/builtin/tests/test_builtin_power.ml" 9 147 151 "Source/builtin/tests/test_builtin_power.ml" 9 147 153
+type(
+  unit
+)
+"Source/builtin/tests/test_builtin_power.ml" 9 147 161 "Source/builtin/tests/test_builtin_power.ml" 9 147 167
+type(
+  ((int * int) * int) list
+)
+ident(
+  def t_list "Source/builtin/tests/test_builtin_power.ml" 13 359 369 "Source/builtin/tests/test_builtin_power.ml" 13 359 416
+)
+"Source/builtin/tests/test_builtin_power.ml" 9 147 173 "Source/builtin/tests/test_builtin_power.ml" 9 147 175
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 9 147 177 "Source/builtin/tests/test_builtin_power.ml" 9 147 179
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 9 147 172 "Source/builtin/tests/test_builtin_power.ml" 9 147 180
+type(
+  int * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 9 147 182 "Source/builtin/tests/test_builtin_power.ml" 9 147 183
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 9 147 171 "Source/builtin/tests/test_builtin_power.ml" 9 147 184
+type(
+  (int * int) * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 9 147 188 "Source/builtin/tests/test_builtin_power.ml" 9 147 190
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 9 147 192 "Source/builtin/tests/test_builtin_power.ml" 9 147 194
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 9 147 187 "Source/builtin/tests/test_builtin_power.ml" 9 147 195
+type(
+  int * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 9 147 197 "Source/builtin/tests/test_builtin_power.ml" 9 147 199
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 9 147 186 "Source/builtin/tests/test_builtin_power.ml" 9 147 200
+type(
+  (int * int) * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 9 147 204 "Source/builtin/tests/test_builtin_power.ml" 9 147 205
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 9 147 207 "Source/builtin/tests/test_builtin_power.ml" 9 147 208
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 9 147 203 "Source/builtin/tests/test_builtin_power.ml" 9 147 209
+type(
+  int * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 9 147 211 "Source/builtin/tests/test_builtin_power.ml" 9 147 212
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 9 147 202 "Source/builtin/tests/test_builtin_power.ml" 9 147 213
+type(
+  (int * int) * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 10 215 241 "Source/builtin/tests/test_builtin_power.ml" 10 215 242
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 10 215 244 "Source/builtin/tests/test_builtin_power.ml" 10 215 245
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 10 215 240 "Source/builtin/tests/test_builtin_power.ml" 10 215 246
+type(
+  int * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 10 215 248 "Source/builtin/tests/test_builtin_power.ml" 10 215 249
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 10 215 239 "Source/builtin/tests/test_builtin_power.ml" 10 215 250
+type(
+  (int * int) * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 10 215 254 "Source/builtin/tests/test_builtin_power.ml" 10 215 255
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 10 215 257 "Source/builtin/tests/test_builtin_power.ml" 10 215 258
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 10 215 253 "Source/builtin/tests/test_builtin_power.ml" 10 215 259
+type(
+  int * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 10 215 261 "Source/builtin/tests/test_builtin_power.ml" 10 215 262
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 10 215 252 "Source/builtin/tests/test_builtin_power.ml" 10 215 263
+type(
+  (int * int) * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 10 215 267 "Source/builtin/tests/test_builtin_power.ml" 10 215 269
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 10 215 271 "Source/builtin/tests/test_builtin_power.ml" 10 215 272
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 10 215 266 "Source/builtin/tests/test_builtin_power.ml" 10 215 273
+type(
+  int * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 10 215 275 "Source/builtin/tests/test_builtin_power.ml" 10 215 276
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 10 215 265 "Source/builtin/tests/test_builtin_power.ml" 10 215 277
+type(
+  (int * int) * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 11 279 305 "Source/builtin/tests/test_builtin_power.ml" 11 279 307
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 11 279 309 "Source/builtin/tests/test_builtin_power.ml" 11 279 310
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 11 279 304 "Source/builtin/tests/test_builtin_power.ml" 11 279 311
+type(
+  int * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 11 279 313 "Source/builtin/tests/test_builtin_power.ml" 11 279 315
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 11 279 303 "Source/builtin/tests/test_builtin_power.ml" 11 279 316
+type(
+  (int * int) * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 11 279 320 "Source/builtin/tests/test_builtin_power.ml" 11 279 321
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 11 279 323 "Source/builtin/tests/test_builtin_power.ml" 11 279 324
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 11 279 319 "Source/builtin/tests/test_builtin_power.ml" 11 279 325
+type(
+  int * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 11 279 327 "Source/builtin/tests/test_builtin_power.ml" 11 279 329
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 11 279 318 "Source/builtin/tests/test_builtin_power.ml" 11 279 330
+type(
+  (int * int) * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 11 279 334 "Source/builtin/tests/test_builtin_power.ml" 11 279 335
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 11 279 337 "Source/builtin/tests/test_builtin_power.ml" 11 279 338
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 11 279 333 "Source/builtin/tests/test_builtin_power.ml" 11 279 339
+type(
+  int * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 11 279 341 "Source/builtin/tests/test_builtin_power.ml" 11 279 343
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 11 279 332 "Source/builtin/tests/test_builtin_power.ml" 11 279 344
+type(
+  (int * int) * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 9 147 170 "Source/builtin/tests/test_builtin_power.ml" 11 279 345
+type(
+  ((int * int) * int) list
+)
+"Source/builtin/tests/test_builtin_power.ml" 13 359 369 "Source/builtin/tests/test_builtin_power.ml" 13 359 377
+type(
+  (string -> (int -> int -> int) -> ((int * int) * int) list -> OUnit2.test) ->
+  string -> (int -> int -> int) -> ((int * int) * int) list -> unit
+)
+ident(
+  int_ref Test_builtin_templates.run_test "Source/builtin/tests/test_builtin_templates.ml" 124 4625 4629 "Source/builtin/tests/test_builtin_templates.ml" 124 4625 4637
+)
+"Source/builtin/tests/test_builtin_power.ml" 13 359 378 "Source/builtin/tests/test_builtin_power.ml" 13 359 390
+type(
+  string -> (int -> int -> int) -> ((int * int) * int) list -> OUnit2.test
+)
+ident(
+  int_ref Test_builtin_templates.template_2_1 "Source/builtin/tests/test_builtin_templates.ml" 103 3489 3493 "Source/builtin/tests/test_builtin_templates.ml" 103 3489 3505
+)
+"Source/builtin/tests/test_builtin_power.ml" 13 359 391 "Source/builtin/tests/test_builtin_power.ml" 13 359 405
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_power.ml" 13 359 406 "Source/builtin/tests/test_builtin_power.ml" 13 359 409
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Power.pow "Source/builtin/power.mli" 7 149 149 "Source/builtin/power.mli" 7 149 176
+)
+"Source/builtin/tests/test_builtin_power.ml" 13 359 410 "Source/builtin/tests/test_builtin_power.ml" 13 359 416
+type(
+  ((int * int) * int) list
+)
+ident(
+  int_ref t_list "Source/builtin/tests/test_builtin_power.ml" 9 147 161 "Source/builtin/tests/test_builtin_power.ml" 9 147 167
+)
+"Source/builtin/tests/test_builtin_power.ml" 13 359 369 "Source/builtin/tests/test_builtin_power.ml" 13 359 416
+call(
+  stack
+)
+type(
+  unit
+)
+"Source/builtin/tests/test_builtin_power.ml" 9 147 157 "Source/builtin/tests/test_builtin_power.ml" 13 359 416
+type(
+  unit
+)
+"Source/builtin/tests/test_builtin_power.ml" 16 421 425 "Source/builtin/tests/test_builtin_power.ml" 16 421 427
+type(
+  unit
+)
+"Source/builtin/tests/test_builtin_power.ml" 16 421 434 "Source/builtin/tests/test_builtin_power.ml" 16 421 440
+type(
+  ((int * int) * int) list
+)
+ident(
+  def t_list "Source/builtin/tests/test_builtin_power.ml" 20 629 638 "Source/builtin/tests/test_builtin_power.ml" 20 629 689
+)
+"Source/builtin/tests/test_builtin_power.ml" 16 421 446 "Source/builtin/tests/test_builtin_power.ml" 16 421 448
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 16 421 450 "Source/builtin/tests/test_builtin_power.ml" 16 421 452
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 16 421 445 "Source/builtin/tests/test_builtin_power.ml" 16 421 453
+type(
+  int * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 16 421 455 "Source/builtin/tests/test_builtin_power.ml" 16 421 456
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 16 421 444 "Source/builtin/tests/test_builtin_power.ml" 16 421 457
+type(
+  (int * int) * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 16 421 461 "Source/builtin/tests/test_builtin_power.ml" 16 421 463
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 16 421 465 "Source/builtin/tests/test_builtin_power.ml" 16 421 467
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 16 421 460 "Source/builtin/tests/test_builtin_power.ml" 16 421 468
+type(
+  int * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 16 421 470 "Source/builtin/tests/test_builtin_power.ml" 16 421 472
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 16 421 459 "Source/builtin/tests/test_builtin_power.ml" 16 421 473
+type(
+  (int * int) * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 16 421 477 "Source/builtin/tests/test_builtin_power.ml" 16 421 478
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 16 421 480 "Source/builtin/tests/test_builtin_power.ml" 16 421 481
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 16 421 476 "Source/builtin/tests/test_builtin_power.ml" 16 421 482
+type(
+  int * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 16 421 484 "Source/builtin/tests/test_builtin_power.ml" 16 421 485
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 16 421 475 "Source/builtin/tests/test_builtin_power.ml" 16 421 486
+type(
+  (int * int) * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 17 488 513 "Source/builtin/tests/test_builtin_power.ml" 17 488 514
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 17 488 516 "Source/builtin/tests/test_builtin_power.ml" 17 488 517
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 17 488 512 "Source/builtin/tests/test_builtin_power.ml" 17 488 518
+type(
+  int * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 17 488 520 "Source/builtin/tests/test_builtin_power.ml" 17 488 521
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 17 488 511 "Source/builtin/tests/test_builtin_power.ml" 17 488 522
+type(
+  (int * int) * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 17 488 526 "Source/builtin/tests/test_builtin_power.ml" 17 488 527
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 17 488 529 "Source/builtin/tests/test_builtin_power.ml" 17 488 530
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 17 488 525 "Source/builtin/tests/test_builtin_power.ml" 17 488 531
+type(
+  int * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 17 488 533 "Source/builtin/tests/test_builtin_power.ml" 17 488 534
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 17 488 524 "Source/builtin/tests/test_builtin_power.ml" 17 488 535
+type(
+  (int * int) * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 17 488 539 "Source/builtin/tests/test_builtin_power.ml" 17 488 541
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 17 488 543 "Source/builtin/tests/test_builtin_power.ml" 17 488 544
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 17 488 538 "Source/builtin/tests/test_builtin_power.ml" 17 488 545
+type(
+  int * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 17 488 547 "Source/builtin/tests/test_builtin_power.ml" 17 488 548
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 17 488 537 "Source/builtin/tests/test_builtin_power.ml" 17 488 549
+type(
+  (int * int) * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 18 551 576 "Source/builtin/tests/test_builtin_power.ml" 18 551 578
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 18 551 580 "Source/builtin/tests/test_builtin_power.ml" 18 551 581
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 18 551 575 "Source/builtin/tests/test_builtin_power.ml" 18 551 582
+type(
+  int * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 18 551 584 "Source/builtin/tests/test_builtin_power.ml" 18 551 586
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 18 551 574 "Source/builtin/tests/test_builtin_power.ml" 18 551 587
+type(
+  (int * int) * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 18 551 591 "Source/builtin/tests/test_builtin_power.ml" 18 551 592
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 18 551 594 "Source/builtin/tests/test_builtin_power.ml" 18 551 595
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 18 551 590 "Source/builtin/tests/test_builtin_power.ml" 18 551 596
+type(
+  int * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 18 551 598 "Source/builtin/tests/test_builtin_power.ml" 18 551 600
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 18 551 589 "Source/builtin/tests/test_builtin_power.ml" 18 551 601
+type(
+  (int * int) * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 18 551 605 "Source/builtin/tests/test_builtin_power.ml" 18 551 606
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 18 551 608 "Source/builtin/tests/test_builtin_power.ml" 18 551 609
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 18 551 604 "Source/builtin/tests/test_builtin_power.ml" 18 551 610
+type(
+  int * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 18 551 612 "Source/builtin/tests/test_builtin_power.ml" 18 551 614
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 18 551 603 "Source/builtin/tests/test_builtin_power.ml" 18 551 615
+type(
+  (int * int) * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 16 421 443 "Source/builtin/tests/test_builtin_power.ml" 18 551 616
+type(
+  ((int * int) * int) list
+)
+"Source/builtin/tests/test_builtin_power.ml" 20 629 638 "Source/builtin/tests/test_builtin_power.ml" 20 629 646
+type(
+  (string -> (int -> int -> int) -> ((int * int) * int) list -> OUnit2.test) ->
+  string -> (int -> int -> int) -> ((int * int) * int) list -> unit
+)
+ident(
+  int_ref Test_builtin_templates.run_test "Source/builtin/tests/test_builtin_templates.ml" 124 4625 4629 "Source/builtin/tests/test_builtin_templates.ml" 124 4625 4637
+)
+"Source/builtin/tests/test_builtin_power.ml" 20 629 647 "Source/builtin/tests/test_builtin_power.ml" 20 629 659
+type(
+  string -> (int -> int -> int) -> ((int * int) * int) list -> OUnit2.test
+)
+ident(
+  int_ref Test_builtin_templates.template_2_1 "Source/builtin/tests/test_builtin_templates.ml" 103 3489 3493 "Source/builtin/tests/test_builtin_templates.ml" 103 3489 3505
+)
+"Source/builtin/tests/test_builtin_power.ml" 20 629 660 "Source/builtin/tests/test_builtin_power.ml" 20 629 676
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_power.ml" 20 629 677 "Source/builtin/tests/test_builtin_power.ml" 20 629 682
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Power.power "Source/builtin/power.mli" 13 288 288 "Source/builtin/power.mli" 13 288 317
+)
+"Source/builtin/tests/test_builtin_power.ml" 20 629 683 "Source/builtin/tests/test_builtin_power.ml" 20 629 689
+type(
+  ((int * int) * int) list
+)
+ident(
+  int_ref t_list "Source/builtin/tests/test_builtin_power.ml" 16 421 434 "Source/builtin/tests/test_builtin_power.ml" 16 421 440
+)
+"Source/builtin/tests/test_builtin_power.ml" 20 629 638 "Source/builtin/tests/test_builtin_power.ml" 20 629 689
+call(
+  stack
+)
+type(
+  unit
+)
+"Source/builtin/tests/test_builtin_power.ml" 16 421 430 "Source/builtin/tests/test_builtin_power.ml" 20 629 689
+type(
+  unit
+)
+"Source/builtin/tests/test_builtin_power.ml" 23 694 698 "Source/builtin/tests/test_builtin_power.ml" 23 694 700
+type(
+  unit
+)
+"Source/builtin/tests/test_builtin_power.ml" 23 694 707 "Source/builtin/tests/test_builtin_power.ml" 23 694 713
+type(
+  ((int * int * int) * int) list
+)
+ident(
+  def t_list "Source/builtin/tests/test_builtin_power.ml" 27 935 944 "Source/builtin/tests/test_builtin_power.ml" 27 935 1007
+)
+"Source/builtin/tests/test_builtin_power.ml" 23 694 720 "Source/builtin/tests/test_builtin_power.ml" 23 694 722
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 23 694 724 "Source/builtin/tests/test_builtin_power.ml" 23 694 726
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 23 694 728 "Source/builtin/tests/test_builtin_power.ml" 23 694 730
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 23 694 719 "Source/builtin/tests/test_builtin_power.ml" 23 694 731
+type(
+  int * int * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 23 694 733 "Source/builtin/tests/test_builtin_power.ml" 23 694 734
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 23 694 718 "Source/builtin/tests/test_builtin_power.ml" 23 694 735
+type(
+  (int * int * int) * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 23 694 739 "Source/builtin/tests/test_builtin_power.ml" 23 694 741
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 23 694 743 "Source/builtin/tests/test_builtin_power.ml" 23 694 745
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 23 694 747 "Source/builtin/tests/test_builtin_power.ml" 23 694 749
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 23 694 738 "Source/builtin/tests/test_builtin_power.ml" 23 694 750
+type(
+  int * int * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 23 694 752 "Source/builtin/tests/test_builtin_power.ml" 23 694 754
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 23 694 737 "Source/builtin/tests/test_builtin_power.ml" 23 694 755
+type(
+  (int * int * int) * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 23 694 759 "Source/builtin/tests/test_builtin_power.ml" 23 694 760
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 23 694 762 "Source/builtin/tests/test_builtin_power.ml" 23 694 763
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 23 694 765 "Source/builtin/tests/test_builtin_power.ml" 23 694 766
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 23 694 758 "Source/builtin/tests/test_builtin_power.ml" 23 694 767
+type(
+  int * int * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 23 694 769 "Source/builtin/tests/test_builtin_power.ml" 23 694 770
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 23 694 757 "Source/builtin/tests/test_builtin_power.ml" 23 694 771
+type(
+  (int * int * int) * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 24 773 799 "Source/builtin/tests/test_builtin_power.ml" 24 773 800
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 24 773 802 "Source/builtin/tests/test_builtin_power.ml" 24 773 803
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 24 773 805 "Source/builtin/tests/test_builtin_power.ml" 24 773 806
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 24 773 798 "Source/builtin/tests/test_builtin_power.ml" 24 773 807
+type(
+  int * int * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 24 773 809 "Source/builtin/tests/test_builtin_power.ml" 24 773 810
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 24 773 797 "Source/builtin/tests/test_builtin_power.ml" 24 773 811
+type(
+  (int * int * int) * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 24 773 815 "Source/builtin/tests/test_builtin_power.ml" 24 773 816
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 24 773 818 "Source/builtin/tests/test_builtin_power.ml" 24 773 819
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 24 773 821 "Source/builtin/tests/test_builtin_power.ml" 24 773 822
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 24 773 814 "Source/builtin/tests/test_builtin_power.ml" 24 773 823
+type(
+  int * int * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 24 773 825 "Source/builtin/tests/test_builtin_power.ml" 24 773 826
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 24 773 813 "Source/builtin/tests/test_builtin_power.ml" 24 773 827
+type(
+  (int * int * int) * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 24 773 831 "Source/builtin/tests/test_builtin_power.ml" 24 773 833
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 24 773 835 "Source/builtin/tests/test_builtin_power.ml" 24 773 836
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 24 773 838 "Source/builtin/tests/test_builtin_power.ml" 24 773 839
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 24 773 830 "Source/builtin/tests/test_builtin_power.ml" 24 773 840
+type(
+  int * int * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 24 773 842 "Source/builtin/tests/test_builtin_power.ml" 24 773 843
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 24 773 829 "Source/builtin/tests/test_builtin_power.ml" 24 773 844
+type(
+  (int * int * int) * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 25 846 872 "Source/builtin/tests/test_builtin_power.ml" 25 846 874
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 25 846 876 "Source/builtin/tests/test_builtin_power.ml" 25 846 877
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 25 846 879 "Source/builtin/tests/test_builtin_power.ml" 25 846 880
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 25 846 871 "Source/builtin/tests/test_builtin_power.ml" 25 846 881
+type(
+  int * int * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 25 846 883 "Source/builtin/tests/test_builtin_power.ml" 25 846 884
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 25 846 870 "Source/builtin/tests/test_builtin_power.ml" 25 846 885
+type(
+  (int * int * int) * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 25 846 889 "Source/builtin/tests/test_builtin_power.ml" 25 846 890
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 25 846 892 "Source/builtin/tests/test_builtin_power.ml" 25 846 893
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 25 846 895 "Source/builtin/tests/test_builtin_power.ml" 25 846 897
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 25 846 888 "Source/builtin/tests/test_builtin_power.ml" 25 846 898
+type(
+  int * int * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 25 846 900 "Source/builtin/tests/test_builtin_power.ml" 25 846 902
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 25 846 887 "Source/builtin/tests/test_builtin_power.ml" 25 846 903
+type(
+  (int * int * int) * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 25 846 907 "Source/builtin/tests/test_builtin_power.ml" 25 846 908
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 25 846 910 "Source/builtin/tests/test_builtin_power.ml" 25 846 911
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 25 846 913 "Source/builtin/tests/test_builtin_power.ml" 25 846 915
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 25 846 906 "Source/builtin/tests/test_builtin_power.ml" 25 846 916
+type(
+  int * int * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 25 846 918 "Source/builtin/tests/test_builtin_power.ml" 25 846 920
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 25 846 905 "Source/builtin/tests/test_builtin_power.ml" 25 846 921
+type(
+  (int * int * int) * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 23 694 717 "Source/builtin/tests/test_builtin_power.ml" 25 846 922
+type(
+  ((int * int * int) * int) list
+)
+"Source/builtin/tests/test_builtin_power.ml" 27 935 944 "Source/builtin/tests/test_builtin_power.ml" 27 935 952
+type(
+  (string ->
+   (int -> int -> int -> int) ->
+   ((int * int * int) * int) list -> OUnit2.test) ->
+  string ->
+  (int -> int -> int -> int) -> ((int * int * int) * int) list -> unit
+)
+ident(
+  int_ref Test_builtin_templates.run_test "Source/builtin/tests/test_builtin_templates.ml" 124 4625 4629 "Source/builtin/tests/test_builtin_templates.ml" 124 4625 4637
+)
+"Source/builtin/tests/test_builtin_power.ml" 27 935 953 "Source/builtin/tests/test_builtin_power.ml" 27 935 965
+type(
+  string ->
+  (int -> int -> int -> int) -> ((int * int * int) * int) list -> OUnit2.test
+)
+ident(
+  int_ref Test_builtin_templates.template_3_1 "Source/builtin/tests/test_builtin_templates.ml" 106 3660 3664 "Source/builtin/tests/test_builtin_templates.ml" 106 3660 3676
+)
+"Source/builtin/tests/test_builtin_power.ml" 27 935 966 "Source/builtin/tests/test_builtin_power.ml" 27 935 990
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_power.ml" 27 935 991 "Source/builtin/tests/test_builtin_power.ml" 27 935 1000
+type(
+  int -> int -> int -> int
+)
+ident(
+  int_ref Power.mod_power "Source/builtin/power.mli" 20 455 455 "Source/builtin/power.mli" 20 455 495
+)
+"Source/builtin/tests/test_builtin_power.ml" 27 935 1001 "Source/builtin/tests/test_builtin_power.ml" 27 935 1007
+type(
+  ((int * int * int) * int) list
+)
+ident(
+  int_ref t_list "Source/builtin/tests/test_builtin_power.ml" 23 694 707 "Source/builtin/tests/test_builtin_power.ml" 23 694 713
+)
+"Source/builtin/tests/test_builtin_power.ml" 27 935 944 "Source/builtin/tests/test_builtin_power.ml" 27 935 1007
+call(
+  stack
+)
+type(
+  unit
+)
+"Source/builtin/tests/test_builtin_power.ml" 23 694 703 "Source/builtin/tests/test_builtin_power.ml" 27 935 1007
+type(
+  unit
+)
+"Source/builtin/tests/test_builtin_power.ml" 30 1012 1016 "Source/builtin/tests/test_builtin_power.ml" 30 1012 1018
+type(
+  unit
+)
+"Source/builtin/tests/test_builtin_power.ml" 30 1012 1025 "Source/builtin/tests/test_builtin_power.ml" 30 1012 1031
+type(
+  ((int * int * int) * int) list
+)
+ident(
+  def t_list "Source/builtin/tests/test_builtin_power.ml" 34 1249 1258 "Source/builtin/tests/test_builtin_power.ml" 34 1249 1332
+)
+"Source/builtin/tests/test_builtin_power.ml" 30 1012 1037 "Source/builtin/tests/test_builtin_power.ml" 30 1012 1039
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 30 1012 1041 "Source/builtin/tests/test_builtin_power.ml" 30 1012 1043
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 30 1012 1045 "Source/builtin/tests/test_builtin_power.ml" 30 1012 1046
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 30 1012 1036 "Source/builtin/tests/test_builtin_power.ml" 30 1012 1047
+type(
+  int * int * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 30 1012 1049 "Source/builtin/tests/test_builtin_power.ml" 30 1012 1050
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 30 1012 1035 "Source/builtin/tests/test_builtin_power.ml" 30 1012 1051
+type(
+  (int * int * int) * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 30 1012 1055 "Source/builtin/tests/test_builtin_power.ml" 30 1012 1057
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 30 1012 1059 "Source/builtin/tests/test_builtin_power.ml" 30 1012 1061
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 30 1012 1063 "Source/builtin/tests/test_builtin_power.ml" 30 1012 1065
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 30 1012 1054 "Source/builtin/tests/test_builtin_power.ml" 30 1012 1066
+type(
+  int * int * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 30 1012 1068 "Source/builtin/tests/test_builtin_power.ml" 30 1012 1070
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 30 1012 1053 "Source/builtin/tests/test_builtin_power.ml" 30 1012 1071
+type(
+  (int * int * int) * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 30 1012 1075 "Source/builtin/tests/test_builtin_power.ml" 30 1012 1076
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 30 1012 1078 "Source/builtin/tests/test_builtin_power.ml" 30 1012 1079
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 30 1012 1081 "Source/builtin/tests/test_builtin_power.ml" 30 1012 1082
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 30 1012 1074 "Source/builtin/tests/test_builtin_power.ml" 30 1012 1083
+type(
+  int * int * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 30 1012 1085 "Source/builtin/tests/test_builtin_power.ml" 30 1012 1086
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 30 1012 1073 "Source/builtin/tests/test_builtin_power.ml" 30 1012 1087
+type(
+  (int * int * int) * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 31 1089 1114 "Source/builtin/tests/test_builtin_power.ml" 31 1089 1115
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 31 1089 1117 "Source/builtin/tests/test_builtin_power.ml" 31 1089 1118
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 31 1089 1120 "Source/builtin/tests/test_builtin_power.ml" 31 1089 1121
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 31 1089 1113 "Source/builtin/tests/test_builtin_power.ml" 31 1089 1122
+type(
+  int * int * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 31 1089 1124 "Source/builtin/tests/test_builtin_power.ml" 31 1089 1125
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 31 1089 1112 "Source/builtin/tests/test_builtin_power.ml" 31 1089 1126
+type(
+  (int * int * int) * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 31 1089 1130 "Source/builtin/tests/test_builtin_power.ml" 31 1089 1131
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 31 1089 1133 "Source/builtin/tests/test_builtin_power.ml" 31 1089 1134
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 31 1089 1136 "Source/builtin/tests/test_builtin_power.ml" 31 1089 1137
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 31 1089 1129 "Source/builtin/tests/test_builtin_power.ml" 31 1089 1138
+type(
+  int * int * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 31 1089 1140 "Source/builtin/tests/test_builtin_power.ml" 31 1089 1141
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 31 1089 1128 "Source/builtin/tests/test_builtin_power.ml" 31 1089 1142
+type(
+  (int * int * int) * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 31 1089 1146 "Source/builtin/tests/test_builtin_power.ml" 31 1089 1148
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 31 1089 1150 "Source/builtin/tests/test_builtin_power.ml" 31 1089 1151
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 31 1089 1153 "Source/builtin/tests/test_builtin_power.ml" 31 1089 1154
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 31 1089 1145 "Source/builtin/tests/test_builtin_power.ml" 31 1089 1155
+type(
+  int * int * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 31 1089 1157 "Source/builtin/tests/test_builtin_power.ml" 31 1089 1158
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 31 1089 1144 "Source/builtin/tests/test_builtin_power.ml" 31 1089 1159
+type(
+  (int * int * int) * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 32 1161 1186 "Source/builtin/tests/test_builtin_power.ml" 32 1161 1188
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 32 1161 1190 "Source/builtin/tests/test_builtin_power.ml" 32 1161 1191
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 32 1161 1193 "Source/builtin/tests/test_builtin_power.ml" 32 1161 1194
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 32 1161 1185 "Source/builtin/tests/test_builtin_power.ml" 32 1161 1195
+type(
+  int * int * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 32 1161 1197 "Source/builtin/tests/test_builtin_power.ml" 32 1161 1198
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 32 1161 1184 "Source/builtin/tests/test_builtin_power.ml" 32 1161 1199
+type(
+  (int * int * int) * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 32 1161 1203 "Source/builtin/tests/test_builtin_power.ml" 32 1161 1204
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 32 1161 1206 "Source/builtin/tests/test_builtin_power.ml" 32 1161 1207
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 32 1161 1209 "Source/builtin/tests/test_builtin_power.ml" 32 1161 1211
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 32 1161 1202 "Source/builtin/tests/test_builtin_power.ml" 32 1161 1212
+type(
+  int * int * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 32 1161 1214 "Source/builtin/tests/test_builtin_power.ml" 32 1161 1216
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 32 1161 1201 "Source/builtin/tests/test_builtin_power.ml" 32 1161 1217
+type(
+  (int * int * int) * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 32 1161 1221 "Source/builtin/tests/test_builtin_power.ml" 32 1161 1222
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 32 1161 1224 "Source/builtin/tests/test_builtin_power.ml" 32 1161 1225
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 32 1161 1227 "Source/builtin/tests/test_builtin_power.ml" 32 1161 1229
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 32 1161 1220 "Source/builtin/tests/test_builtin_power.ml" 32 1161 1230
+type(
+  int * int * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 32 1161 1232 "Source/builtin/tests/test_builtin_power.ml" 32 1161 1234
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_power.ml" 32 1161 1219 "Source/builtin/tests/test_builtin_power.ml" 32 1161 1235
+type(
+  (int * int * int) * int
+)
+"Source/builtin/tests/test_builtin_power.ml" 30 1012 1034 "Source/builtin/tests/test_builtin_power.ml" 32 1161 1236
+type(
+  ((int * int * int) * int) list
+)
+"Source/builtin/tests/test_builtin_power.ml" 34 1249 1258 "Source/builtin/tests/test_builtin_power.ml" 34 1249 1266
+type(
+  (string ->
+   (int -> int -> int -> int) ->
+   ((int * int * int) * int) list -> OUnit2.test) ->
+  string ->
+  (int -> int -> int -> int) -> ((int * int * int) * int) list -> unit
+)
+ident(
+  int_ref Test_builtin_templates.run_test "Source/builtin/tests/test_builtin_templates.ml" 124 4625 4629 "Source/builtin/tests/test_builtin_templates.ml" 124 4625 4637
+)
+"Source/builtin/tests/test_builtin_power.ml" 34 1249 1267 "Source/builtin/tests/test_builtin_power.ml" 34 1249 1279
+type(
+  string ->
+  (int -> int -> int -> int) -> ((int * int * int) * int) list -> OUnit2.test
+)
+ident(
+  int_ref Test_builtin_templates.template_3_1 "Source/builtin/tests/test_builtin_templates.ml" 106 3660 3664 "Source/builtin/tests/test_builtin_templates.ml" 106 3660 3676
+)
+"Source/builtin/tests/test_builtin_power.ml" 34 1249 1280 "Source/builtin/tests/test_builtin_power.ml" 34 1249 1309
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_power.ml" 34 1249 1310 "Source/builtin/tests/test_builtin_power.ml" 34 1249 1325
+type(
+  int -> int -> int -> int
+)
+ident(
+  int_ref Power.prime_mod_power "Source/builtin/power.mli" 28 696 696 "Source/builtin/power.mli" 28 696 742
+)
+"Source/builtin/tests/test_builtin_power.ml" 34 1249 1326 "Source/builtin/tests/test_builtin_power.ml" 34 1249 1332
+type(
+  ((int * int * int) * int) list
+)
+ident(
+  int_ref t_list "Source/builtin/tests/test_builtin_power.ml" 30 1012 1025 "Source/builtin/tests/test_builtin_power.ml" 30 1012 1031
+)
+"Source/builtin/tests/test_builtin_power.ml" 34 1249 1258 "Source/builtin/tests/test_builtin_power.ml" 34 1249 1332
+call(
+  stack
+)
+type(
+  unit
+)
+"Source/builtin/tests/test_builtin_power.ml" 30 1012 1021 "Source/builtin/tests/test_builtin_power.ml" 34 1249 1332
+type(
+  unit
+)

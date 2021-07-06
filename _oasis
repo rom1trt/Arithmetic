@@ -1,0 +1,242 @@
+OASISFormat: 0.4
+Name: ArithmeticsForIT
+Version: 0.8
+License: GPL
+LicenseFile: LICENSE
+Authors: Bashar Dudin <bashar.dudin@epita.fr>
+
+Synopsis: A library for education purposes on uses of arithmetics in IT.
+Description:
+ Builds up a needed code and big int types to generate RSA and ElGamal
+ cryptosystem keys, test for primality, factor primes (within
+ unreasonable time), mutlithread using the chinese remainder theorem.
+
+Plugins: META (0.4), DevFiles (0.4)
+BuildTools: ocamlbuild
+
+Library "builtin"
+  FindLibName: builtin
+  Path: Source/builtin
+  Modules: Builtin
+
+Library "builtin_basic_arithmetics"
+  FindLibName: basic_arithmetics
+  FindLibParent: builtin
+  Path: Source/builtin
+  Modules: Basic_arithmetics
+
+Library "builtin_power"
+  FindLibName: power
+  FindLibParent: builtin
+  Path: Source/builtin
+  Modules: Power
+
+Library "builtin_generate_primes"
+  FindLibName: generate_primes
+  FindLibParent: builtin
+  Path: Source/builtin
+  Modules: Generate_primes
+
+Library "builtin_test_primes"
+  FindLibName: test_primes
+  FindLibParent: builtin
+  Path: Source/builtin
+  Modules: Test_primes
+
+Library "builtin_encoding_msg"
+  FindLibName: encoding_msg
+  FindLibParent: builtin
+  Path: Source/builtin
+  Modules: Encoding_msg
+
+Library "builtin_ciphers"
+  FindLibName: ciphers
+  FindLibParent: builtin
+  Path: Source/builtin
+  Modules: Ciphers
+
+Library "builtin_break_ciphers"
+  FindLibName: break_ciphers
+  FindLibParent: builtin
+  Path: Source/builtin
+  Modules: Break_ciphers
+
+Library "test_builtin_templates"
+  Path: Source/builtin/tests
+  Modules: Test_builtin_templates
+  BuildDepends: oUnit
+
+Executable "test_builtin"
+  Path: Source/builtin/tests
+  MainIs: test_builtin.ml
+  Install: false
+  BuildDepends: oUnit, builtin, test_builtin_templates
+
+Test "test_builtin"
+  Run$: flag(tests)
+  Command: $test_builtin
+  TestTools: test_builtin
+  WorkingDirectory: Source/builtin/tests
+
+Executable "test_builtin_basic_arithmetics"
+  Path: Source/builtin/tests
+  MainIs: test_builtin_basic_arithmetics.ml
+  Install: false
+  BuildDepends: oUnit, builtin, test_builtin_templates
+
+Test "test_builtin_basic_arithmetics"
+  Run$: flag(tests)
+  Command: $test_builtin_basic_arithmetics
+  TestTools: test_builtin_basic_arithmetics
+  WorkingDirectory: Source/builtin/tests
+
+Executable "test_builtin_power"
+  Path: Source/builtin/tests
+  MainIs: test_builtin_power.ml
+  Install: false
+  BuildDepends: oUnit,
+                builtin, builtin.basic_arithmetics,
+                test_builtin_templates
+
+Test "test_builtin_power"
+  Run$: flag(tests)
+  Command: $test_builtin_power
+  TestTools: test_builtin_power
+  WorkingDirectory: Source/builtin/tests
+
+Executable "test_builtin_test_primes"
+  Path: Source/builtin/tests
+  MainIs: test_builtin_test_primes.ml
+  Install: false
+  BuildDepends: oUnit,
+                builtin, builtin.basic_arithmetics, builtin.power,
+                test_builtin_templates
+
+Test "test_builtin_test_primes"
+  Run$: flag(tests)
+  Command: $test_builtin_test_primes
+  TestTools: test_builtin_test_primes
+  WorkingDirectory: Source/builtin/tests
+
+Executable "test_builtin_generate_primes"
+  Path: Source/builtin/tests
+  MainIs: test_builtin_generate_primes.ml
+  Install: false
+  BuildDepends: oUnit,
+                builtin, builtin.basic_arithmetics, builtin.test_primes,
+                test_builtin_templates
+
+Test "test_builtin_generate_primes"
+  Run$: flag(tests)
+  Command: $test_builtin_generate_primes
+  TestTools: test_builtin_generate_primes
+  WorkingDirectory: Source/builtin/tests
+
+Executable "test_builtin_encoding_msg"
+  Path: Source/builtin/tests
+  MainIs: test_builtin_encoding_msg.ml
+  Install: false
+  BuildDepends: oUnit,
+                builtin, builtin.basic_arithmetics, builtin.power,
+                test_builtin_templates
+
+Test "test_builtin_encoding_msg"
+  Run$: flag(tests)
+  Command: $test_builtin_encoding_msg
+  TestTools: test_builtin_encoding_msg
+  WorkingDirectory: Source/builtin/tests
+
+Executable "test_builtin_ciphers"
+  Path: Source/builtin/tests
+  MainIs: test_builtin_ciphers.ml
+  Install: false
+  BuildDepends: oUnit,
+                builtin, builtin.basic_arithmetics, builtin.power,
+                test_builtin_templates
+
+Test "test_builtin_ciphers"
+  Run$: flag(tests)
+  Command: $test_builtin_ciphers
+  TestTools: test_builtin_ciphers
+  WorkingDirectory: Source/builtin/tests
+
+Executable "test_builtin_break_ciphers"
+  Path: Source/builtin/tests
+  MainIs: test_builtin_break_ciphers.ml
+  Install: false
+  BuildDepends: oUnit,
+                builtin, builtin.basic_arithmetics,
+                test_builtin_templates
+
+Test "test_builtin_break_ciphers"
+  Run$: flag(tests)
+  Command: $test_builtin_break_ciphers
+  TestTools: test_builtin_break_ciphers
+  WorkingDirectory: Source/builtin/tests
+
+Library "scalable"
+  FindLibName: scalable
+  Path: Source/scalable
+  Modules: Scalable
+
+Library "scalable_basic_arithmetics"
+  FindLibName: basic_arithmetics
+  FindLibParent: scalable
+  Path: Source/scalable
+  Modules: Basic_arithmetics
+
+Library "test_scalable_templates"
+  Path: Source/scalable/tests
+  Modules: Test_scalable_templates
+  BuildDepends: oUnit
+
+Executable "test_scalable"
+  Path: Source/scalable/tests
+  MainIs: test_scalable.ml
+  Install: false
+  BuildDepends: oUnit, scalable, test_scalable_templates
+
+Test "test_scalable"
+  Run$: flag(tests)
+  Command: $test_scalable
+  TestTools: test_scalable
+  WorkingDirectory: Source/scalable/tests
+
+Executable "test_scalable_basic_arithmetics"
+  Path: Source/scalable/tests
+  MainIs: test_scalable_basic_arithmetics.ml
+  Install: false
+  BuildDepends: oUnit, scalable,
+                scalable.basic_arithmetics, test_scalable_templates
+
+Test "test_scalable_basic_arithmetics"
+  Run$: flag(tests)
+  Command: $test_scalable_basic_arithmetics
+  TestTools: test_scalable_basic_arithmetics
+  WorkingDirectory: Source/scalable/tests
+
+Library "multithreading"
+  FindLibName: multithreading
+  Path: Source/multithreading
+  Modules: Multithreading
+
+Library "multithreading_chineses_remaindert"
+  FindLibName: chineses_remaindert
+  FindLibParent: multithreading
+  Path: Source/multithreading
+  Modules: Chinese_remaindert
+  BuildDepends: builtin, builtin.basic_arithmetics
+
+AlphaFeatures: ocamlbuild_more_args
+Document "AFIT_Documentation"
+  Type: ocamlbuild (0.4)
+  BuildTools: ocamldoc
+
+  Title: AFIT documentation
+  XOCamlbuildPath: .
+  XOCamlbuildExtraArgs:
+    "-docflags '-colorize-code -short-functors -charset utf-8'"
+  XOCamlbuildLibraries: builtin.basic_arithmetics, builtin.power,
+                        builtin.generate_primes,
+                        builtin.test_primes, builtin.encoding_msg,
+                        builtin.ciphers, builtin.break_ciphers

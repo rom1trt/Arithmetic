@@ -1,0 +1,162 @@
+"Source/builtin/tests/test_builtin_encoding_msg.ml" 10 172 176 "Source/builtin/tests/test_builtin_encoding_msg.ml" 10 172 178
+type(
+  unit
+)
+"Source/builtin/tests/test_builtin_encoding_msg.ml" 10 172 185 "Source/builtin/tests/test_builtin_encoding_msg.ml" 10 172 191
+type(
+  ((string * int) * int) list
+)
+ident(
+  def t_list "Source/builtin/tests/test_builtin_encoding_msg.ml" 12 239 248 "Source/builtin/tests/test_builtin_encoding_msg.ml" 12 239 302
+)
+"Source/builtin/tests/test_builtin_encoding_msg.ml" 10 172 197 "Source/builtin/tests/test_builtin_encoding_msg.ml" 10 172 205
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_encoding_msg.ml" 10 172 207 "Source/builtin/tests/test_builtin_encoding_msg.ml" 10 172 208
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_encoding_msg.ml" 10 172 196 "Source/builtin/tests/test_builtin_encoding_msg.ml" 10 172 209
+type(
+  string * int
+)
+"Source/builtin/tests/test_builtin_encoding_msg.ml" 10 172 211 "Source/builtin/tests/test_builtin_encoding_msg.ml" 10 172 224
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_encoding_msg.ml" 10 172 195 "Source/builtin/tests/test_builtin_encoding_msg.ml" 10 172 225
+type(
+  (string * int) * int
+)
+"Source/builtin/tests/test_builtin_encoding_msg.ml" 10 172 194 "Source/builtin/tests/test_builtin_encoding_msg.ml" 10 172 226
+type(
+  ((string * int) * int) list
+)
+"Source/builtin/tests/test_builtin_encoding_msg.ml" 12 239 248 "Source/builtin/tests/test_builtin_encoding_msg.ml" 12 239 256
+type(
+  (string ->
+   (string -> int -> int) -> ((string * int) * int) list -> OUnit2.test) ->
+  string -> (string -> int -> int) -> ((string * int) * int) list -> unit
+)
+ident(
+  int_ref Test_builtin_templates.run_test "Source/builtin/tests/test_builtin_templates.ml" 124 4625 4629 "Source/builtin/tests/test_builtin_templates.ml" 124 4625 4637
+)
+"Source/builtin/tests/test_builtin_encoding_msg.ml" 12 239 257 "Source/builtin/tests/test_builtin_encoding_msg.ml" 12 239 270
+type(
+  string ->
+  (string -> int -> int) -> ((string * int) * int) list -> OUnit2.test
+)
+ident(
+  int_ref Test_builtin_templates.template_s1_1 "Source/builtin/tests/test_builtin_templates.ml" 115 4181 4185 "Source/builtin/tests/test_builtin_templates.ml" 115 4181 4198
+)
+"Source/builtin/tests/test_builtin_encoding_msg.ml" 12 239 271 "Source/builtin/tests/test_builtin_encoding_msg.ml" 12 239 288
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_encoding_msg.ml" 12 239 289 "Source/builtin/tests/test_builtin_encoding_msg.ml" 12 239 295
+type(
+  string -> int -> int
+)
+ident(
+  int_ref Encoding_msg.encode "Source/builtin/encoding_msg.mli" 8 226 226 "Source/builtin/encoding_msg.mli" 8 226 259
+)
+"Source/builtin/tests/test_builtin_encoding_msg.ml" 12 239 296 "Source/builtin/tests/test_builtin_encoding_msg.ml" 12 239 302
+type(
+  ((string * int) * int) list
+)
+ident(
+  int_ref t_list "Source/builtin/tests/test_builtin_encoding_msg.ml" 10 172 185 "Source/builtin/tests/test_builtin_encoding_msg.ml" 10 172 191
+)
+"Source/builtin/tests/test_builtin_encoding_msg.ml" 12 239 248 "Source/builtin/tests/test_builtin_encoding_msg.ml" 12 239 302
+call(
+  stack
+)
+type(
+  unit
+)
+"Source/builtin/tests/test_builtin_encoding_msg.ml" 10 172 181 "Source/builtin/tests/test_builtin_encoding_msg.ml" 12 239 302
+type(
+  unit
+)
+"Source/builtin/tests/test_builtin_encoding_msg.ml" 15 307 311 "Source/builtin/tests/test_builtin_encoding_msg.ml" 15 307 313
+type(
+  unit
+)
+"Source/builtin/tests/test_builtin_encoding_msg.ml" 15 307 320 "Source/builtin/tests/test_builtin_encoding_msg.ml" 15 307 326
+type(
+  ((int * int) * string) list
+)
+ident(
+  def t_list "Source/builtin/tests/test_builtin_encoding_msg.ml" 17 374 383 "Source/builtin/tests/test_builtin_encoding_msg.ml" 17 374 436
+)
+"Source/builtin/tests/test_builtin_encoding_msg.ml" 15 307 332 "Source/builtin/tests/test_builtin_encoding_msg.ml" 15 307 345
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_encoding_msg.ml" 15 307 347 "Source/builtin/tests/test_builtin_encoding_msg.ml" 15 307 348
+type(
+  int
+)
+"Source/builtin/tests/test_builtin_encoding_msg.ml" 15 307 331 "Source/builtin/tests/test_builtin_encoding_msg.ml" 15 307 349
+type(
+  int * int
+)
+"Source/builtin/tests/test_builtin_encoding_msg.ml" 15 307 351 "Source/builtin/tests/test_builtin_encoding_msg.ml" 15 307 359
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_encoding_msg.ml" 15 307 330 "Source/builtin/tests/test_builtin_encoding_msg.ml" 15 307 360
+type(
+  (int * int) * string
+)
+"Source/builtin/tests/test_builtin_encoding_msg.ml" 15 307 329 "Source/builtin/tests/test_builtin_encoding_msg.ml" 15 307 361
+type(
+  ((int * int) * string) list
+)
+"Source/builtin/tests/test_builtin_encoding_msg.ml" 17 374 383 "Source/builtin/tests/test_builtin_encoding_msg.ml" 17 374 391
+type(
+  (string ->
+   (int -> int -> string) -> ((int * int) * string) list -> OUnit2.test) ->
+  string -> (int -> int -> string) -> ((int * int) * string) list -> unit
+)
+ident(
+  int_ref Test_builtin_templates.run_test "Source/builtin/tests/test_builtin_templates.ml" 124 4625 4629 "Source/builtin/tests/test_builtin_templates.ml" 124 4625 4637
+)
+"Source/builtin/tests/test_builtin_encoding_msg.ml" 17 374 392 "Source/builtin/tests/test_builtin_encoding_msg.ml" 17 374 404
+type(
+  string ->
+  (int -> int -> string) -> ((int * int) * string) list -> OUnit2.test
+)
+ident(
+  int_ref Test_builtin_templates.template_2_s "Source/builtin/tests/test_builtin_templates.ml" 116 4240 4244 "Source/builtin/tests/test_builtin_templates.ml" 116 4240 4256
+)
+"Source/builtin/tests/test_builtin_encoding_msg.ml" 17 374 405 "Source/builtin/tests/test_builtin_encoding_msg.ml" 17 374 422
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_encoding_msg.ml" 17 374 423 "Source/builtin/tests/test_builtin_encoding_msg.ml" 17 374 429
+type(
+  int -> int -> string
+)
+ident(
+  int_ref Encoding_msg.decode "Source/builtin/encoding_msg.mli" 15 475 475 "Source/builtin/encoding_msg.mli" 15 475 508
+)
+"Source/builtin/tests/test_builtin_encoding_msg.ml" 17 374 430 "Source/builtin/tests/test_builtin_encoding_msg.ml" 17 374 436
+type(
+  ((int * int) * string) list
+)
+ident(
+  int_ref t_list "Source/builtin/tests/test_builtin_encoding_msg.ml" 15 307 320 "Source/builtin/tests/test_builtin_encoding_msg.ml" 15 307 326
+)
+"Source/builtin/tests/test_builtin_encoding_msg.ml" 17 374 383 "Source/builtin/tests/test_builtin_encoding_msg.ml" 17 374 436
+call(
+  stack
+)
+type(
+  unit
+)
+"Source/builtin/tests/test_builtin_encoding_msg.ml" 15 307 316 "Source/builtin/tests/test_builtin_encoding_msg.ml" 17 374 436
+type(
+  unit
+)

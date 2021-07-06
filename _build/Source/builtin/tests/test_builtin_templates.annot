@@ -1,0 +1,4175 @@
+"Source/builtin/tests/test_builtin_templates.ml" 4 63 67 "Source/builtin/tests/test_builtin_templates.ml" 4 63 75
+type(
+  'a -> int * int -> string
+)
+ident(
+  def format_2 "Source/builtin/tests/test_builtin_templates.ml" 6 123 123 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 4 63 76 "Source/builtin/tests/test_builtin_templates.ml" 4 63 81
+type(
+  'a
+)
+ident(
+  def out_c "Source/builtin/tests/test_builtin_templates.ml" 4 63 82 "Source/builtin/tests/test_builtin_templates.ml" 5 91 122
+)
+"Source/builtin/tests/test_builtin_templates.ml" 4 63 83 "Source/builtin/tests/test_builtin_templates.ml" 4 63 84
+type(
+  int
+)
+ident(
+  def x "Source/builtin/tests/test_builtin_templates.ml" 5 91 93 "Source/builtin/tests/test_builtin_templates.ml" 5 91 122
+)
+"Source/builtin/tests/test_builtin_templates.ml" 4 63 86 "Source/builtin/tests/test_builtin_templates.ml" 4 63 87
+type(
+  int
+)
+ident(
+  def y "Source/builtin/tests/test_builtin_templates.ml" 5 91 93 "Source/builtin/tests/test_builtin_templates.ml" 5 91 122
+)
+"Source/builtin/tests/test_builtin_templates.ml" 4 63 82 "Source/builtin/tests/test_builtin_templates.ml" 4 63 88
+type(
+  int * int
+)
+"Source/builtin/tests/test_builtin_templates.ml" 5 91 93 "Source/builtin/tests/test_builtin_templates.ml" 5 91 107
+type(
+  (int -> int -> string, unit, string) format -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+)
+"Source/builtin/tests/test_builtin_templates.ml" 5 91 108 "Source/builtin/tests/test_builtin_templates.ml" 5 91 118
+type(
+  (int -> int -> string, unit, string) format
+)
+"Source/builtin/tests/test_builtin_templates.ml" 5 91 119 "Source/builtin/tests/test_builtin_templates.ml" 5 91 120
+type(
+  int
+)
+ident(
+  int_ref x "Source/builtin/tests/test_builtin_templates.ml" 4 63 83 "Source/builtin/tests/test_builtin_templates.ml" 4 63 84
+)
+"Source/builtin/tests/test_builtin_templates.ml" 5 91 121 "Source/builtin/tests/test_builtin_templates.ml" 5 91 122
+type(
+  int
+)
+ident(
+  int_ref y "Source/builtin/tests/test_builtin_templates.ml" 4 63 86 "Source/builtin/tests/test_builtin_templates.ml" 4 63 87
+)
+"Source/builtin/tests/test_builtin_templates.ml" 5 91 93 "Source/builtin/tests/test_builtin_templates.ml" 5 91 122
+call(
+  tail
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 6 123 127 "Source/builtin/tests/test_builtin_templates.ml" 6 123 135
+type(
+  'a -> int * int * int -> string
+)
+ident(
+  def format_3 "Source/builtin/tests/test_builtin_templates.ml" 8 192 192 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 6 123 136 "Source/builtin/tests/test_builtin_templates.ml" 6 123 141
+type(
+  'a
+)
+ident(
+  def out_c "Source/builtin/tests/test_builtin_templates.ml" 6 123 142 "Source/builtin/tests/test_builtin_templates.ml" 7 154 191
+)
+"Source/builtin/tests/test_builtin_templates.ml" 6 123 143 "Source/builtin/tests/test_builtin_templates.ml" 6 123 144
+type(
+  int
+)
+ident(
+  def x "Source/builtin/tests/test_builtin_templates.ml" 7 154 156 "Source/builtin/tests/test_builtin_templates.ml" 7 154 191
+)
+"Source/builtin/tests/test_builtin_templates.ml" 6 123 146 "Source/builtin/tests/test_builtin_templates.ml" 6 123 147
+type(
+  int
+)
+ident(
+  def y "Source/builtin/tests/test_builtin_templates.ml" 7 154 156 "Source/builtin/tests/test_builtin_templates.ml" 7 154 191
+)
+"Source/builtin/tests/test_builtin_templates.ml" 6 123 149 "Source/builtin/tests/test_builtin_templates.ml" 6 123 150
+type(
+  int
+)
+ident(
+  def z "Source/builtin/tests/test_builtin_templates.ml" 7 154 156 "Source/builtin/tests/test_builtin_templates.ml" 7 154 191
+)
+"Source/builtin/tests/test_builtin_templates.ml" 6 123 142 "Source/builtin/tests/test_builtin_templates.ml" 6 123 151
+type(
+  int * int * int
+)
+"Source/builtin/tests/test_builtin_templates.ml" 7 154 156 "Source/builtin/tests/test_builtin_templates.ml" 7 154 170
+type(
+  (int -> int -> int -> string, unit, string) format ->
+  int -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+)
+"Source/builtin/tests/test_builtin_templates.ml" 7 154 171 "Source/builtin/tests/test_builtin_templates.ml" 7 154 185
+type(
+  (int -> int -> int -> string, unit, string) format
+)
+"Source/builtin/tests/test_builtin_templates.ml" 7 154 186 "Source/builtin/tests/test_builtin_templates.ml" 7 154 187
+type(
+  int
+)
+ident(
+  int_ref x "Source/builtin/tests/test_builtin_templates.ml" 6 123 143 "Source/builtin/tests/test_builtin_templates.ml" 6 123 144
+)
+"Source/builtin/tests/test_builtin_templates.ml" 7 154 188 "Source/builtin/tests/test_builtin_templates.ml" 7 154 189
+type(
+  int
+)
+ident(
+  int_ref y "Source/builtin/tests/test_builtin_templates.ml" 6 123 146 "Source/builtin/tests/test_builtin_templates.ml" 6 123 147
+)
+"Source/builtin/tests/test_builtin_templates.ml" 7 154 190 "Source/builtin/tests/test_builtin_templates.ml" 7 154 191
+type(
+  int
+)
+ident(
+  int_ref z "Source/builtin/tests/test_builtin_templates.ml" 6 123 149 "Source/builtin/tests/test_builtin_templates.ml" 6 123 150
+)
+"Source/builtin/tests/test_builtin_templates.ml" 7 154 156 "Source/builtin/tests/test_builtin_templates.ml" 7 154 191
+call(
+  tail
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 8 192 196 "Source/builtin/tests/test_builtin_templates.ml" 8 192 205
+type(
+  'a -> int * (int * int) -> string
+)
+ident(
+  def format_12 "Source/builtin/tests/test_builtin_templates.ml" 10 266 266 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 8 192 206 "Source/builtin/tests/test_builtin_templates.ml" 8 192 211
+type(
+  'a
+)
+ident(
+  def out_c "Source/builtin/tests/test_builtin_templates.ml" 8 192 212 "Source/builtin/tests/test_builtin_templates.ml" 9 223 265
+)
+"Source/builtin/tests/test_builtin_templates.ml" 8 192 213 "Source/builtin/tests/test_builtin_templates.ml" 8 192 214
+type(
+  int
+)
+ident(
+  def x "Source/builtin/tests/test_builtin_templates.ml" 9 223 225 "Source/builtin/tests/test_builtin_templates.ml" 9 223 265
+)
+"Source/builtin/tests/test_builtin_templates.ml" 8 192 216 "Source/builtin/tests/test_builtin_templates.ml" 8 192 219
+type(
+  int * int
+)
+ident(
+  def y_2 "Source/builtin/tests/test_builtin_templates.ml" 9 223 225 "Source/builtin/tests/test_builtin_templates.ml" 9 223 265
+)
+"Source/builtin/tests/test_builtin_templates.ml" 8 192 212 "Source/builtin/tests/test_builtin_templates.ml" 8 192 220
+type(
+  int * (int * int)
+)
+"Source/builtin/tests/test_builtin_templates.ml" 9 223 225 "Source/builtin/tests/test_builtin_templates.ml" 9 223 239
+type(
+  (int -> (unit -> int * int -> string) -> int * int -> string, unit, string)
+  format -> int -> (unit -> int * int -> string) -> int * int -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+)
+"Source/builtin/tests/test_builtin_templates.ml" 9 223 240 "Source/builtin/tests/test_builtin_templates.ml" 9 223 250
+type(
+  (int -> (unit -> int * int -> string) -> int * int -> string, unit, string)
+  format
+)
+"Source/builtin/tests/test_builtin_templates.ml" 9 223 251 "Source/builtin/tests/test_builtin_templates.ml" 9 223 252
+type(
+  int
+)
+ident(
+  int_ref x "Source/builtin/tests/test_builtin_templates.ml" 8 192 213 "Source/builtin/tests/test_builtin_templates.ml" 8 192 214
+)
+"Source/builtin/tests/test_builtin_templates.ml" 9 223 253 "Source/builtin/tests/test_builtin_templates.ml" 9 223 261
+type(
+  unit -> int * int -> string
+)
+ident(
+  int_ref format_2 "Source/builtin/tests/test_builtin_templates.ml" 4 63 67 "Source/builtin/tests/test_builtin_templates.ml" 4 63 75
+)
+"Source/builtin/tests/test_builtin_templates.ml" 9 223 262 "Source/builtin/tests/test_builtin_templates.ml" 9 223 265
+type(
+  int * int
+)
+ident(
+  int_ref y_2 "Source/builtin/tests/test_builtin_templates.ml" 8 192 216 "Source/builtin/tests/test_builtin_templates.ml" 8 192 219
+)
+"Source/builtin/tests/test_builtin_templates.ml" 9 223 225 "Source/builtin/tests/test_builtin_templates.ml" 9 223 265
+call(
+  tail
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 10 266 270 "Source/builtin/tests/test_builtin_templates.ml" 10 266 279
+type(
+  'a -> (int * int) * (int * int) -> string
+)
+ident(
+  def format_22 "Source/builtin/tests/test_builtin_templates.ml" 14 377 377 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 10 266 280 "Source/builtin/tests/test_builtin_templates.ml" 10 266 285
+type(
+  'a
+)
+ident(
+  def out_c "Source/builtin/tests/test_builtin_templates.ml" 10 266 286 "Source/builtin/tests/test_builtin_templates.ml" 11 299 352
+)
+"Source/builtin/tests/test_builtin_templates.ml" 10 266 287 "Source/builtin/tests/test_builtin_templates.ml" 10 266 290
+type(
+  int * int
+)
+ident(
+  def x_2 "Source/builtin/tests/test_builtin_templates.ml" 11 299 301 "Source/builtin/tests/test_builtin_templates.ml" 11 299 352
+)
+"Source/builtin/tests/test_builtin_templates.ml" 10 266 292 "Source/builtin/tests/test_builtin_templates.ml" 10 266 295
+type(
+  int * int
+)
+ident(
+  def y_2 "Source/builtin/tests/test_builtin_templates.ml" 11 299 301 "Source/builtin/tests/test_builtin_templates.ml" 11 299 352
+)
+"Source/builtin/tests/test_builtin_templates.ml" 10 266 286 "Source/builtin/tests/test_builtin_templates.ml" 10 266 296
+type(
+  (int * int) * (int * int)
+)
+"Source/builtin/tests/test_builtin_templates.ml" 11 299 301 "Source/builtin/tests/test_builtin_templates.ml" 11 299 315
+type(
+  ((unit -> int * int -> string) ->
+   int * int -> (unit -> int * int -> string) -> int * int -> string, 
+   unit, string)
+  format ->
+  (unit -> int * int -> string) ->
+  int * int -> (unit -> int * int -> string) -> int * int -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+)
+"Source/builtin/tests/test_builtin_templates.ml" 11 299 316 "Source/builtin/tests/test_builtin_templates.ml" 11 299 326
+type(
+  ((unit -> int * int -> string) ->
+   int * int -> (unit -> int * int -> string) -> int * int -> string, 
+   unit, string)
+  format
+)
+"Source/builtin/tests/test_builtin_templates.ml" 11 299 327 "Source/builtin/tests/test_builtin_templates.ml" 11 299 335
+type(
+  unit -> int * int -> string
+)
+ident(
+  int_ref format_2 "Source/builtin/tests/test_builtin_templates.ml" 4 63 67 "Source/builtin/tests/test_builtin_templates.ml" 4 63 75
+)
+"Source/builtin/tests/test_builtin_templates.ml" 11 299 336 "Source/builtin/tests/test_builtin_templates.ml" 11 299 339
+type(
+  int * int
+)
+ident(
+  int_ref x_2 "Source/builtin/tests/test_builtin_templates.ml" 10 266 287 "Source/builtin/tests/test_builtin_templates.ml" 10 266 290
+)
+"Source/builtin/tests/test_builtin_templates.ml" 11 299 340 "Source/builtin/tests/test_builtin_templates.ml" 11 299 348
+type(
+  unit -> int * int -> string
+)
+ident(
+  int_ref format_2 "Source/builtin/tests/test_builtin_templates.ml" 4 63 67 "Source/builtin/tests/test_builtin_templates.ml" 4 63 75
+)
+"Source/builtin/tests/test_builtin_templates.ml" 11 299 349 "Source/builtin/tests/test_builtin_templates.ml" 11 299 352
+type(
+  int * int
+)
+ident(
+  int_ref y_2 "Source/builtin/tests/test_builtin_templates.ml" 10 266 292 "Source/builtin/tests/test_builtin_templates.ml" 10 266 295
+)
+"Source/builtin/tests/test_builtin_templates.ml" 11 299 301 "Source/builtin/tests/test_builtin_templates.ml" 11 299 352
+call(
+  tail
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 14 377 381 "Source/builtin/tests/test_builtin_templates.ml" 14 377 389
+type(
+  'a -> int list -> string
+)
+ident(
+  def format_L "Source/builtin/tests/test_builtin_templates.ml" 22 573 573 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 14 377 390 "Source/builtin/tests/test_builtin_templates.ml" 14 377 395
+type(
+  'a
+)
+ident(
+  def out_c "Source/builtin/tests/test_builtin_templates.ml" 14 377 396 "Source/builtin/tests/test_builtin_templates.ml" 21 545 572
+)
+"Source/builtin/tests/test_builtin_templates.ml" 14 377 396 "Source/builtin/tests/test_builtin_templates.ml" 14 377 398
+type(
+  int list
+)
+ident(
+  def li "Source/builtin/tests/test_builtin_templates.ml" 15 401 403 "Source/builtin/tests/test_builtin_templates.ml" 21 545 572
+)
+"Source/builtin/tests/test_builtin_templates.ml" 15 401 411 "Source/builtin/tests/test_builtin_templates.ml" 15 401 419
+type(
+  int list -> string
+)
+ident(
+  def __format "Source/builtin/tests/test_builtin_templates.ml" 15 401 403 "Source/builtin/tests/test_builtin_templates.ml" 21 545 572
+)
+"Source/builtin/tests/test_builtin_templates.ml" 15 401 420 "Source/builtin/tests/test_builtin_templates.ml" 15 401 422
+type(
+  int list
+)
+ident(
+  def li "Source/builtin/tests/test_builtin_templates.ml" 16 425 429 "Source/builtin/tests/test_builtin_templates.ml" 19 487 539
+)
+"Source/builtin/tests/test_builtin_templates.ml" 16 425 435 "Source/builtin/tests/test_builtin_templates.ml" 16 425 437
+type(
+  int list
+)
+ident(
+  int_ref li "Source/builtin/tests/test_builtin_templates.ml" 15 401 420 "Source/builtin/tests/test_builtin_templates.ml" 15 401 422
+)
+"Source/builtin/tests/test_builtin_templates.ml" 17 443 449 "Source/builtin/tests/test_builtin_templates.ml" 17 443 451
+type(
+  int list
+)
+"Source/builtin/tests/test_builtin_templates.ml" 17 443 455 "Source/builtin/tests/test_builtin_templates.ml" 17 443 457
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 18 458 465 "Source/builtin/tests/test_builtin_templates.ml" 18 458 466
+type(
+  int
+)
+ident(
+  def h "Source/builtin/tests/test_builtin_templates.ml" 18 458 471 "Source/builtin/tests/test_builtin_templates.ml" 18 458 486
+)
+"Source/builtin/tests/test_builtin_templates.ml" 18 458 464 "Source/builtin/tests/test_builtin_templates.ml" 18 458 467
+type(
+  int list
+)
+"Source/builtin/tests/test_builtin_templates.ml" 18 458 471 "Source/builtin/tests/test_builtin_templates.ml" 18 458 484
+type(
+  int -> string
+)
+ident(
+  int_ref Stdlib.string_of_int "stdlib.mli" 625 23523 23523 "stdlib.mli" 625 23523 23556
+)
+"Source/builtin/tests/test_builtin_templates.ml" 18 458 485 "Source/builtin/tests/test_builtin_templates.ml" 18 458 486
+type(
+  int
+)
+ident(
+  int_ref h "Source/builtin/tests/test_builtin_templates.ml" 18 458 465 "Source/builtin/tests/test_builtin_templates.ml" 18 458 466
+)
+"Source/builtin/tests/test_builtin_templates.ml" 18 458 471 "Source/builtin/tests/test_builtin_templates.ml" 18 458 486
+call(
+  tail
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 19 487 493 "Source/builtin/tests/test_builtin_templates.ml" 19 487 494
+type(
+  int
+)
+ident(
+  def h "Source/builtin/tests/test_builtin_templates.ml" 19 487 502 "Source/builtin/tests/test_builtin_templates.ml" 19 487 539
+)
+"Source/builtin/tests/test_builtin_templates.ml" 19 487 496 "Source/builtin/tests/test_builtin_templates.ml" 19 487 497
+type(
+  int list
+)
+ident(
+  def t "Source/builtin/tests/test_builtin_templates.ml" 19 487 502 "Source/builtin/tests/test_builtin_templates.ml" 19 487 539
+)
+"Source/builtin/tests/test_builtin_templates.ml" 19 487 493 "Source/builtin/tests/test_builtin_templates.ml" 19 487 497
+type(
+  int list
+)
+"Source/builtin/tests/test_builtin_templates.ml" 19 487 503 "Source/builtin/tests/test_builtin_templates.ml" 19 487 516
+type(
+  int -> string
+)
+ident(
+  int_ref Stdlib.string_of_int "stdlib.mli" 625 23523 23523 "stdlib.mli" 625 23523 23556
+)
+"Source/builtin/tests/test_builtin_templates.ml" 19 487 517 "Source/builtin/tests/test_builtin_templates.ml" 19 487 518
+type(
+  int
+)
+ident(
+  int_ref h "Source/builtin/tests/test_builtin_templates.ml" 19 487 493 "Source/builtin/tests/test_builtin_templates.ml" 19 487 494
+)
+"Source/builtin/tests/test_builtin_templates.ml" 19 487 502 "Source/builtin/tests/test_builtin_templates.ml" 19 487 519
+call(
+  stack
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 19 487 520 "Source/builtin/tests/test_builtin_templates.ml" 19 487 521
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 576 22098 22098 "stdlib.mli" 576 22098 22136
+)
+"Source/builtin/tests/test_builtin_templates.ml" 19 487 522 "Source/builtin/tests/test_builtin_templates.ml" 19 487 526
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 19 487 527 "Source/builtin/tests/test_builtin_templates.ml" 19 487 528
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 576 22098 22098 "stdlib.mli" 576 22098 22136
+)
+"Source/builtin/tests/test_builtin_templates.ml" 19 487 529 "Source/builtin/tests/test_builtin_templates.ml" 19 487 537
+type(
+  int list -> string
+)
+ident(
+  int_ref __format "Source/builtin/tests/test_builtin_templates.ml" 15 401 411 "Source/builtin/tests/test_builtin_templates.ml" 15 401 419
+)
+"Source/builtin/tests/test_builtin_templates.ml" 19 487 538 "Source/builtin/tests/test_builtin_templates.ml" 19 487 539
+type(
+  int list
+)
+ident(
+  int_ref t "Source/builtin/tests/test_builtin_templates.ml" 19 487 496 "Source/builtin/tests/test_builtin_templates.ml" 19 487 497
+)
+"Source/builtin/tests/test_builtin_templates.ml" 19 487 529 "Source/builtin/tests/test_builtin_templates.ml" 19 487 539
+call(
+  stack
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 19 487 522 "Source/builtin/tests/test_builtin_templates.ml" 19 487 539
+call(
+  stack
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 19 487 502 "Source/builtin/tests/test_builtin_templates.ml" 19 487 539
+call(
+  tail
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 16 425 429 "Source/builtin/tests/test_builtin_templates.ml" 19 487 539
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 21 545 547 "Source/builtin/tests/test_builtin_templates.ml" 21 545 550
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 21 545 551 "Source/builtin/tests/test_builtin_templates.ml" 21 545 552
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 576 22098 22098 "stdlib.mli" 576 22098 22136
+)
+"Source/builtin/tests/test_builtin_templates.ml" 21 545 554 "Source/builtin/tests/test_builtin_templates.ml" 21 545 562
+type(
+  int list -> string
+)
+ident(
+  int_ref __format "Source/builtin/tests/test_builtin_templates.ml" 15 401 411 "Source/builtin/tests/test_builtin_templates.ml" 15 401 419
+)
+"Source/builtin/tests/test_builtin_templates.ml" 21 545 563 "Source/builtin/tests/test_builtin_templates.ml" 21 545 565
+type(
+  int list
+)
+ident(
+  int_ref li "Source/builtin/tests/test_builtin_templates.ml" 14 377 396 "Source/builtin/tests/test_builtin_templates.ml" 14 377 398
+)
+"Source/builtin/tests/test_builtin_templates.ml" 21 545 553 "Source/builtin/tests/test_builtin_templates.ml" 21 545 566
+call(
+  stack
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 21 545 567 "Source/builtin/tests/test_builtin_templates.ml" 21 545 568
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 576 22098 22098 "stdlib.mli" 576 22098 22136
+)
+"Source/builtin/tests/test_builtin_templates.ml" 21 545 569 "Source/builtin/tests/test_builtin_templates.ml" 21 545 572
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 21 545 553 "Source/builtin/tests/test_builtin_templates.ml" 21 545 572
+call(
+  stack
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 21 545 547 "Source/builtin/tests/test_builtin_templates.ml" 21 545 572
+call(
+  tail
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 15 401 403 "Source/builtin/tests/test_builtin_templates.ml" 21 545 572
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 22 573 577 "Source/builtin/tests/test_builtin_templates.ml" 22 573 586
+type(
+  'a -> (int * int) list -> string
+)
+ident(
+  def format_L2 "Source/builtin/tests/test_builtin_templates.ml" 33 924 924 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 22 573 587 "Source/builtin/tests/test_builtin_templates.ml" 22 573 592
+type(
+  'a
+)
+ident(
+  def out_c "Source/builtin/tests/test_builtin_templates.ml" 22 573 593 "Source/builtin/tests/test_builtin_templates.ml" 29 796 825
+)
+"Source/builtin/tests/test_builtin_templates.ml" 22 573 593 "Source/builtin/tests/test_builtin_templates.ml" 22 573 597
+type(
+  (int * int) list
+)
+ident(
+  def li_2 "Source/builtin/tests/test_builtin_templates.ml" 23 600 602 "Source/builtin/tests/test_builtin_templates.ml" 29 796 825
+)
+"Source/builtin/tests/test_builtin_templates.ml" 23 600 610 "Source/builtin/tests/test_builtin_templates.ml" 23 600 618
+type(
+  (int * int) list -> string
+)
+ident(
+  def __format "Source/builtin/tests/test_builtin_templates.ml" 23 600 602 "Source/builtin/tests/test_builtin_templates.ml" 29 796 825
+)
+"Source/builtin/tests/test_builtin_templates.ml" 23 600 619 "Source/builtin/tests/test_builtin_templates.ml" 23 600 623
+type(
+  (int * int) list
+)
+ident(
+  def li_2 "Source/builtin/tests/test_builtin_templates.ml" 24 626 630 "Source/builtin/tests/test_builtin_templates.ml" 27 713 790
+)
+"Source/builtin/tests/test_builtin_templates.ml" 24 626 636 "Source/builtin/tests/test_builtin_templates.ml" 24 626 640
+type(
+  (int * int) list
+)
+ident(
+  int_ref li_2 "Source/builtin/tests/test_builtin_templates.ml" 23 600 619 "Source/builtin/tests/test_builtin_templates.ml" 23 600 623
+)
+"Source/builtin/tests/test_builtin_templates.ml" 25 646 652 "Source/builtin/tests/test_builtin_templates.ml" 25 646 654
+type(
+  (int * int) list
+)
+"Source/builtin/tests/test_builtin_templates.ml" 25 646 658 "Source/builtin/tests/test_builtin_templates.ml" 25 646 660
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 26 661 669 "Source/builtin/tests/test_builtin_templates.ml" 26 661 671
+type(
+  int
+)
+ident(
+  def h1 "Source/builtin/tests/test_builtin_templates.ml" 26 661 681 "Source/builtin/tests/test_builtin_templates.ml" 26 661 712
+)
+"Source/builtin/tests/test_builtin_templates.ml" 26 661 673 "Source/builtin/tests/test_builtin_templates.ml" 26 661 675
+type(
+  int
+)
+ident(
+  def h2 "Source/builtin/tests/test_builtin_templates.ml" 26 661 681 "Source/builtin/tests/test_builtin_templates.ml" 26 661 712
+)
+"Source/builtin/tests/test_builtin_templates.ml" 26 661 668 "Source/builtin/tests/test_builtin_templates.ml" 26 661 676
+type(
+  int * int
+)
+"Source/builtin/tests/test_builtin_templates.ml" 26 661 667 "Source/builtin/tests/test_builtin_templates.ml" 26 661 677
+type(
+  (int * int) list
+)
+"Source/builtin/tests/test_builtin_templates.ml" 26 661 681 "Source/builtin/tests/test_builtin_templates.ml" 26 661 695
+type(
+  (int -> int -> string, unit, string) format -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+)
+"Source/builtin/tests/test_builtin_templates.ml" 26 661 696 "Source/builtin/tests/test_builtin_templates.ml" 26 661 706
+type(
+  (int -> int -> string, unit, string) format
+)
+"Source/builtin/tests/test_builtin_templates.ml" 26 661 707 "Source/builtin/tests/test_builtin_templates.ml" 26 661 709
+type(
+  int
+)
+ident(
+  int_ref h1 "Source/builtin/tests/test_builtin_templates.ml" 26 661 669 "Source/builtin/tests/test_builtin_templates.ml" 26 661 671
+)
+"Source/builtin/tests/test_builtin_templates.ml" 26 661 710 "Source/builtin/tests/test_builtin_templates.ml" 26 661 712
+type(
+  int
+)
+ident(
+  int_ref h2 "Source/builtin/tests/test_builtin_templates.ml" 26 661 673 "Source/builtin/tests/test_builtin_templates.ml" 26 661 675
+)
+"Source/builtin/tests/test_builtin_templates.ml" 26 661 681 "Source/builtin/tests/test_builtin_templates.ml" 26 661 712
+call(
+  tail
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 27 713 720 "Source/builtin/tests/test_builtin_templates.ml" 27 713 722
+type(
+  int
+)
+ident(
+  def h1 "Source/builtin/tests/test_builtin_templates.ml" 27 713 735 "Source/builtin/tests/test_builtin_templates.ml" 27 713 790
+)
+"Source/builtin/tests/test_builtin_templates.ml" 27 713 724 "Source/builtin/tests/test_builtin_templates.ml" 27 713 726
+type(
+  int
+)
+ident(
+  def h2 "Source/builtin/tests/test_builtin_templates.ml" 27 713 735 "Source/builtin/tests/test_builtin_templates.ml" 27 713 790
+)
+"Source/builtin/tests/test_builtin_templates.ml" 27 713 719 "Source/builtin/tests/test_builtin_templates.ml" 27 713 727
+type(
+  int * int
+)
+"Source/builtin/tests/test_builtin_templates.ml" 27 713 729 "Source/builtin/tests/test_builtin_templates.ml" 27 713 730
+type(
+  (int * int) list
+)
+ident(
+  def t "Source/builtin/tests/test_builtin_templates.ml" 27 713 735 "Source/builtin/tests/test_builtin_templates.ml" 27 713 790
+)
+"Source/builtin/tests/test_builtin_templates.ml" 27 713 719 "Source/builtin/tests/test_builtin_templates.ml" 27 713 730
+type(
+  (int * int) list
+)
+"Source/builtin/tests/test_builtin_templates.ml" 27 713 736 "Source/builtin/tests/test_builtin_templates.ml" 27 713 750
+type(
+  (int -> int -> string, unit, string) format -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+)
+"Source/builtin/tests/test_builtin_templates.ml" 27 713 751 "Source/builtin/tests/test_builtin_templates.ml" 27 713 761
+type(
+  (int -> int -> string, unit, string) format
+)
+"Source/builtin/tests/test_builtin_templates.ml" 27 713 762 "Source/builtin/tests/test_builtin_templates.ml" 27 713 764
+type(
+  int
+)
+ident(
+  int_ref h1 "Source/builtin/tests/test_builtin_templates.ml" 27 713 720 "Source/builtin/tests/test_builtin_templates.ml" 27 713 722
+)
+"Source/builtin/tests/test_builtin_templates.ml" 27 713 765 "Source/builtin/tests/test_builtin_templates.ml" 27 713 767
+type(
+  int
+)
+ident(
+  int_ref h2 "Source/builtin/tests/test_builtin_templates.ml" 27 713 724 "Source/builtin/tests/test_builtin_templates.ml" 27 713 726
+)
+"Source/builtin/tests/test_builtin_templates.ml" 27 713 735 "Source/builtin/tests/test_builtin_templates.ml" 27 713 768
+call(
+  stack
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 27 713 769 "Source/builtin/tests/test_builtin_templates.ml" 27 713 770
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 576 22098 22098 "stdlib.mli" 576 22098 22136
+)
+"Source/builtin/tests/test_builtin_templates.ml" 27 713 771 "Source/builtin/tests/test_builtin_templates.ml" 27 713 775
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 27 713 776 "Source/builtin/tests/test_builtin_templates.ml" 27 713 777
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 576 22098 22098 "stdlib.mli" 576 22098 22136
+)
+"Source/builtin/tests/test_builtin_templates.ml" 27 713 779 "Source/builtin/tests/test_builtin_templates.ml" 27 713 787
+type(
+  (int * int) list -> string
+)
+ident(
+  int_ref __format "Source/builtin/tests/test_builtin_templates.ml" 23 600 610 "Source/builtin/tests/test_builtin_templates.ml" 23 600 618
+)
+"Source/builtin/tests/test_builtin_templates.ml" 27 713 788 "Source/builtin/tests/test_builtin_templates.ml" 27 713 789
+type(
+  (int * int) list
+)
+ident(
+  int_ref t "Source/builtin/tests/test_builtin_templates.ml" 27 713 729 "Source/builtin/tests/test_builtin_templates.ml" 27 713 730
+)
+"Source/builtin/tests/test_builtin_templates.ml" 27 713 778 "Source/builtin/tests/test_builtin_templates.ml" 27 713 790
+call(
+  stack
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 27 713 771 "Source/builtin/tests/test_builtin_templates.ml" 27 713 790
+call(
+  stack
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 27 713 735 "Source/builtin/tests/test_builtin_templates.ml" 27 713 790
+call(
+  tail
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 24 626 630 "Source/builtin/tests/test_builtin_templates.ml" 27 713 790
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 29 796 798 "Source/builtin/tests/test_builtin_templates.ml" 29 796 801
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 29 796 802 "Source/builtin/tests/test_builtin_templates.ml" 29 796 803
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 576 22098 22098 "stdlib.mli" 576 22098 22136
+)
+"Source/builtin/tests/test_builtin_templates.ml" 29 796 805 "Source/builtin/tests/test_builtin_templates.ml" 29 796 813
+type(
+  (int * int) list -> string
+)
+ident(
+  int_ref __format "Source/builtin/tests/test_builtin_templates.ml" 23 600 610 "Source/builtin/tests/test_builtin_templates.ml" 23 600 618
+)
+"Source/builtin/tests/test_builtin_templates.ml" 29 796 814 "Source/builtin/tests/test_builtin_templates.ml" 29 796 818
+type(
+  (int * int) list
+)
+ident(
+  int_ref li_2 "Source/builtin/tests/test_builtin_templates.ml" 22 573 593 "Source/builtin/tests/test_builtin_templates.ml" 22 573 597
+)
+"Source/builtin/tests/test_builtin_templates.ml" 29 796 804 "Source/builtin/tests/test_builtin_templates.ml" 29 796 819
+call(
+  stack
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 29 796 820 "Source/builtin/tests/test_builtin_templates.ml" 29 796 821
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 576 22098 22098 "stdlib.mli" 576 22098 22136
+)
+"Source/builtin/tests/test_builtin_templates.ml" 29 796 822 "Source/builtin/tests/test_builtin_templates.ml" 29 796 825
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 29 796 804 "Source/builtin/tests/test_builtin_templates.ml" 29 796 825
+call(
+  stack
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 29 796 798 "Source/builtin/tests/test_builtin_templates.ml" 29 796 825
+call(
+  tail
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 23 600 602 "Source/builtin/tests/test_builtin_templates.ml" 29 796 825
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 33 924 928 "Source/builtin/tests/test_builtin_templates.ml" 33 924 938
+type(
+  'a -> int * int -> string
+)
+ident(
+  def format_1_1 "Source/builtin/tests/test_builtin_templates.ml" 34 950 950 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 33 924 941 "Source/builtin/tests/test_builtin_templates.ml" 33 924 949
+type(
+  'a -> int * int -> string
+)
+ident(
+  int_ref format_2 "Source/builtin/tests/test_builtin_templates.ml" 4 63 67 "Source/builtin/tests/test_builtin_templates.ml" 4 63 75
+)
+"Source/builtin/tests/test_builtin_templates.ml" 34 950 954 "Source/builtin/tests/test_builtin_templates.ml" 34 950 964
+type(
+  'a -> (int * int) * int -> string
+)
+ident(
+  def format_2_1 "Source/builtin/tests/test_builtin_templates.ml" 36 1025 1025 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 34 950 965 "Source/builtin/tests/test_builtin_templates.ml" 34 950 970
+type(
+  'a
+)
+ident(
+  def out_c "Source/builtin/tests/test_builtin_templates.ml" 34 950 971 "Source/builtin/tests/test_builtin_templates.ml" 35 982 1024
+)
+"Source/builtin/tests/test_builtin_templates.ml" 34 950 972 "Source/builtin/tests/test_builtin_templates.ml" 34 950 975
+type(
+  int * int
+)
+ident(
+  def x_2 "Source/builtin/tests/test_builtin_templates.ml" 35 982 984 "Source/builtin/tests/test_builtin_templates.ml" 35 982 1024
+)
+"Source/builtin/tests/test_builtin_templates.ml" 34 950 977 "Source/builtin/tests/test_builtin_templates.ml" 34 950 978
+type(
+  int
+)
+ident(
+  def t "Source/builtin/tests/test_builtin_templates.ml" 35 982 984 "Source/builtin/tests/test_builtin_templates.ml" 35 982 1024
+)
+"Source/builtin/tests/test_builtin_templates.ml" 34 950 971 "Source/builtin/tests/test_builtin_templates.ml" 34 950 979
+type(
+  (int * int) * int
+)
+"Source/builtin/tests/test_builtin_templates.ml" 35 982 984 "Source/builtin/tests/test_builtin_templates.ml" 35 982 998
+type(
+  ((unit -> int * int -> string) -> int * int -> int -> string, unit, string)
+  format -> (unit -> int * int -> string) -> int * int -> int -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+)
+"Source/builtin/tests/test_builtin_templates.ml" 35 982 999 "Source/builtin/tests/test_builtin_templates.ml" 35 982 1009
+type(
+  ((unit -> int * int -> string) -> int * int -> int -> string, unit, string)
+  format
+)
+"Source/builtin/tests/test_builtin_templates.ml" 35 982 1010 "Source/builtin/tests/test_builtin_templates.ml" 35 982 1018
+type(
+  unit -> int * int -> string
+)
+ident(
+  int_ref format_2 "Source/builtin/tests/test_builtin_templates.ml" 4 63 67 "Source/builtin/tests/test_builtin_templates.ml" 4 63 75
+)
+"Source/builtin/tests/test_builtin_templates.ml" 35 982 1019 "Source/builtin/tests/test_builtin_templates.ml" 35 982 1022
+type(
+  int * int
+)
+ident(
+  int_ref x_2 "Source/builtin/tests/test_builtin_templates.ml" 34 950 972 "Source/builtin/tests/test_builtin_templates.ml" 34 950 975
+)
+"Source/builtin/tests/test_builtin_templates.ml" 35 982 1023 "Source/builtin/tests/test_builtin_templates.ml" 35 982 1024
+type(
+  int
+)
+ident(
+  int_ref t "Source/builtin/tests/test_builtin_templates.ml" 34 950 977 "Source/builtin/tests/test_builtin_templates.ml" 34 950 978
+)
+"Source/builtin/tests/test_builtin_templates.ml" 35 982 984 "Source/builtin/tests/test_builtin_templates.ml" 35 982 1024
+call(
+  tail
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 36 1025 1029 "Source/builtin/tests/test_builtin_templates.ml" 36 1025 1039
+type(
+  'a -> (int * int) * (int * int) -> string
+)
+ident(
+  def format_2_2 "Source/builtin/tests/test_builtin_templates.ml" 37 1052 1052 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 36 1025 1042 "Source/builtin/tests/test_builtin_templates.ml" 36 1025 1051
+type(
+  'a -> (int * int) * (int * int) -> string
+)
+ident(
+  int_ref format_22 "Source/builtin/tests/test_builtin_templates.ml" 10 266 270 "Source/builtin/tests/test_builtin_templates.ml" 10 266 279
+)
+"Source/builtin/tests/test_builtin_templates.ml" 37 1052 1056 "Source/builtin/tests/test_builtin_templates.ml" 37 1052 1066
+type(
+  'a -> (int * int) * (int * int * int) -> string
+)
+ident(
+  def format_2_3 "Source/builtin/tests/test_builtin_templates.ml" 39 1140 1140 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 37 1052 1067 "Source/builtin/tests/test_builtin_templates.ml" 37 1052 1072
+type(
+  'a
+)
+ident(
+  def out_c "Source/builtin/tests/test_builtin_templates.ml" 37 1052 1073 "Source/builtin/tests/test_builtin_templates.ml" 38 1086 1139
+)
+"Source/builtin/tests/test_builtin_templates.ml" 37 1052 1074 "Source/builtin/tests/test_builtin_templates.ml" 37 1052 1077
+type(
+  int * int
+)
+ident(
+  def x_2 "Source/builtin/tests/test_builtin_templates.ml" 38 1086 1088 "Source/builtin/tests/test_builtin_templates.ml" 38 1086 1139
+)
+"Source/builtin/tests/test_builtin_templates.ml" 37 1052 1079 "Source/builtin/tests/test_builtin_templates.ml" 37 1052 1082
+type(
+  int * int * int
+)
+ident(
+  def t_3 "Source/builtin/tests/test_builtin_templates.ml" 38 1086 1088 "Source/builtin/tests/test_builtin_templates.ml" 38 1086 1139
+)
+"Source/builtin/tests/test_builtin_templates.ml" 37 1052 1073 "Source/builtin/tests/test_builtin_templates.ml" 37 1052 1083
+type(
+  (int * int) * (int * int * int)
+)
+"Source/builtin/tests/test_builtin_templates.ml" 38 1086 1088 "Source/builtin/tests/test_builtin_templates.ml" 38 1086 1102
+type(
+  ((unit -> int * int -> string) ->
+   int * int ->
+   (unit -> int * int * int -> string) -> int * int * int -> string, 
+   unit, string)
+  format ->
+  (unit -> int * int -> string) ->
+  int * int ->
+  (unit -> int * int * int -> string) -> int * int * int -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+)
+"Source/builtin/tests/test_builtin_templates.ml" 38 1086 1103 "Source/builtin/tests/test_builtin_templates.ml" 38 1086 1113
+type(
+  ((unit -> int * int -> string) ->
+   int * int ->
+   (unit -> int * int * int -> string) -> int * int * int -> string, 
+   unit, string)
+  format
+)
+"Source/builtin/tests/test_builtin_templates.ml" 38 1086 1114 "Source/builtin/tests/test_builtin_templates.ml" 38 1086 1122
+type(
+  unit -> int * int -> string
+)
+ident(
+  int_ref format_2 "Source/builtin/tests/test_builtin_templates.ml" 4 63 67 "Source/builtin/tests/test_builtin_templates.ml" 4 63 75
+)
+"Source/builtin/tests/test_builtin_templates.ml" 38 1086 1123 "Source/builtin/tests/test_builtin_templates.ml" 38 1086 1126
+type(
+  int * int
+)
+ident(
+  int_ref x_2 "Source/builtin/tests/test_builtin_templates.ml" 37 1052 1074 "Source/builtin/tests/test_builtin_templates.ml" 37 1052 1077
+)
+"Source/builtin/tests/test_builtin_templates.ml" 38 1086 1127 "Source/builtin/tests/test_builtin_templates.ml" 38 1086 1135
+type(
+  unit -> int * int * int -> string
+)
+ident(
+  int_ref format_3 "Source/builtin/tests/test_builtin_templates.ml" 6 123 127 "Source/builtin/tests/test_builtin_templates.ml" 6 123 135
+)
+"Source/builtin/tests/test_builtin_templates.ml" 38 1086 1136 "Source/builtin/tests/test_builtin_templates.ml" 38 1086 1139
+type(
+  int * int * int
+)
+ident(
+  int_ref t_3 "Source/builtin/tests/test_builtin_templates.ml" 37 1052 1079 "Source/builtin/tests/test_builtin_templates.ml" 37 1052 1082
+)
+"Source/builtin/tests/test_builtin_templates.ml" 38 1086 1088 "Source/builtin/tests/test_builtin_templates.ml" 38 1086 1139
+call(
+  tail
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 39 1140 1144 "Source/builtin/tests/test_builtin_templates.ml" 39 1140 1154
+type(
+  'a -> (int * int * int) * int -> string
+)
+ident(
+  def format_3_1 "Source/builtin/tests/test_builtin_templates.ml" 41 1215 1215 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 39 1140 1155 "Source/builtin/tests/test_builtin_templates.ml" 39 1140 1160
+type(
+  'a
+)
+ident(
+  def out_c "Source/builtin/tests/test_builtin_templates.ml" 39 1140 1161 "Source/builtin/tests/test_builtin_templates.ml" 40 1172 1214
+)
+"Source/builtin/tests/test_builtin_templates.ml" 39 1140 1162 "Source/builtin/tests/test_builtin_templates.ml" 39 1140 1165
+type(
+  int * int * int
+)
+ident(
+  def x_3 "Source/builtin/tests/test_builtin_templates.ml" 40 1172 1174 "Source/builtin/tests/test_builtin_templates.ml" 40 1172 1214
+)
+"Source/builtin/tests/test_builtin_templates.ml" 39 1140 1167 "Source/builtin/tests/test_builtin_templates.ml" 39 1140 1168
+type(
+  int
+)
+ident(
+  def t "Source/builtin/tests/test_builtin_templates.ml" 40 1172 1174 "Source/builtin/tests/test_builtin_templates.ml" 40 1172 1214
+)
+"Source/builtin/tests/test_builtin_templates.ml" 39 1140 1161 "Source/builtin/tests/test_builtin_templates.ml" 39 1140 1169
+type(
+  (int * int * int) * int
+)
+"Source/builtin/tests/test_builtin_templates.ml" 40 1172 1174 "Source/builtin/tests/test_builtin_templates.ml" 40 1172 1188
+type(
+  ((unit -> int * int * int -> string) -> int * int * int -> int -> string,
+   unit, string)
+  format ->
+  (unit -> int * int * int -> string) -> int * int * int -> int -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+)
+"Source/builtin/tests/test_builtin_templates.ml" 40 1172 1189 "Source/builtin/tests/test_builtin_templates.ml" 40 1172 1199
+type(
+  ((unit -> int * int * int -> string) -> int * int * int -> int -> string,
+   unit, string)
+  format
+)
+"Source/builtin/tests/test_builtin_templates.ml" 40 1172 1200 "Source/builtin/tests/test_builtin_templates.ml" 40 1172 1208
+type(
+  unit -> int * int * int -> string
+)
+ident(
+  int_ref format_3 "Source/builtin/tests/test_builtin_templates.ml" 6 123 127 "Source/builtin/tests/test_builtin_templates.ml" 6 123 135
+)
+"Source/builtin/tests/test_builtin_templates.ml" 40 1172 1209 "Source/builtin/tests/test_builtin_templates.ml" 40 1172 1212
+type(
+  int * int * int
+)
+ident(
+  int_ref x_3 "Source/builtin/tests/test_builtin_templates.ml" 39 1140 1162 "Source/builtin/tests/test_builtin_templates.ml" 39 1140 1165
+)
+"Source/builtin/tests/test_builtin_templates.ml" 40 1172 1213 "Source/builtin/tests/test_builtin_templates.ml" 40 1172 1214
+type(
+  int
+)
+ident(
+  int_ref t "Source/builtin/tests/test_builtin_templates.ml" 39 1140 1167 "Source/builtin/tests/test_builtin_templates.ml" 39 1140 1168
+)
+"Source/builtin/tests/test_builtin_templates.ml" 40 1172 1174 "Source/builtin/tests/test_builtin_templates.ml" 40 1172 1214
+call(
+  tail
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 41 1215 1219 "Source/builtin/tests/test_builtin_templates.ml" 41 1215 1230
+type(
+  'a -> (int * (int * int)) * int -> string
+)
+ident(
+  def format_12_1 "Source/builtin/tests/test_builtin_templates.ml" 43 1294 1294 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 41 1215 1231 "Source/builtin/tests/test_builtin_templates.ml" 41 1215 1236
+type(
+  'a
+)
+ident(
+  def out_c "Source/builtin/tests/test_builtin_templates.ml" 41 1215 1237 "Source/builtin/tests/test_builtin_templates.ml" 42 1249 1293
+)
+"Source/builtin/tests/test_builtin_templates.ml" 41 1215 1238 "Source/builtin/tests/test_builtin_templates.ml" 41 1215 1242
+type(
+  int * (int * int)
+)
+ident(
+  def x_12 "Source/builtin/tests/test_builtin_templates.ml" 42 1249 1251 "Source/builtin/tests/test_builtin_templates.ml" 42 1249 1293
+)
+"Source/builtin/tests/test_builtin_templates.ml" 41 1215 1244 "Source/builtin/tests/test_builtin_templates.ml" 41 1215 1245
+type(
+  int
+)
+ident(
+  def t "Source/builtin/tests/test_builtin_templates.ml" 42 1249 1251 "Source/builtin/tests/test_builtin_templates.ml" 42 1249 1293
+)
+"Source/builtin/tests/test_builtin_templates.ml" 41 1215 1237 "Source/builtin/tests/test_builtin_templates.ml" 41 1215 1246
+type(
+  (int * (int * int)) * int
+)
+"Source/builtin/tests/test_builtin_templates.ml" 42 1249 1251 "Source/builtin/tests/test_builtin_templates.ml" 42 1249 1265
+type(
+  ((unit -> int * (int * int) -> string) ->
+   int * (int * int) -> int -> string, unit, string)
+  format ->
+  (unit -> int * (int * int) -> string) -> int * (int * int) -> int -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+)
+"Source/builtin/tests/test_builtin_templates.ml" 42 1249 1266 "Source/builtin/tests/test_builtin_templates.ml" 42 1249 1276
+type(
+  ((unit -> int * (int * int) -> string) ->
+   int * (int * int) -> int -> string, unit, string)
+  format
+)
+"Source/builtin/tests/test_builtin_templates.ml" 42 1249 1277 "Source/builtin/tests/test_builtin_templates.ml" 42 1249 1286
+type(
+  unit -> int * (int * int) -> string
+)
+ident(
+  int_ref format_12 "Source/builtin/tests/test_builtin_templates.ml" 8 192 196 "Source/builtin/tests/test_builtin_templates.ml" 8 192 205
+)
+"Source/builtin/tests/test_builtin_templates.ml" 42 1249 1287 "Source/builtin/tests/test_builtin_templates.ml" 42 1249 1291
+type(
+  int * (int * int)
+)
+ident(
+  int_ref x_12 "Source/builtin/tests/test_builtin_templates.ml" 41 1215 1238 "Source/builtin/tests/test_builtin_templates.ml" 41 1215 1242
+)
+"Source/builtin/tests/test_builtin_templates.ml" 42 1249 1292 "Source/builtin/tests/test_builtin_templates.ml" 42 1249 1293
+type(
+  int
+)
+ident(
+  int_ref t "Source/builtin/tests/test_builtin_templates.ml" 41 1215 1244 "Source/builtin/tests/test_builtin_templates.ml" 41 1215 1245
+)
+"Source/builtin/tests/test_builtin_templates.ml" 42 1249 1251 "Source/builtin/tests/test_builtin_templates.ml" 42 1249 1293
+call(
+  tail
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 43 1294 1298 "Source/builtin/tests/test_builtin_templates.ml" 43 1294 1309
+type(
+  'a -> (int * int) * ((int * int) * (int * int)) -> string
+)
+ident(
+  def format_2_22 "Source/builtin/tests/test_builtin_templates.ml" 45 1386 1386 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 43 1294 1310 "Source/builtin/tests/test_builtin_templates.ml" 43 1294 1315
+type(
+  'a
+)
+ident(
+  def out_c "Source/builtin/tests/test_builtin_templates.ml" 43 1294 1316 "Source/builtin/tests/test_builtin_templates.ml" 44 1330 1385
+)
+"Source/builtin/tests/test_builtin_templates.ml" 43 1294 1317 "Source/builtin/tests/test_builtin_templates.ml" 43 1294 1320
+type(
+  int * int
+)
+ident(
+  def x_2 "Source/builtin/tests/test_builtin_templates.ml" 44 1330 1332 "Source/builtin/tests/test_builtin_templates.ml" 44 1330 1385
+)
+"Source/builtin/tests/test_builtin_templates.ml" 43 1294 1322 "Source/builtin/tests/test_builtin_templates.ml" 43 1294 1326
+type(
+  (int * int) * (int * int)
+)
+ident(
+  def t_22 "Source/builtin/tests/test_builtin_templates.ml" 44 1330 1332 "Source/builtin/tests/test_builtin_templates.ml" 44 1330 1385
+)
+"Source/builtin/tests/test_builtin_templates.ml" 43 1294 1316 "Source/builtin/tests/test_builtin_templates.ml" 43 1294 1327
+type(
+  (int * int) * ((int * int) * (int * int))
+)
+"Source/builtin/tests/test_builtin_templates.ml" 44 1330 1332 "Source/builtin/tests/test_builtin_templates.ml" 44 1330 1346
+type(
+  ((unit -> int * int -> string) ->
+   int * int ->
+   (unit -> (int * int) * (int * int) -> string) ->
+   (int * int) * (int * int) -> string, unit, string)
+  format ->
+  (unit -> int * int -> string) ->
+  int * int ->
+  (unit -> (int * int) * (int * int) -> string) ->
+  (int * int) * (int * int) -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+)
+"Source/builtin/tests/test_builtin_templates.ml" 44 1330 1347 "Source/builtin/tests/test_builtin_templates.ml" 44 1330 1357
+type(
+  ((unit -> int * int -> string) ->
+   int * int ->
+   (unit -> (int * int) * (int * int) -> string) ->
+   (int * int) * (int * int) -> string, unit, string)
+  format
+)
+"Source/builtin/tests/test_builtin_templates.ml" 44 1330 1358 "Source/builtin/tests/test_builtin_templates.ml" 44 1330 1366
+type(
+  unit -> int * int -> string
+)
+ident(
+  int_ref format_2 "Source/builtin/tests/test_builtin_templates.ml" 4 63 67 "Source/builtin/tests/test_builtin_templates.ml" 4 63 75
+)
+"Source/builtin/tests/test_builtin_templates.ml" 44 1330 1367 "Source/builtin/tests/test_builtin_templates.ml" 44 1330 1370
+type(
+  int * int
+)
+ident(
+  int_ref x_2 "Source/builtin/tests/test_builtin_templates.ml" 43 1294 1317 "Source/builtin/tests/test_builtin_templates.ml" 43 1294 1320
+)
+"Source/builtin/tests/test_builtin_templates.ml" 44 1330 1371 "Source/builtin/tests/test_builtin_templates.ml" 44 1330 1380
+type(
+  unit -> (int * int) * (int * int) -> string
+)
+ident(
+  int_ref format_22 "Source/builtin/tests/test_builtin_templates.ml" 10 266 270 "Source/builtin/tests/test_builtin_templates.ml" 10 266 279
+)
+"Source/builtin/tests/test_builtin_templates.ml" 44 1330 1381 "Source/builtin/tests/test_builtin_templates.ml" 44 1330 1385
+type(
+  (int * int) * (int * int)
+)
+ident(
+  int_ref t_22 "Source/builtin/tests/test_builtin_templates.ml" 43 1294 1322 "Source/builtin/tests/test_builtin_templates.ml" 43 1294 1326
+)
+"Source/builtin/tests/test_builtin_templates.ml" 44 1330 1332 "Source/builtin/tests/test_builtin_templates.ml" 44 1330 1385
+call(
+  tail
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 45 1386 1390 "Source/builtin/tests/test_builtin_templates.ml" 45 1386 1400
+type(
+  'a -> int * bool -> string
+)
+ident(
+  def format_1_b "Source/builtin/tests/test_builtin_templates.ml" 47 1450 1450 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 45 1386 1401 "Source/builtin/tests/test_builtin_templates.ml" 45 1386 1406
+type(
+  'a
+)
+ident(
+  def out_c "Source/builtin/tests/test_builtin_templates.ml" 45 1386 1407 "Source/builtin/tests/test_builtin_templates.ml" 46 1416 1449
+)
+"Source/builtin/tests/test_builtin_templates.ml" 45 1386 1408 "Source/builtin/tests/test_builtin_templates.ml" 45 1386 1409
+type(
+  int
+)
+ident(
+  def x "Source/builtin/tests/test_builtin_templates.ml" 46 1416 1418 "Source/builtin/tests/test_builtin_templates.ml" 46 1416 1449
+)
+"Source/builtin/tests/test_builtin_templates.ml" 45 1386 1411 "Source/builtin/tests/test_builtin_templates.ml" 45 1386 1412
+type(
+  bool
+)
+ident(
+  def b "Source/builtin/tests/test_builtin_templates.ml" 46 1416 1418 "Source/builtin/tests/test_builtin_templates.ml" 46 1416 1449
+)
+"Source/builtin/tests/test_builtin_templates.ml" 45 1386 1407 "Source/builtin/tests/test_builtin_templates.ml" 45 1386 1413
+type(
+  int * bool
+)
+"Source/builtin/tests/test_builtin_templates.ml" 46 1416 1418 "Source/builtin/tests/test_builtin_templates.ml" 46 1416 1432
+type(
+  (int -> bool -> string, unit, string) format -> int -> bool -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+)
+"Source/builtin/tests/test_builtin_templates.ml" 46 1416 1433 "Source/builtin/tests/test_builtin_templates.ml" 46 1416 1445
+type(
+  (int -> bool -> string, unit, string) format
+)
+"Source/builtin/tests/test_builtin_templates.ml" 46 1416 1446 "Source/builtin/tests/test_builtin_templates.ml" 46 1416 1447
+type(
+  int
+)
+ident(
+  int_ref x "Source/builtin/tests/test_builtin_templates.ml" 45 1386 1408 "Source/builtin/tests/test_builtin_templates.ml" 45 1386 1409
+)
+"Source/builtin/tests/test_builtin_templates.ml" 46 1416 1448 "Source/builtin/tests/test_builtin_templates.ml" 46 1416 1449
+type(
+  bool
+)
+ident(
+  int_ref b "Source/builtin/tests/test_builtin_templates.ml" 45 1386 1411 "Source/builtin/tests/test_builtin_templates.ml" 45 1386 1412
+)
+"Source/builtin/tests/test_builtin_templates.ml" 46 1416 1418 "Source/builtin/tests/test_builtin_templates.ml" 46 1416 1449
+call(
+  tail
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 47 1450 1454 "Source/builtin/tests/test_builtin_templates.ml" 47 1450 1464
+type(
+  'a -> (int * int * int) * bool -> string
+)
+ident(
+  def format_3_b "Source/builtin/tests/test_builtin_templates.ml" 49 1527 1527 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 47 1450 1465 "Source/builtin/tests/test_builtin_templates.ml" 47 1450 1470
+type(
+  'a
+)
+ident(
+  def out_c "Source/builtin/tests/test_builtin_templates.ml" 47 1450 1471 "Source/builtin/tests/test_builtin_templates.ml" 48 1482 1526
+)
+"Source/builtin/tests/test_builtin_templates.ml" 47 1450 1472 "Source/builtin/tests/test_builtin_templates.ml" 47 1450 1475
+type(
+  int * int * int
+)
+ident(
+  def x_3 "Source/builtin/tests/test_builtin_templates.ml" 48 1482 1484 "Source/builtin/tests/test_builtin_templates.ml" 48 1482 1526
+)
+"Source/builtin/tests/test_builtin_templates.ml" 47 1450 1477 "Source/builtin/tests/test_builtin_templates.ml" 47 1450 1478
+type(
+  bool
+)
+ident(
+  def b "Source/builtin/tests/test_builtin_templates.ml" 48 1482 1484 "Source/builtin/tests/test_builtin_templates.ml" 48 1482 1526
+)
+"Source/builtin/tests/test_builtin_templates.ml" 47 1450 1471 "Source/builtin/tests/test_builtin_templates.ml" 47 1450 1479
+type(
+  (int * int * int) * bool
+)
+"Source/builtin/tests/test_builtin_templates.ml" 48 1482 1484 "Source/builtin/tests/test_builtin_templates.ml" 48 1482 1498
+type(
+  ((unit -> int * int * int -> string) -> int * int * int -> bool -> string,
+   unit, string)
+  format ->
+  (unit -> int * int * int -> string) -> int * int * int -> bool -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+)
+"Source/builtin/tests/test_builtin_templates.ml" 48 1482 1499 "Source/builtin/tests/test_builtin_templates.ml" 48 1482 1511
+type(
+  ((unit -> int * int * int -> string) -> int * int * int -> bool -> string,
+   unit, string)
+  format
+)
+"Source/builtin/tests/test_builtin_templates.ml" 48 1482 1512 "Source/builtin/tests/test_builtin_templates.ml" 48 1482 1520
+type(
+  unit -> int * int * int -> string
+)
+ident(
+  int_ref format_3 "Source/builtin/tests/test_builtin_templates.ml" 6 123 127 "Source/builtin/tests/test_builtin_templates.ml" 6 123 135
+)
+"Source/builtin/tests/test_builtin_templates.ml" 48 1482 1521 "Source/builtin/tests/test_builtin_templates.ml" 48 1482 1524
+type(
+  int * int * int
+)
+ident(
+  int_ref x_3 "Source/builtin/tests/test_builtin_templates.ml" 47 1450 1472 "Source/builtin/tests/test_builtin_templates.ml" 47 1450 1475
+)
+"Source/builtin/tests/test_builtin_templates.ml" 48 1482 1525 "Source/builtin/tests/test_builtin_templates.ml" 48 1482 1526
+type(
+  bool
+)
+ident(
+  int_ref b "Source/builtin/tests/test_builtin_templates.ml" 47 1450 1477 "Source/builtin/tests/test_builtin_templates.ml" 47 1450 1478
+)
+"Source/builtin/tests/test_builtin_templates.ml" 48 1482 1484 "Source/builtin/tests/test_builtin_templates.ml" 48 1482 1526
+call(
+  tail
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 49 1527 1531 "Source/builtin/tests/test_builtin_templates.ml" 49 1527 1541
+type(
+  'a -> int * int list -> string
+)
+ident(
+  def format_1_L "Source/builtin/tests/test_builtin_templates.ml" 51 1600 1600 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 49 1527 1542 "Source/builtin/tests/test_builtin_templates.ml" 49 1527 1547
+type(
+  'a
+)
+ident(
+  def out_c "Source/builtin/tests/test_builtin_templates.ml" 49 1527 1548 "Source/builtin/tests/test_builtin_templates.ml" 50 1558 1599
+)
+"Source/builtin/tests/test_builtin_templates.ml" 49 1527 1549 "Source/builtin/tests/test_builtin_templates.ml" 49 1527 1550
+type(
+  int
+)
+ident(
+  def x "Source/builtin/tests/test_builtin_templates.ml" 50 1558 1560 "Source/builtin/tests/test_builtin_templates.ml" 50 1558 1599
+)
+"Source/builtin/tests/test_builtin_templates.ml" 49 1527 1552 "Source/builtin/tests/test_builtin_templates.ml" 49 1527 1554
+type(
+  int list
+)
+ident(
+  def li "Source/builtin/tests/test_builtin_templates.ml" 50 1558 1560 "Source/builtin/tests/test_builtin_templates.ml" 50 1558 1599
+)
+"Source/builtin/tests/test_builtin_templates.ml" 49 1527 1548 "Source/builtin/tests/test_builtin_templates.ml" 49 1527 1555
+type(
+  int * int list
+)
+"Source/builtin/tests/test_builtin_templates.ml" 50 1558 1560 "Source/builtin/tests/test_builtin_templates.ml" 50 1558 1574
+type(
+  (int -> (unit -> int list -> string) -> int list -> string, unit, string)
+  format -> int -> (unit -> int list -> string) -> int list -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+)
+"Source/builtin/tests/test_builtin_templates.ml" 50 1558 1575 "Source/builtin/tests/test_builtin_templates.ml" 50 1558 1585
+type(
+  (int -> (unit -> int list -> string) -> int list -> string, unit, string)
+  format
+)
+"Source/builtin/tests/test_builtin_templates.ml" 50 1558 1586 "Source/builtin/tests/test_builtin_templates.ml" 50 1558 1587
+type(
+  int
+)
+ident(
+  int_ref x "Source/builtin/tests/test_builtin_templates.ml" 49 1527 1549 "Source/builtin/tests/test_builtin_templates.ml" 49 1527 1550
+)
+"Source/builtin/tests/test_builtin_templates.ml" 50 1558 1588 "Source/builtin/tests/test_builtin_templates.ml" 50 1558 1596
+type(
+  unit -> int list -> string
+)
+ident(
+  int_ref format_L "Source/builtin/tests/test_builtin_templates.ml" 14 377 381 "Source/builtin/tests/test_builtin_templates.ml" 14 377 389
+)
+"Source/builtin/tests/test_builtin_templates.ml" 50 1558 1597 "Source/builtin/tests/test_builtin_templates.ml" 50 1558 1599
+type(
+  int list
+)
+ident(
+  int_ref li "Source/builtin/tests/test_builtin_templates.ml" 49 1527 1552 "Source/builtin/tests/test_builtin_templates.ml" 49 1527 1554
+)
+"Source/builtin/tests/test_builtin_templates.ml" 50 1558 1560 "Source/builtin/tests/test_builtin_templates.ml" 50 1558 1599
+call(
+  tail
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 51 1600 1604 "Source/builtin/tests/test_builtin_templates.ml" 51 1600 1615
+type(
+  'a -> (int * int list) * bool -> string
+)
+ident(
+  def format_1L_b "Source/builtin/tests/test_builtin_templates.ml" 53 1688 1688 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 51 1600 1616 "Source/builtin/tests/test_builtin_templates.ml" 51 1600 1621
+type(
+  'a
+)
+ident(
+  def out_c "Source/builtin/tests/test_builtin_templates.ml" 51 1600 1622 "Source/builtin/tests/test_builtin_templates.ml" 52 1637 1687
+)
+"Source/builtin/tests/test_builtin_templates.ml" 51 1600 1624 "Source/builtin/tests/test_builtin_templates.ml" 51 1600 1625
+type(
+  int
+)
+ident(
+  def x "Source/builtin/tests/test_builtin_templates.ml" 52 1637 1639 "Source/builtin/tests/test_builtin_templates.ml" 52 1637 1687
+)
+"Source/builtin/tests/test_builtin_templates.ml" 51 1600 1627 "Source/builtin/tests/test_builtin_templates.ml" 51 1600 1629
+type(
+  int list
+)
+ident(
+  def li "Source/builtin/tests/test_builtin_templates.ml" 52 1637 1639 "Source/builtin/tests/test_builtin_templates.ml" 52 1637 1687
+)
+"Source/builtin/tests/test_builtin_templates.ml" 51 1600 1623 "Source/builtin/tests/test_builtin_templates.ml" 51 1600 1630
+type(
+  int * int list
+)
+"Source/builtin/tests/test_builtin_templates.ml" 51 1600 1632 "Source/builtin/tests/test_builtin_templates.ml" 51 1600 1633
+type(
+  bool
+)
+ident(
+  def t "Source/builtin/tests/test_builtin_templates.ml" 52 1637 1639 "Source/builtin/tests/test_builtin_templates.ml" 52 1637 1687
+)
+"Source/builtin/tests/test_builtin_templates.ml" 51 1600 1622 "Source/builtin/tests/test_builtin_templates.ml" 51 1600 1634
+type(
+  (int * int list) * bool
+)
+"Source/builtin/tests/test_builtin_templates.ml" 52 1637 1639 "Source/builtin/tests/test_builtin_templates.ml" 52 1637 1653
+type(
+  (int -> (unit -> int list -> string) -> int list -> bool -> string, 
+   unit, string)
+  format -> int -> (unit -> int list -> string) -> int list -> bool -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+)
+"Source/builtin/tests/test_builtin_templates.ml" 52 1637 1654 "Source/builtin/tests/test_builtin_templates.ml" 52 1637 1671
+type(
+  (int -> (unit -> int list -> string) -> int list -> bool -> string, 
+   unit, string)
+  format
+)
+"Source/builtin/tests/test_builtin_templates.ml" 52 1637 1672 "Source/builtin/tests/test_builtin_templates.ml" 52 1637 1673
+type(
+  int
+)
+ident(
+  int_ref x "Source/builtin/tests/test_builtin_templates.ml" 51 1600 1624 "Source/builtin/tests/test_builtin_templates.ml" 51 1600 1625
+)
+"Source/builtin/tests/test_builtin_templates.ml" 52 1637 1674 "Source/builtin/tests/test_builtin_templates.ml" 52 1637 1682
+type(
+  unit -> int list -> string
+)
+ident(
+  int_ref format_L "Source/builtin/tests/test_builtin_templates.ml" 14 377 381 "Source/builtin/tests/test_builtin_templates.ml" 14 377 389
+)
+"Source/builtin/tests/test_builtin_templates.ml" 52 1637 1683 "Source/builtin/tests/test_builtin_templates.ml" 52 1637 1685
+type(
+  int list
+)
+ident(
+  int_ref li "Source/builtin/tests/test_builtin_templates.ml" 51 1600 1627 "Source/builtin/tests/test_builtin_templates.ml" 51 1600 1629
+)
+"Source/builtin/tests/test_builtin_templates.ml" 52 1637 1686 "Source/builtin/tests/test_builtin_templates.ml" 52 1637 1687
+type(
+  bool
+)
+ident(
+  int_ref t "Source/builtin/tests/test_builtin_templates.ml" 51 1600 1632 "Source/builtin/tests/test_builtin_templates.ml" 51 1600 1633
+)
+"Source/builtin/tests/test_builtin_templates.ml" 52 1637 1639 "Source/builtin/tests/test_builtin_templates.ml" 52 1637 1687
+call(
+  tail
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 53 1688 1692 "Source/builtin/tests/test_builtin_templates.ml" 53 1688 1702
+type(
+  'a -> (int * int * int) * int list -> string
+)
+ident(
+  def format_3_L "Source/builtin/tests/test_builtin_templates.ml" 55 1774 1774 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 53 1688 1703 "Source/builtin/tests/test_builtin_templates.ml" 53 1688 1708
+type(
+  'a
+)
+ident(
+  def out_c "Source/builtin/tests/test_builtin_templates.ml" 53 1688 1709 "Source/builtin/tests/test_builtin_templates.ml" 54 1721 1773
+)
+"Source/builtin/tests/test_builtin_templates.ml" 53 1688 1710 "Source/builtin/tests/test_builtin_templates.ml" 53 1688 1713
+type(
+  int * int * int
+)
+ident(
+  def x_3 "Source/builtin/tests/test_builtin_templates.ml" 54 1721 1723 "Source/builtin/tests/test_builtin_templates.ml" 54 1721 1773
+)
+"Source/builtin/tests/test_builtin_templates.ml" 53 1688 1715 "Source/builtin/tests/test_builtin_templates.ml" 53 1688 1717
+type(
+  int list
+)
+ident(
+  def li "Source/builtin/tests/test_builtin_templates.ml" 54 1721 1723 "Source/builtin/tests/test_builtin_templates.ml" 54 1721 1773
+)
+"Source/builtin/tests/test_builtin_templates.ml" 53 1688 1709 "Source/builtin/tests/test_builtin_templates.ml" 53 1688 1718
+type(
+  (int * int * int) * int list
+)
+"Source/builtin/tests/test_builtin_templates.ml" 54 1721 1723 "Source/builtin/tests/test_builtin_templates.ml" 54 1721 1737
+type(
+  ((unit -> int * int * int -> string) ->
+   int * int * int -> (unit -> int list -> string) -> int list -> string,
+   unit, string)
+  format ->
+  (unit -> int * int * int -> string) ->
+  int * int * int -> (unit -> int list -> string) -> int list -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+)
+"Source/builtin/tests/test_builtin_templates.ml" 54 1721 1738 "Source/builtin/tests/test_builtin_templates.ml" 54 1721 1748
+type(
+  ((unit -> int * int * int -> string) ->
+   int * int * int -> (unit -> int list -> string) -> int list -> string,
+   unit, string)
+  format
+)
+"Source/builtin/tests/test_builtin_templates.ml" 54 1721 1749 "Source/builtin/tests/test_builtin_templates.ml" 54 1721 1757
+type(
+  unit -> int * int * int -> string
+)
+ident(
+  int_ref format_3 "Source/builtin/tests/test_builtin_templates.ml" 6 123 127 "Source/builtin/tests/test_builtin_templates.ml" 6 123 135
+)
+"Source/builtin/tests/test_builtin_templates.ml" 54 1721 1758 "Source/builtin/tests/test_builtin_templates.ml" 54 1721 1761
+type(
+  int * int * int
+)
+ident(
+  int_ref x_3 "Source/builtin/tests/test_builtin_templates.ml" 53 1688 1710 "Source/builtin/tests/test_builtin_templates.ml" 53 1688 1713
+)
+"Source/builtin/tests/test_builtin_templates.ml" 54 1721 1762 "Source/builtin/tests/test_builtin_templates.ml" 54 1721 1770
+type(
+  unit -> int list -> string
+)
+ident(
+  int_ref format_L "Source/builtin/tests/test_builtin_templates.ml" 14 377 381 "Source/builtin/tests/test_builtin_templates.ml" 14 377 389
+)
+"Source/builtin/tests/test_builtin_templates.ml" 54 1721 1771 "Source/builtin/tests/test_builtin_templates.ml" 54 1721 1773
+type(
+  int list
+)
+ident(
+  int_ref li "Source/builtin/tests/test_builtin_templates.ml" 53 1688 1715 "Source/builtin/tests/test_builtin_templates.ml" 53 1688 1717
+)
+"Source/builtin/tests/test_builtin_templates.ml" 54 1721 1723 "Source/builtin/tests/test_builtin_templates.ml" 54 1721 1773
+call(
+  tail
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 55 1774 1778 "Source/builtin/tests/test_builtin_templates.ml" 55 1774 1788
+type(
+  'a -> int list * int -> string
+)
+ident(
+  def format_L_1 "Source/builtin/tests/test_builtin_templates.ml" 57 1847 1847 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 55 1774 1789 "Source/builtin/tests/test_builtin_templates.ml" 55 1774 1794
+type(
+  'a
+)
+ident(
+  def out_c "Source/builtin/tests/test_builtin_templates.ml" 55 1774 1795 "Source/builtin/tests/test_builtin_templates.ml" 56 1805 1846
+)
+"Source/builtin/tests/test_builtin_templates.ml" 55 1774 1796 "Source/builtin/tests/test_builtin_templates.ml" 55 1774 1798
+type(
+  int list
+)
+ident(
+  def li "Source/builtin/tests/test_builtin_templates.ml" 56 1805 1807 "Source/builtin/tests/test_builtin_templates.ml" 56 1805 1846
+)
+"Source/builtin/tests/test_builtin_templates.ml" 55 1774 1800 "Source/builtin/tests/test_builtin_templates.ml" 55 1774 1801
+type(
+  int
+)
+ident(
+  def t "Source/builtin/tests/test_builtin_templates.ml" 56 1805 1807 "Source/builtin/tests/test_builtin_templates.ml" 56 1805 1846
+)
+"Source/builtin/tests/test_builtin_templates.ml" 55 1774 1795 "Source/builtin/tests/test_builtin_templates.ml" 55 1774 1802
+type(
+  int list * int
+)
+"Source/builtin/tests/test_builtin_templates.ml" 56 1805 1807 "Source/builtin/tests/test_builtin_templates.ml" 56 1805 1821
+type(
+  ((unit -> int list -> string) -> int list -> int -> string, unit, string)
+  format -> (unit -> int list -> string) -> int list -> int -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+)
+"Source/builtin/tests/test_builtin_templates.ml" 56 1805 1822 "Source/builtin/tests/test_builtin_templates.ml" 56 1805 1832
+type(
+  ((unit -> int list -> string) -> int list -> int -> string, unit, string)
+  format
+)
+"Source/builtin/tests/test_builtin_templates.ml" 56 1805 1833 "Source/builtin/tests/test_builtin_templates.ml" 56 1805 1841
+type(
+  unit -> int list -> string
+)
+ident(
+  int_ref format_L "Source/builtin/tests/test_builtin_templates.ml" 14 377 381 "Source/builtin/tests/test_builtin_templates.ml" 14 377 389
+)
+"Source/builtin/tests/test_builtin_templates.ml" 56 1805 1842 "Source/builtin/tests/test_builtin_templates.ml" 56 1805 1844
+type(
+  int list
+)
+ident(
+  int_ref li "Source/builtin/tests/test_builtin_templates.ml" 55 1774 1796 "Source/builtin/tests/test_builtin_templates.ml" 55 1774 1798
+)
+"Source/builtin/tests/test_builtin_templates.ml" 56 1805 1845 "Source/builtin/tests/test_builtin_templates.ml" 56 1805 1846
+type(
+  int
+)
+ident(
+  int_ref t "Source/builtin/tests/test_builtin_templates.ml" 55 1774 1800 "Source/builtin/tests/test_builtin_templates.ml" 55 1774 1801
+)
+"Source/builtin/tests/test_builtin_templates.ml" 56 1805 1807 "Source/builtin/tests/test_builtin_templates.ml" 56 1805 1846
+call(
+  tail
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 57 1847 1851 "Source/builtin/tests/test_builtin_templates.ml" 57 1847 1861
+type(
+  'a -> int list * (int * int) -> string
+)
+ident(
+  def format_L_2 "Source/builtin/tests/test_builtin_templates.ml" 59 1933 1933 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 57 1847 1862 "Source/builtin/tests/test_builtin_templates.ml" 57 1847 1867
+type(
+  'a
+)
+ident(
+  def out_c "Source/builtin/tests/test_builtin_templates.ml" 57 1847 1868 "Source/builtin/tests/test_builtin_templates.ml" 58 1880 1932
+)
+"Source/builtin/tests/test_builtin_templates.ml" 57 1847 1869 "Source/builtin/tests/test_builtin_templates.ml" 57 1847 1871
+type(
+  int list
+)
+ident(
+  def li "Source/builtin/tests/test_builtin_templates.ml" 58 1880 1882 "Source/builtin/tests/test_builtin_templates.ml" 58 1880 1932
+)
+"Source/builtin/tests/test_builtin_templates.ml" 57 1847 1873 "Source/builtin/tests/test_builtin_templates.ml" 57 1847 1876
+type(
+  int * int
+)
+ident(
+  def t_2 "Source/builtin/tests/test_builtin_templates.ml" 58 1880 1882 "Source/builtin/tests/test_builtin_templates.ml" 58 1880 1932
+)
+"Source/builtin/tests/test_builtin_templates.ml" 57 1847 1868 "Source/builtin/tests/test_builtin_templates.ml" 57 1847 1877
+type(
+  int list * (int * int)
+)
+"Source/builtin/tests/test_builtin_templates.ml" 58 1880 1882 "Source/builtin/tests/test_builtin_templates.ml" 58 1880 1896
+type(
+  ((unit -> int list -> string) ->
+   int list -> (unit -> int * int -> string) -> int * int -> string, 
+   unit, string)
+  format ->
+  (unit -> int list -> string) ->
+  int list -> (unit -> int * int -> string) -> int * int -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+)
+"Source/builtin/tests/test_builtin_templates.ml" 58 1880 1897 "Source/builtin/tests/test_builtin_templates.ml" 58 1880 1907
+type(
+  ((unit -> int list -> string) ->
+   int list -> (unit -> int * int -> string) -> int * int -> string, 
+   unit, string)
+  format
+)
+"Source/builtin/tests/test_builtin_templates.ml" 58 1880 1908 "Source/builtin/tests/test_builtin_templates.ml" 58 1880 1916
+type(
+  unit -> int list -> string
+)
+ident(
+  int_ref format_L "Source/builtin/tests/test_builtin_templates.ml" 14 377 381 "Source/builtin/tests/test_builtin_templates.ml" 14 377 389
+)
+"Source/builtin/tests/test_builtin_templates.ml" 58 1880 1917 "Source/builtin/tests/test_builtin_templates.ml" 58 1880 1919
+type(
+  int list
+)
+ident(
+  int_ref li "Source/builtin/tests/test_builtin_templates.ml" 57 1847 1869 "Source/builtin/tests/test_builtin_templates.ml" 57 1847 1871
+)
+"Source/builtin/tests/test_builtin_templates.ml" 58 1880 1920 "Source/builtin/tests/test_builtin_templates.ml" 58 1880 1928
+type(
+  unit -> int * int -> string
+)
+ident(
+  int_ref format_2 "Source/builtin/tests/test_builtin_templates.ml" 4 63 67 "Source/builtin/tests/test_builtin_templates.ml" 4 63 75
+)
+"Source/builtin/tests/test_builtin_templates.ml" 58 1880 1929 "Source/builtin/tests/test_builtin_templates.ml" 58 1880 1932
+type(
+  int * int
+)
+ident(
+  int_ref t_2 "Source/builtin/tests/test_builtin_templates.ml" 57 1847 1873 "Source/builtin/tests/test_builtin_templates.ml" 57 1847 1876
+)
+"Source/builtin/tests/test_builtin_templates.ml" 58 1880 1882 "Source/builtin/tests/test_builtin_templates.ml" 58 1880 1932
+call(
+  tail
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 59 1933 1937 "Source/builtin/tests/test_builtin_templates.ml" 59 1933 1949
+type(
+  'a -> (int * 'b) * (int * int) list -> string
+)
+ident(
+  def format_1f_L2 "Source/builtin/tests/test_builtin_templates.ml" 61 2019 2019 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 59 1933 1950 "Source/builtin/tests/test_builtin_templates.ml" 59 1933 1955
+type(
+  'a
+)
+ident(
+  def out_c "Source/builtin/tests/test_builtin_templates.ml" 59 1933 1956 "Source/builtin/tests/test_builtin_templates.ml" 60 1973 2018
+)
+"Source/builtin/tests/test_builtin_templates.ml" 59 1933 1958 "Source/builtin/tests/test_builtin_templates.ml" 59 1933 1959
+type(
+  int
+)
+ident(
+  def x "Source/builtin/tests/test_builtin_templates.ml" 60 1973 1975 "Source/builtin/tests/test_builtin_templates.ml" 60 1973 2018
+)
+"Source/builtin/tests/test_builtin_templates.ml" 59 1933 1961 "Source/builtin/tests/test_builtin_templates.ml" 59 1933 1962
+type(
+  'b
+)
+ident(
+  def f "Source/builtin/tests/test_builtin_templates.ml" 60 1973 1975 "Source/builtin/tests/test_builtin_templates.ml" 60 1973 2018
+)
+"Source/builtin/tests/test_builtin_templates.ml" 59 1933 1957 "Source/builtin/tests/test_builtin_templates.ml" 59 1933 1963
+type(
+  int * 'b
+)
+"Source/builtin/tests/test_builtin_templates.ml" 59 1933 1965 "Source/builtin/tests/test_builtin_templates.ml" 59 1933 1969
+type(
+  (int * int) list
+)
+ident(
+  def li_2 "Source/builtin/tests/test_builtin_templates.ml" 60 1973 1975 "Source/builtin/tests/test_builtin_templates.ml" 60 1973 2018
+)
+"Source/builtin/tests/test_builtin_templates.ml" 59 1933 1956 "Source/builtin/tests/test_builtin_templates.ml" 59 1933 1970
+type(
+  (int * 'b) * (int * int) list
+)
+"Source/builtin/tests/test_builtin_templates.ml" 60 1973 1975 "Source/builtin/tests/test_builtin_templates.ml" 60 1973 1989
+type(
+  (int -> (unit -> (int * int) list -> string) -> (int * int) list -> string,
+   unit, string)
+  format ->
+  int -> (unit -> (int * int) list -> string) -> (int * int) list -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+)
+"Source/builtin/tests/test_builtin_templates.ml" 60 1973 1990 "Source/builtin/tests/test_builtin_templates.ml" 60 1973 2001
+type(
+  (int -> (unit -> (int * int) list -> string) -> (int * int) list -> string,
+   unit, string)
+  format
+)
+"Source/builtin/tests/test_builtin_templates.ml" 60 1973 2002 "Source/builtin/tests/test_builtin_templates.ml" 60 1973 2003
+type(
+  int
+)
+ident(
+  int_ref x "Source/builtin/tests/test_builtin_templates.ml" 59 1933 1958 "Source/builtin/tests/test_builtin_templates.ml" 59 1933 1959
+)
+"Source/builtin/tests/test_builtin_templates.ml" 60 1973 2004 "Source/builtin/tests/test_builtin_templates.ml" 60 1973 2013
+type(
+  unit -> (int * int) list -> string
+)
+ident(
+  int_ref format_L2 "Source/builtin/tests/test_builtin_templates.ml" 22 573 577 "Source/builtin/tests/test_builtin_templates.ml" 22 573 586
+)
+"Source/builtin/tests/test_builtin_templates.ml" 60 1973 2014 "Source/builtin/tests/test_builtin_templates.ml" 60 1973 2018
+type(
+  (int * int) list
+)
+ident(
+  int_ref li_2 "Source/builtin/tests/test_builtin_templates.ml" 59 1933 1965 "Source/builtin/tests/test_builtin_templates.ml" 59 1933 1969
+)
+"Source/builtin/tests/test_builtin_templates.ml" 60 1973 1975 "Source/builtin/tests/test_builtin_templates.ml" 60 1973 2018
+call(
+  tail
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 61 2019 2023 "Source/builtin/tests/test_builtin_templates.ml" 61 2019 2034
+type(
+  'a -> (string * int) * int -> string
+)
+ident(
+  def format_s1_1 "Source/builtin/tests/test_builtin_templates.ml" 63 2095 2095 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 61 2019 2035 "Source/builtin/tests/test_builtin_templates.ml" 61 2019 2040
+type(
+  'a
+)
+ident(
+  def out_c "Source/builtin/tests/test_builtin_templates.ml" 61 2019 2041 "Source/builtin/tests/test_builtin_templates.ml" 62 2055 2094
+)
+"Source/builtin/tests/test_builtin_templates.ml" 61 2019 2043 "Source/builtin/tests/test_builtin_templates.ml" 61 2019 2044
+type(
+  string
+)
+ident(
+  def s "Source/builtin/tests/test_builtin_templates.ml" 62 2055 2057 "Source/builtin/tests/test_builtin_templates.ml" 62 2055 2094
+)
+"Source/builtin/tests/test_builtin_templates.ml" 61 2019 2046 "Source/builtin/tests/test_builtin_templates.ml" 61 2019 2047
+type(
+  int
+)
+ident(
+  def x "Source/builtin/tests/test_builtin_templates.ml" 62 2055 2057 "Source/builtin/tests/test_builtin_templates.ml" 62 2055 2094
+)
+"Source/builtin/tests/test_builtin_templates.ml" 61 2019 2042 "Source/builtin/tests/test_builtin_templates.ml" 61 2019 2048
+type(
+  string * int
+)
+"Source/builtin/tests/test_builtin_templates.ml" 61 2019 2050 "Source/builtin/tests/test_builtin_templates.ml" 61 2019 2051
+type(
+  int
+)
+ident(
+  def y "Source/builtin/tests/test_builtin_templates.ml" 62 2055 2057 "Source/builtin/tests/test_builtin_templates.ml" 62 2055 2094
+)
+"Source/builtin/tests/test_builtin_templates.ml" 61 2019 2041 "Source/builtin/tests/test_builtin_templates.ml" 61 2019 2052
+type(
+  (string * int) * int
+)
+"Source/builtin/tests/test_builtin_templates.ml" 62 2055 2057 "Source/builtin/tests/test_builtin_templates.ml" 62 2055 2071
+type(
+  (string -> int -> int -> string, unit, string) format ->
+  string -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+)
+"Source/builtin/tests/test_builtin_templates.ml" 62 2055 2072 "Source/builtin/tests/test_builtin_templates.ml" 62 2055 2088
+type(
+  (string -> int -> int -> string, unit, string) format
+)
+"Source/builtin/tests/test_builtin_templates.ml" 62 2055 2089 "Source/builtin/tests/test_builtin_templates.ml" 62 2055 2090
+type(
+  string
+)
+ident(
+  int_ref s "Source/builtin/tests/test_builtin_templates.ml" 61 2019 2043 "Source/builtin/tests/test_builtin_templates.ml" 61 2019 2044
+)
+"Source/builtin/tests/test_builtin_templates.ml" 62 2055 2091 "Source/builtin/tests/test_builtin_templates.ml" 62 2055 2092
+type(
+  int
+)
+ident(
+  int_ref x "Source/builtin/tests/test_builtin_templates.ml" 61 2019 2046 "Source/builtin/tests/test_builtin_templates.ml" 61 2019 2047
+)
+"Source/builtin/tests/test_builtin_templates.ml" 62 2055 2093 "Source/builtin/tests/test_builtin_templates.ml" 62 2055 2094
+type(
+  int
+)
+ident(
+  int_ref y "Source/builtin/tests/test_builtin_templates.ml" 61 2019 2050 "Source/builtin/tests/test_builtin_templates.ml" 61 2019 2051
+)
+"Source/builtin/tests/test_builtin_templates.ml" 62 2055 2057 "Source/builtin/tests/test_builtin_templates.ml" 62 2055 2094
+call(
+  tail
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 63 2095 2099 "Source/builtin/tests/test_builtin_templates.ml" 63 2095 2109
+type(
+  'a -> (int * int) * string -> string
+)
+ident(
+  def format_2_s "Source/builtin/tests/test_builtin_templates.ml" 65 2170 2170 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 63 2095 2110 "Source/builtin/tests/test_builtin_templates.ml" 63 2095 2115
+type(
+  'a
+)
+ident(
+  def out_c "Source/builtin/tests/test_builtin_templates.ml" 63 2095 2116 "Source/builtin/tests/test_builtin_templates.ml" 64 2127 2169
+)
+"Source/builtin/tests/test_builtin_templates.ml" 63 2095 2117 "Source/builtin/tests/test_builtin_templates.ml" 63 2095 2120
+type(
+  int * int
+)
+ident(
+  def x_2 "Source/builtin/tests/test_builtin_templates.ml" 64 2127 2129 "Source/builtin/tests/test_builtin_templates.ml" 64 2127 2169
+)
+"Source/builtin/tests/test_builtin_templates.ml" 63 2095 2122 "Source/builtin/tests/test_builtin_templates.ml" 63 2095 2123
+type(
+  string
+)
+ident(
+  def s "Source/builtin/tests/test_builtin_templates.ml" 64 2127 2129 "Source/builtin/tests/test_builtin_templates.ml" 64 2127 2169
+)
+"Source/builtin/tests/test_builtin_templates.ml" 63 2095 2116 "Source/builtin/tests/test_builtin_templates.ml" 63 2095 2124
+type(
+  (int * int) * string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 64 2127 2129 "Source/builtin/tests/test_builtin_templates.ml" 64 2127 2143
+type(
+  ((unit -> int * int -> string) -> int * int -> string -> string, unit,
+   string)
+  format -> (unit -> int * int -> string) -> int * int -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+)
+"Source/builtin/tests/test_builtin_templates.ml" 64 2127 2144 "Source/builtin/tests/test_builtin_templates.ml" 64 2127 2154
+type(
+  ((unit -> int * int -> string) -> int * int -> string -> string, unit,
+   string)
+  format
+)
+"Source/builtin/tests/test_builtin_templates.ml" 64 2127 2155 "Source/builtin/tests/test_builtin_templates.ml" 64 2127 2163
+type(
+  unit -> int * int -> string
+)
+ident(
+  int_ref format_2 "Source/builtin/tests/test_builtin_templates.ml" 4 63 67 "Source/builtin/tests/test_builtin_templates.ml" 4 63 75
+)
+"Source/builtin/tests/test_builtin_templates.ml" 64 2127 2164 "Source/builtin/tests/test_builtin_templates.ml" 64 2127 2167
+type(
+  int * int
+)
+ident(
+  int_ref x_2 "Source/builtin/tests/test_builtin_templates.ml" 63 2095 2117 "Source/builtin/tests/test_builtin_templates.ml" 63 2095 2120
+)
+"Source/builtin/tests/test_builtin_templates.ml" 64 2127 2168 "Source/builtin/tests/test_builtin_templates.ml" 64 2127 2169
+type(
+  string
+)
+ident(
+  int_ref s "Source/builtin/tests/test_builtin_templates.ml" 63 2095 2122 "Source/builtin/tests/test_builtin_templates.ml" 63 2095 2123
+)
+"Source/builtin/tests/test_builtin_templates.ml" 64 2127 2129 "Source/builtin/tests/test_builtin_templates.ml" 64 2127 2169
+call(
+  tail
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 65 2170 2174 "Source/builtin/tests/test_builtin_templates.ml" 65 2170 2186
+type(
+  'a -> (int * int list * int) * int list -> string
+)
+ident(
+  def format_1L1_L "Source/builtin/tests/test_builtin_templates.ml" 67 2280 2280 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 65 2170 2187 "Source/builtin/tests/test_builtin_templates.ml" 65 2170 2192
+type(
+  'a
+)
+ident(
+  def out_c "Source/builtin/tests/test_builtin_templates.ml" 65 2170 2193 "Source/builtin/tests/test_builtin_templates.ml" 66 2213 2279
+)
+"Source/builtin/tests/test_builtin_templates.ml" 65 2170 2195 "Source/builtin/tests/test_builtin_templates.ml" 65 2170 2196
+type(
+  int
+)
+ident(
+  def x "Source/builtin/tests/test_builtin_templates.ml" 66 2213 2215 "Source/builtin/tests/test_builtin_templates.ml" 66 2213 2279
+)
+"Source/builtin/tests/test_builtin_templates.ml" 65 2170 2198 "Source/builtin/tests/test_builtin_templates.ml" 65 2170 2200
+type(
+  int list
+)
+ident(
+  def li "Source/builtin/tests/test_builtin_templates.ml" 66 2213 2215 "Source/builtin/tests/test_builtin_templates.ml" 66 2213 2279
+)
+"Source/builtin/tests/test_builtin_templates.ml" 65 2170 2202 "Source/builtin/tests/test_builtin_templates.ml" 65 2170 2203
+type(
+  int
+)
+ident(
+  def y "Source/builtin/tests/test_builtin_templates.ml" 66 2213 2215 "Source/builtin/tests/test_builtin_templates.ml" 66 2213 2279
+)
+"Source/builtin/tests/test_builtin_templates.ml" 65 2170 2194 "Source/builtin/tests/test_builtin_templates.ml" 65 2170 2204
+type(
+  int * int list * int
+)
+"Source/builtin/tests/test_builtin_templates.ml" 65 2170 2206 "Source/builtin/tests/test_builtin_templates.ml" 65 2170 2209
+type(
+  int list
+)
+ident(
+  def lit "Source/builtin/tests/test_builtin_templates.ml" 66 2213 2215 "Source/builtin/tests/test_builtin_templates.ml" 66 2213 2279
+)
+"Source/builtin/tests/test_builtin_templates.ml" 65 2170 2193 "Source/builtin/tests/test_builtin_templates.ml" 65 2170 2210
+type(
+  (int * int list * int) * int list
+)
+"Source/builtin/tests/test_builtin_templates.ml" 66 2213 2215 "Source/builtin/tests/test_builtin_templates.ml" 66 2213 2229
+type(
+  (int ->
+   (unit -> int list -> string) ->
+   int list -> int -> (unit -> int list -> string) -> int list -> string,
+   unit, string)
+  format ->
+  int ->
+  (unit -> int list -> string) ->
+  int list -> int -> (unit -> int list -> string) -> int list -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+)
+"Source/builtin/tests/test_builtin_templates.ml" 66 2213 2230 "Source/builtin/tests/test_builtin_templates.ml" 66 2213 2250
+type(
+  (int ->
+   (unit -> int list -> string) ->
+   int list -> int -> (unit -> int list -> string) -> int list -> string,
+   unit, string)
+  format
+)
+"Source/builtin/tests/test_builtin_templates.ml" 66 2213 2251 "Source/builtin/tests/test_builtin_templates.ml" 66 2213 2252
+type(
+  int
+)
+ident(
+  int_ref x "Source/builtin/tests/test_builtin_templates.ml" 65 2170 2195 "Source/builtin/tests/test_builtin_templates.ml" 65 2170 2196
+)
+"Source/builtin/tests/test_builtin_templates.ml" 66 2213 2253 "Source/builtin/tests/test_builtin_templates.ml" 66 2213 2261
+type(
+  unit -> int list -> string
+)
+ident(
+  int_ref format_L "Source/builtin/tests/test_builtin_templates.ml" 14 377 381 "Source/builtin/tests/test_builtin_templates.ml" 14 377 389
+)
+"Source/builtin/tests/test_builtin_templates.ml" 66 2213 2262 "Source/builtin/tests/test_builtin_templates.ml" 66 2213 2264
+type(
+  int list
+)
+ident(
+  int_ref li "Source/builtin/tests/test_builtin_templates.ml" 65 2170 2198 "Source/builtin/tests/test_builtin_templates.ml" 65 2170 2200
+)
+"Source/builtin/tests/test_builtin_templates.ml" 66 2213 2265 "Source/builtin/tests/test_builtin_templates.ml" 66 2213 2266
+type(
+  int
+)
+ident(
+  int_ref y "Source/builtin/tests/test_builtin_templates.ml" 65 2170 2202 "Source/builtin/tests/test_builtin_templates.ml" 65 2170 2203
+)
+"Source/builtin/tests/test_builtin_templates.ml" 66 2213 2267 "Source/builtin/tests/test_builtin_templates.ml" 66 2213 2275
+type(
+  unit -> int list -> string
+)
+ident(
+  int_ref format_L "Source/builtin/tests/test_builtin_templates.ml" 14 377 381 "Source/builtin/tests/test_builtin_templates.ml" 14 377 389
+)
+"Source/builtin/tests/test_builtin_templates.ml" 66 2213 2276 "Source/builtin/tests/test_builtin_templates.ml" 66 2213 2279
+type(
+  int list
+)
+ident(
+  int_ref lit "Source/builtin/tests/test_builtin_templates.ml" 65 2170 2206 "Source/builtin/tests/test_builtin_templates.ml" 65 2170 2209
+)
+"Source/builtin/tests/test_builtin_templates.ml" 66 2213 2215 "Source/builtin/tests/test_builtin_templates.ml" 66 2213 2279
+call(
+  tail
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 67 2280 2284 "Source/builtin/tests/test_builtin_templates.ml" 67 2280 2296
+type(
+  'a -> ((int * int) * int * (int * int)) * int -> string
+)
+ident(
+  def format_212_1 "Source/builtin/tests/test_builtin_templates.ml" 71 2430 2430 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 67 2280 2297 "Source/builtin/tests/test_builtin_templates.ml" 67 2280 2302
+type(
+  'a
+)
+ident(
+  def out_c "Source/builtin/tests/test_builtin_templates.ml" 67 2280 2303 "Source/builtin/tests/test_builtin_templates.ml" 68 2324 2392
+)
+"Source/builtin/tests/test_builtin_templates.ml" 67 2280 2305 "Source/builtin/tests/test_builtin_templates.ml" 67 2280 2308
+type(
+  int * int
+)
+ident(
+  def x_2 "Source/builtin/tests/test_builtin_templates.ml" 68 2324 2326 "Source/builtin/tests/test_builtin_templates.ml" 68 2324 2392
+)
+"Source/builtin/tests/test_builtin_templates.ml" 67 2280 2310 "Source/builtin/tests/test_builtin_templates.ml" 67 2280 2311
+type(
+  int
+)
+ident(
+  def y "Source/builtin/tests/test_builtin_templates.ml" 68 2324 2326 "Source/builtin/tests/test_builtin_templates.ml" 68 2324 2392
+)
+"Source/builtin/tests/test_builtin_templates.ml" 67 2280 2313 "Source/builtin/tests/test_builtin_templates.ml" 67 2280 2316
+type(
+  int * int
+)
+ident(
+  def z_2 "Source/builtin/tests/test_builtin_templates.ml" 68 2324 2326 "Source/builtin/tests/test_builtin_templates.ml" 68 2324 2392
+)
+"Source/builtin/tests/test_builtin_templates.ml" 67 2280 2304 "Source/builtin/tests/test_builtin_templates.ml" 67 2280 2317
+type(
+  (int * int) * int * (int * int)
+)
+"Source/builtin/tests/test_builtin_templates.ml" 67 2280 2319 "Source/builtin/tests/test_builtin_templates.ml" 67 2280 2320
+type(
+  int
+)
+ident(
+  def t "Source/builtin/tests/test_builtin_templates.ml" 68 2324 2326 "Source/builtin/tests/test_builtin_templates.ml" 68 2324 2392
+)
+"Source/builtin/tests/test_builtin_templates.ml" 67 2280 2303 "Source/builtin/tests/test_builtin_templates.ml" 67 2280 2321
+type(
+  ((int * int) * int * (int * int)) * int
+)
+"Source/builtin/tests/test_builtin_templates.ml" 68 2324 2326 "Source/builtin/tests/test_builtin_templates.ml" 68 2324 2340
+type(
+  ((unit -> int * int -> string) ->
+   int * int ->
+   int -> (unit -> int * int -> string) -> int * int -> int -> string, 
+   unit, string)
+  format ->
+  (unit -> int * int -> string) ->
+  int * int ->
+  int -> (unit -> int * int -> string) -> int * int -> int -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+)
+"Source/builtin/tests/test_builtin_templates.ml" 68 2324 2341 "Source/builtin/tests/test_builtin_templates.ml" 68 2324 2362
+type(
+  ((unit -> int * int -> string) ->
+   int * int ->
+   int -> (unit -> int * int -> string) -> int * int -> int -> string, 
+   unit, string)
+  format
+)
+"Source/builtin/tests/test_builtin_templates.ml" 68 2324 2363 "Source/builtin/tests/test_builtin_templates.ml" 68 2324 2371
+type(
+  unit -> int * int -> string
+)
+ident(
+  int_ref format_2 "Source/builtin/tests/test_builtin_templates.ml" 4 63 67 "Source/builtin/tests/test_builtin_templates.ml" 4 63 75
+)
+"Source/builtin/tests/test_builtin_templates.ml" 68 2324 2372 "Source/builtin/tests/test_builtin_templates.ml" 68 2324 2375
+type(
+  int * int
+)
+ident(
+  int_ref x_2 "Source/builtin/tests/test_builtin_templates.ml" 67 2280 2305 "Source/builtin/tests/test_builtin_templates.ml" 67 2280 2308
+)
+"Source/builtin/tests/test_builtin_templates.ml" 68 2324 2376 "Source/builtin/tests/test_builtin_templates.ml" 68 2324 2377
+type(
+  int
+)
+ident(
+  int_ref y "Source/builtin/tests/test_builtin_templates.ml" 67 2280 2310 "Source/builtin/tests/test_builtin_templates.ml" 67 2280 2311
+)
+"Source/builtin/tests/test_builtin_templates.ml" 68 2324 2378 "Source/builtin/tests/test_builtin_templates.ml" 68 2324 2386
+type(
+  unit -> int * int -> string
+)
+ident(
+  int_ref format_2 "Source/builtin/tests/test_builtin_templates.ml" 4 63 67 "Source/builtin/tests/test_builtin_templates.ml" 4 63 75
+)
+"Source/builtin/tests/test_builtin_templates.ml" 68 2324 2387 "Source/builtin/tests/test_builtin_templates.ml" 68 2324 2390
+type(
+  int * int
+)
+ident(
+  int_ref z_2 "Source/builtin/tests/test_builtin_templates.ml" 67 2280 2313 "Source/builtin/tests/test_builtin_templates.ml" 67 2280 2316
+)
+"Source/builtin/tests/test_builtin_templates.ml" 68 2324 2391 "Source/builtin/tests/test_builtin_templates.ml" 68 2324 2392
+type(
+  int
+)
+ident(
+  int_ref t "Source/builtin/tests/test_builtin_templates.ml" 67 2280 2319 "Source/builtin/tests/test_builtin_templates.ml" 67 2280 2320
+)
+"Source/builtin/tests/test_builtin_templates.ml" 68 2324 2326 "Source/builtin/tests/test_builtin_templates.ml" 68 2324 2392
+call(
+  tail
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 71 2430 2434 "Source/builtin/tests/test_builtin_templates.ml" 71 2430 2445
+type(
+  int -> string
+)
+ident(
+  def o_printer_1 "Source/builtin/tests/test_builtin_templates.ml" 72 2468 2468 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 71 2430 2448 "Source/builtin/tests/test_builtin_templates.ml" 71 2430 2462
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+)
+"Source/builtin/tests/test_builtin_templates.ml" 71 2430 2463 "Source/builtin/tests/test_builtin_templates.ml" 71 2430 2467
+type(
+  (int -> string, unit, string) format
+)
+"Source/builtin/tests/test_builtin_templates.ml" 71 2430 2448 "Source/builtin/tests/test_builtin_templates.ml" 71 2430 2467
+call(
+  stack
+)
+type(
+  int -> string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 72 2468 2472 "Source/builtin/tests/test_builtin_templates.ml" 72 2468 2483
+type(
+  int * int -> string
+)
+ident(
+  def o_printer_2 "Source/builtin/tests/test_builtin_templates.ml" 73 2515 2515 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 72 2468 2486 "Source/builtin/tests/test_builtin_templates.ml" 72 2468 2500
+type(
+  ((unit -> int * int -> string) -> int * int -> string, unit, string) format ->
+  (unit -> int * int -> string) -> int * int -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+)
+"Source/builtin/tests/test_builtin_templates.ml" 72 2468 2501 "Source/builtin/tests/test_builtin_templates.ml" 72 2468 2505
+type(
+  ((unit -> int * int -> string) -> int * int -> string, unit, string) format
+)
+"Source/builtin/tests/test_builtin_templates.ml" 72 2468 2506 "Source/builtin/tests/test_builtin_templates.ml" 72 2468 2514
+type(
+  unit -> int * int -> string
+)
+ident(
+  int_ref format_2 "Source/builtin/tests/test_builtin_templates.ml" 4 63 67 "Source/builtin/tests/test_builtin_templates.ml" 4 63 75
+)
+"Source/builtin/tests/test_builtin_templates.ml" 72 2468 2486 "Source/builtin/tests/test_builtin_templates.ml" 72 2468 2514
+call(
+  stack
+)
+type(
+  int * int -> string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 73 2515 2519 "Source/builtin/tests/test_builtin_templates.ml" 73 2515 2530
+type(
+  int * int * int -> string
+)
+ident(
+  def o_printer_3 "Source/builtin/tests/test_builtin_templates.ml" 74 2562 2562 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 73 2515 2533 "Source/builtin/tests/test_builtin_templates.ml" 73 2515 2547
+type(
+  ((unit -> int * int * int -> string) -> int * int * int -> string, 
+   unit, string)
+  format -> (unit -> int * int * int -> string) -> int * int * int -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+)
+"Source/builtin/tests/test_builtin_templates.ml" 73 2515 2548 "Source/builtin/tests/test_builtin_templates.ml" 73 2515 2552
+type(
+  ((unit -> int * int * int -> string) -> int * int * int -> string, 
+   unit, string)
+  format
+)
+"Source/builtin/tests/test_builtin_templates.ml" 73 2515 2553 "Source/builtin/tests/test_builtin_templates.ml" 73 2515 2561
+type(
+  unit -> int * int * int -> string
+)
+ident(
+  int_ref format_3 "Source/builtin/tests/test_builtin_templates.ml" 6 123 127 "Source/builtin/tests/test_builtin_templates.ml" 6 123 135
+)
+"Source/builtin/tests/test_builtin_templates.ml" 73 2515 2533 "Source/builtin/tests/test_builtin_templates.ml" 73 2515 2561
+call(
+  stack
+)
+type(
+  int * int * int -> string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 74 2562 2566 "Source/builtin/tests/test_builtin_templates.ml" 74 2562 2578
+type(
+  (int * int) * (int * int) -> string
+)
+ident(
+  def o_printer_22 "Source/builtin/tests/test_builtin_templates.ml" 75 2611 2611 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 74 2562 2581 "Source/builtin/tests/test_builtin_templates.ml" 74 2562 2595
+type(
+  ((unit -> (int * int) * (int * int) -> string) ->
+   (int * int) * (int * int) -> string, unit, string)
+  format ->
+  (unit -> (int * int) * (int * int) -> string) ->
+  (int * int) * (int * int) -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+)
+"Source/builtin/tests/test_builtin_templates.ml" 74 2562 2596 "Source/builtin/tests/test_builtin_templates.ml" 74 2562 2600
+type(
+  ((unit -> (int * int) * (int * int) -> string) ->
+   (int * int) * (int * int) -> string, unit, string)
+  format
+)
+"Source/builtin/tests/test_builtin_templates.ml" 74 2562 2601 "Source/builtin/tests/test_builtin_templates.ml" 74 2562 2610
+type(
+  unit -> (int * int) * (int * int) -> string
+)
+ident(
+  int_ref format_22 "Source/builtin/tests/test_builtin_templates.ml" 10 266 270 "Source/builtin/tests/test_builtin_templates.ml" 10 266 279
+)
+"Source/builtin/tests/test_builtin_templates.ml" 74 2562 2581 "Source/builtin/tests/test_builtin_templates.ml" 74 2562 2610
+call(
+  stack
+)
+type(
+  (int * int) * (int * int) -> string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 75 2611 2615 "Source/builtin/tests/test_builtin_templates.ml" 75 2611 2626
+type(
+  bool -> string
+)
+ident(
+  def o_printer_b "Source/builtin/tests/test_builtin_templates.ml" 76 2649 2649 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 75 2611 2629 "Source/builtin/tests/test_builtin_templates.ml" 75 2611 2643
+type(
+  (bool -> string, unit, string) format -> bool -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+)
+"Source/builtin/tests/test_builtin_templates.ml" 75 2611 2644 "Source/builtin/tests/test_builtin_templates.ml" 75 2611 2648
+type(
+  (bool -> string, unit, string) format
+)
+"Source/builtin/tests/test_builtin_templates.ml" 75 2611 2629 "Source/builtin/tests/test_builtin_templates.ml" 75 2611 2648
+call(
+  stack
+)
+type(
+  bool -> string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 76 2649 2653 "Source/builtin/tests/test_builtin_templates.ml" 76 2649 2664
+type(
+  int list -> string
+)
+ident(
+  def o_printer_L "Source/builtin/tests/test_builtin_templates.ml" 77 2696 2696 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 76 2649 2667 "Source/builtin/tests/test_builtin_templates.ml" 76 2649 2681
+type(
+  ((unit -> int list -> string) -> int list -> string, unit, string) format ->
+  (unit -> int list -> string) -> int list -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+)
+"Source/builtin/tests/test_builtin_templates.ml" 76 2649 2682 "Source/builtin/tests/test_builtin_templates.ml" 76 2649 2686
+type(
+  ((unit -> int list -> string) -> int list -> string, unit, string) format
+)
+"Source/builtin/tests/test_builtin_templates.ml" 76 2649 2687 "Source/builtin/tests/test_builtin_templates.ml" 76 2649 2695
+type(
+  unit -> int list -> string
+)
+ident(
+  int_ref format_L "Source/builtin/tests/test_builtin_templates.ml" 14 377 381 "Source/builtin/tests/test_builtin_templates.ml" 14 377 389
+)
+"Source/builtin/tests/test_builtin_templates.ml" 76 2649 2667 "Source/builtin/tests/test_builtin_templates.ml" 76 2649 2695
+call(
+  stack
+)
+type(
+  int list -> string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 77 2696 2700 "Source/builtin/tests/test_builtin_templates.ml" 77 2696 2712
+type(
+  (int * int) list -> string
+)
+ident(
+  def o_printer_L2 "Source/builtin/tests/test_builtin_templates.ml" 78 2745 2745 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 77 2696 2715 "Source/builtin/tests/test_builtin_templates.ml" 77 2696 2729
+type(
+  ((unit -> (int * int) list -> string) -> (int * int) list -> string, 
+   unit, string)
+  format ->
+  (unit -> (int * int) list -> string) -> (int * int) list -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+)
+"Source/builtin/tests/test_builtin_templates.ml" 77 2696 2730 "Source/builtin/tests/test_builtin_templates.ml" 77 2696 2734
+type(
+  ((unit -> (int * int) list -> string) -> (int * int) list -> string, 
+   unit, string)
+  format
+)
+"Source/builtin/tests/test_builtin_templates.ml" 77 2696 2735 "Source/builtin/tests/test_builtin_templates.ml" 77 2696 2744
+type(
+  unit -> (int * int) list -> string
+)
+ident(
+  int_ref format_L2 "Source/builtin/tests/test_builtin_templates.ml" 22 573 577 "Source/builtin/tests/test_builtin_templates.ml" 22 573 586
+)
+"Source/builtin/tests/test_builtin_templates.ml" 77 2696 2715 "Source/builtin/tests/test_builtin_templates.ml" 77 2696 2744
+call(
+  stack
+)
+type(
+  (int * int) list -> string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 78 2745 2749 "Source/builtin/tests/test_builtin_templates.ml" 78 2745 2760
+type(
+  string -> string
+)
+ident(
+  def o_printer_s "Source/builtin/tests/test_builtin_templates.ml" 81 2812 2812 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 78 2745 2763 "Source/builtin/tests/test_builtin_templates.ml" 78 2745 2777
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+)
+"Source/builtin/tests/test_builtin_templates.ml" 78 2745 2778 "Source/builtin/tests/test_builtin_templates.ml" 78 2745 2782
+type(
+  (string -> string, unit, string) format
+)
+"Source/builtin/tests/test_builtin_templates.ml" 78 2745 2763 "Source/builtin/tests/test_builtin_templates.ml" 78 2745 2782
+call(
+  stack
+)
+type(
+  string -> string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 81 2812 2816 "Source/builtin/tests/test_builtin_templates.ml" 81 2812 2821
+type(
+  'a -> 'a
+)
+ident(
+  def det_1 "Source/builtin/tests/test_builtin_templates.ml" 82 2828 2828 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 81 2812 2822 "Source/builtin/tests/test_builtin_templates.ml" 81 2812 2823
+type(
+  'a
+)
+ident(
+  def f "Source/builtin/tests/test_builtin_templates.ml" 81 2812 2826 "Source/builtin/tests/test_builtin_templates.ml" 81 2812 2827
+)
+"Source/builtin/tests/test_builtin_templates.ml" 81 2812 2826 "Source/builtin/tests/test_builtin_templates.ml" 81 2812 2827
+type(
+  'a
+)
+ident(
+  int_ref f "Source/builtin/tests/test_builtin_templates.ml" 81 2812 2822 "Source/builtin/tests/test_builtin_templates.ml" 81 2812 2823
+)
+"Source/builtin/tests/test_builtin_templates.ml" 82 2828 2832 "Source/builtin/tests/test_builtin_templates.ml" 82 2828 2837
+type(
+  ('a -> 'b -> 'c) -> 'a * 'b -> 'c
+)
+ident(
+  def det_2 "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2855 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 82 2828 2838 "Source/builtin/tests/test_builtin_templates.ml" 82 2828 2839
+type(
+  'a -> 'b -> 'c
+)
+ident(
+  def f "Source/builtin/tests/test_builtin_templates.ml" 82 2828 2840 "Source/builtin/tests/test_builtin_templates.ml" 82 2828 2854
+)
+"Source/builtin/tests/test_builtin_templates.ml" 82 2828 2841 "Source/builtin/tests/test_builtin_templates.ml" 82 2828 2842
+type(
+  'a
+)
+ident(
+  def x "Source/builtin/tests/test_builtin_templates.ml" 82 2828 2849 "Source/builtin/tests/test_builtin_templates.ml" 82 2828 2854
+)
+"Source/builtin/tests/test_builtin_templates.ml" 82 2828 2844 "Source/builtin/tests/test_builtin_templates.ml" 82 2828 2845
+type(
+  'b
+)
+ident(
+  def y "Source/builtin/tests/test_builtin_templates.ml" 82 2828 2849 "Source/builtin/tests/test_builtin_templates.ml" 82 2828 2854
+)
+"Source/builtin/tests/test_builtin_templates.ml" 82 2828 2840 "Source/builtin/tests/test_builtin_templates.ml" 82 2828 2846
+type(
+  'a * 'b
+)
+"Source/builtin/tests/test_builtin_templates.ml" 82 2828 2849 "Source/builtin/tests/test_builtin_templates.ml" 82 2828 2850
+type(
+  'a -> 'b -> 'c
+)
+ident(
+  int_ref f "Source/builtin/tests/test_builtin_templates.ml" 82 2828 2838 "Source/builtin/tests/test_builtin_templates.ml" 82 2828 2839
+)
+"Source/builtin/tests/test_builtin_templates.ml" 82 2828 2851 "Source/builtin/tests/test_builtin_templates.ml" 82 2828 2852
+type(
+  'a
+)
+ident(
+  int_ref x "Source/builtin/tests/test_builtin_templates.ml" 82 2828 2841 "Source/builtin/tests/test_builtin_templates.ml" 82 2828 2842
+)
+"Source/builtin/tests/test_builtin_templates.ml" 82 2828 2853 "Source/builtin/tests/test_builtin_templates.ml" 82 2828 2854
+type(
+  'b
+)
+ident(
+  int_ref y "Source/builtin/tests/test_builtin_templates.ml" 82 2828 2844 "Source/builtin/tests/test_builtin_templates.ml" 82 2828 2845
+)
+"Source/builtin/tests/test_builtin_templates.ml" 82 2828 2849 "Source/builtin/tests/test_builtin_templates.ml" 82 2828 2854
+call(
+  tail
+)
+type(
+  'c
+)
+"Source/builtin/tests/test_builtin_templates.ml" 83 2855 2859 "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2864
+type(
+  ('a -> 'b -> 'c -> 'd) -> 'a * 'b * 'c -> 'd
+)
+ident(
+  def det_3 "Source/builtin/tests/test_builtin_templates.ml" 84 2887 2887 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 83 2855 2865 "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2866
+type(
+  'a -> 'b -> 'c -> 'd
+)
+ident(
+  def f "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2867 "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2886
+)
+"Source/builtin/tests/test_builtin_templates.ml" 83 2855 2868 "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2869
+type(
+  'a
+)
+ident(
+  def x "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2879 "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2886
+)
+"Source/builtin/tests/test_builtin_templates.ml" 83 2855 2871 "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2872
+type(
+  'b
+)
+ident(
+  def y "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2879 "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2886
+)
+"Source/builtin/tests/test_builtin_templates.ml" 83 2855 2874 "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2875
+type(
+  'c
+)
+ident(
+  def z "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2879 "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2886
+)
+"Source/builtin/tests/test_builtin_templates.ml" 83 2855 2867 "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2876
+type(
+  'a * 'b * 'c
+)
+"Source/builtin/tests/test_builtin_templates.ml" 83 2855 2879 "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2880
+type(
+  'a -> 'b -> 'c -> 'd
+)
+ident(
+  int_ref f "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2865 "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2866
+)
+"Source/builtin/tests/test_builtin_templates.ml" 83 2855 2881 "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2882
+type(
+  'a
+)
+ident(
+  int_ref x "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2868 "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2869
+)
+"Source/builtin/tests/test_builtin_templates.ml" 83 2855 2883 "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2884
+type(
+  'b
+)
+ident(
+  int_ref y "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2871 "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2872
+)
+"Source/builtin/tests/test_builtin_templates.ml" 83 2855 2885 "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2886
+type(
+  'c
+)
+ident(
+  int_ref z "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2874 "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2875
+)
+"Source/builtin/tests/test_builtin_templates.ml" 83 2855 2879 "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2886
+call(
+  tail
+)
+type(
+  'd
+)
+"Source/builtin/tests/test_builtin_templates.ml" 84 2887 2891 "Source/builtin/tests/test_builtin_templates.ml" 84 2887 2897
+type(
+  ('a -> 'b -> 'c) -> 'a * 'b -> 'c
+)
+ident(
+  def det_12 "Source/builtin/tests/test_builtin_templates.ml" 85 2919 2919 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 84 2887 2898 "Source/builtin/tests/test_builtin_templates.ml" 84 2887 2899
+type(
+  'a -> 'b -> 'c
+)
+ident(
+  def f "Source/builtin/tests/test_builtin_templates.ml" 84 2887 2900 "Source/builtin/tests/test_builtin_templates.ml" 84 2887 2918
+)
+"Source/builtin/tests/test_builtin_templates.ml" 84 2887 2901 "Source/builtin/tests/test_builtin_templates.ml" 84 2887 2902
+type(
+  'a
+)
+ident(
+  def x "Source/builtin/tests/test_builtin_templates.ml" 84 2887 2911 "Source/builtin/tests/test_builtin_templates.ml" 84 2887 2918
+)
+"Source/builtin/tests/test_builtin_templates.ml" 84 2887 2904 "Source/builtin/tests/test_builtin_templates.ml" 84 2887 2907
+type(
+  'b
+)
+ident(
+  def y_2 "Source/builtin/tests/test_builtin_templates.ml" 84 2887 2911 "Source/builtin/tests/test_builtin_templates.ml" 84 2887 2918
+)
+"Source/builtin/tests/test_builtin_templates.ml" 84 2887 2900 "Source/builtin/tests/test_builtin_templates.ml" 84 2887 2908
+type(
+  'a * 'b
+)
+"Source/builtin/tests/test_builtin_templates.ml" 84 2887 2911 "Source/builtin/tests/test_builtin_templates.ml" 84 2887 2912
+type(
+  'a -> 'b -> 'c
+)
+ident(
+  int_ref f "Source/builtin/tests/test_builtin_templates.ml" 84 2887 2898 "Source/builtin/tests/test_builtin_templates.ml" 84 2887 2899
+)
+"Source/builtin/tests/test_builtin_templates.ml" 84 2887 2913 "Source/builtin/tests/test_builtin_templates.ml" 84 2887 2914
+type(
+  'a
+)
+ident(
+  int_ref x "Source/builtin/tests/test_builtin_templates.ml" 84 2887 2901 "Source/builtin/tests/test_builtin_templates.ml" 84 2887 2902
+)
+"Source/builtin/tests/test_builtin_templates.ml" 84 2887 2915 "Source/builtin/tests/test_builtin_templates.ml" 84 2887 2918
+type(
+  'b
+)
+ident(
+  int_ref y_2 "Source/builtin/tests/test_builtin_templates.ml" 84 2887 2904 "Source/builtin/tests/test_builtin_templates.ml" 84 2887 2907
+)
+"Source/builtin/tests/test_builtin_templates.ml" 84 2887 2911 "Source/builtin/tests/test_builtin_templates.ml" 84 2887 2918
+call(
+  tail
+)
+type(
+  'c
+)
+"Source/builtin/tests/test_builtin_templates.ml" 85 2919 2923 "Source/builtin/tests/test_builtin_templates.ml" 85 2919 2929
+type(
+  (int -> (int -> bool) -> (int * int) list) ->
+  int * (int -> bool) -> (int * int) list
+)
+ident(
+  def det_1f "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3009 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 85 2919 2931 "Source/builtin/tests/test_builtin_templates.ml" 85 2919 2932
+type(
+  int -> (int -> bool) -> (int * int) list
+)
+ident(
+  def f "Source/builtin/tests/test_builtin_templates.ml" 85 2919 2976 "Source/builtin/tests/test_builtin_templates.ml" 85 2919 2990
+)
+"Source/builtin/tests/test_builtin_templates.ml" 85 2919 2977 "Source/builtin/tests/test_builtin_templates.ml" 85 2919 2978
+type(
+  int
+)
+ident(
+  def x "Source/builtin/tests/test_builtin_templates.ml" 85 2919 2985 "Source/builtin/tests/test_builtin_templates.ml" 85 2919 2990
+)
+"Source/builtin/tests/test_builtin_templates.ml" 85 2919 2980 "Source/builtin/tests/test_builtin_templates.ml" 85 2919 2981
+type(
+  int -> bool
+)
+ident(
+  def h "Source/builtin/tests/test_builtin_templates.ml" 85 2919 2985 "Source/builtin/tests/test_builtin_templates.ml" 85 2919 2990
+)
+"Source/builtin/tests/test_builtin_templates.ml" 85 2919 2976 "Source/builtin/tests/test_builtin_templates.ml" 85 2919 2982
+type(
+  int * (int -> bool)
+)
+"Source/builtin/tests/test_builtin_templates.ml" 85 2919 2985 "Source/builtin/tests/test_builtin_templates.ml" 85 2919 2986
+type(
+  int -> (int -> bool) -> (int * int) list
+)
+ident(
+  int_ref f "Source/builtin/tests/test_builtin_templates.ml" 85 2919 2931 "Source/builtin/tests/test_builtin_templates.ml" 85 2919 2932
+)
+"Source/builtin/tests/test_builtin_templates.ml" 85 2919 2987 "Source/builtin/tests/test_builtin_templates.ml" 85 2919 2988
+type(
+  int
+)
+ident(
+  int_ref x "Source/builtin/tests/test_builtin_templates.ml" 85 2919 2977 "Source/builtin/tests/test_builtin_templates.ml" 85 2919 2978
+)
+"Source/builtin/tests/test_builtin_templates.ml" 85 2919 2989 "Source/builtin/tests/test_builtin_templates.ml" 85 2919 2990
+type(
+  int -> bool
+)
+ident(
+  int_ref h "Source/builtin/tests/test_builtin_templates.ml" 85 2919 2980 "Source/builtin/tests/test_builtin_templates.ml" 85 2919 2981
+)
+"Source/builtin/tests/test_builtin_templates.ml" 85 2919 2985 "Source/builtin/tests/test_builtin_templates.ml" 85 2919 2990
+call(
+  tail
+)
+type(
+  (int * int) list
+)
+"Source/builtin/tests/test_builtin_templates.ml" 88 3009 3013 "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3021
+type(
+  (unit -> 'a * 'b -> string) ->
+  ('c -> 'a -> 'b) ->
+  ('b -> string) -> string -> 'c -> ('a * 'b) list -> OUnit2.test
+)
+ident(
+  def template "Source/builtin/tests/test_builtin_templates.ml" 102 3432 3432 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 88 3009 3022 "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3029
+type(
+  unit -> 'a * 'b -> string
+)
+ident(
+  def format_ "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3030 "Source/builtin/tests/test_builtin_templates.ml" 100 3425 3430
+)
+"Source/builtin/tests/test_builtin_templates.ml" 88 3009 3030 "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3033
+type(
+  'c -> 'a -> 'b
+)
+ident(
+  def det "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3034 "Source/builtin/tests/test_builtin_templates.ml" 100 3425 3430
+)
+"Source/builtin/tests/test_builtin_templates.ml" 88 3009 3034 "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3043
+type(
+  'b -> string
+)
+ident(
+  def o_printer "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3044 "Source/builtin/tests/test_builtin_templates.ml" 100 3425 3430
+)
+"Source/builtin/tests/test_builtin_templates.ml" 88 3009 3044 "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3050
+type(
+  string
+)
+ident(
+  def t_name "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3051 "Source/builtin/tests/test_builtin_templates.ml" 100 3425 3430
+)
+"Source/builtin/tests/test_builtin_templates.ml" 88 3009 3051 "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3061
+type(
+  'c
+)
+ident(
+  def t_function "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3062 "Source/builtin/tests/test_builtin_templates.ml" 100 3425 3430
+)
+"Source/builtin/tests/test_builtin_templates.ml" 88 3009 3062 "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3068
+type(
+  ('a * 'b) list
+)
+ident(
+  def t_list "Source/builtin/tests/test_builtin_templates.ml" 89 3071 3073 "Source/builtin/tests/test_builtin_templates.ml" 100 3425 3430
+)
+"Source/builtin/tests/test_builtin_templates.ml" 89 3071 3073 "Source/builtin/tests/test_builtin_templates.ml" 89 3071 3079
+type(
+  string
+)
+ident(
+  int_ref t_name "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3044 "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3050
+)
+"Source/builtin/tests/test_builtin_templates.ml" 89 3071 3080 "Source/builtin/tests/test_builtin_templates.ml" 89 3071 3084
+type(
+  string -> OUnit2.test list -> OUnit2.test
+)
+ident(
+  int_ref OUnit2.( >::: ) "src/oUnit2.mli" 207 7864 7864 "src/oUnit2.mli" 207 7864 7904
+)
+"Source/builtin/tests/test_builtin_templates.ml" 90 3085 3090 "Source/builtin/tests/test_builtin_templates.ml" 90 3085 3098
+type(
+  ('a * 'b -> OUnit2.test) -> ('a * 'b) list -> OUnit2.test list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 117 4530 4530 "list.mli" 117 4530 4572
+)
+"Source/builtin/tests/test_builtin_templates.ml" 91 3099 3112 "Source/builtin/tests/test_builtin_templates.ml" 91 3099 3115
+type(
+  'a
+)
+ident(
+  def arg "Source/builtin/tests/test_builtin_templates.ml" 92 3125 3134 "Source/builtin/tests/test_builtin_templates.ml" 97 3344 3401
+)
+"Source/builtin/tests/test_builtin_templates.ml" 91 3099 3117 "Source/builtin/tests/test_builtin_templates.ml" 91 3099 3120
+type(
+  'b
+)
+ident(
+  def res "Source/builtin/tests/test_builtin_templates.ml" 92 3125 3134 "Source/builtin/tests/test_builtin_templates.ml" 97 3344 3401
+)
+"Source/builtin/tests/test_builtin_templates.ml" 91 3099 3111 "Source/builtin/tests/test_builtin_templates.ml" 91 3099 3121
+type(
+  'a * 'b
+)
+"Source/builtin/tests/test_builtin_templates.ml" 92 3125 3138 "Source/builtin/tests/test_builtin_templates.ml" 92 3125 3143
+type(
+  string
+)
+ident(
+  def title "Source/builtin/tests/test_builtin_templates.ml" 93 3188 3197 "Source/builtin/tests/test_builtin_templates.ml" 97 3344 3401
+)
+"Source/builtin/tests/test_builtin_templates.ml" 92 3125 3146 "Source/builtin/tests/test_builtin_templates.ml" 92 3125 3160
+type(
+  ((unit -> 'a * 'b -> string) -> 'a * 'b -> string, unit, string) format ->
+  (unit -> 'a * 'b -> string) -> 'a * 'b -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+)
+"Source/builtin/tests/test_builtin_templates.ml" 92 3125 3161 "Source/builtin/tests/test_builtin_templates.ml" 92 3125 3165
+type(
+  ((unit -> 'a * 'b -> string) -> 'a * 'b -> string, unit, string) format
+)
+"Source/builtin/tests/test_builtin_templates.ml" 92 3125 3166 "Source/builtin/tests/test_builtin_templates.ml" 92 3125 3173
+type(
+  unit -> 'a * 'b -> string
+)
+ident(
+  int_ref format_ "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3022 "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3029
+)
+"Source/builtin/tests/test_builtin_templates.ml" 92 3125 3175 "Source/builtin/tests/test_builtin_templates.ml" 92 3125 3178
+type(
+  'a
+)
+ident(
+  int_ref arg "Source/builtin/tests/test_builtin_templates.ml" 91 3099 3112 "Source/builtin/tests/test_builtin_templates.ml" 91 3099 3115
+)
+"Source/builtin/tests/test_builtin_templates.ml" 92 3125 3180 "Source/builtin/tests/test_builtin_templates.ml" 92 3125 3183
+type(
+  'b
+)
+ident(
+  int_ref res "Source/builtin/tests/test_builtin_templates.ml" 91 3099 3117 "Source/builtin/tests/test_builtin_templates.ml" 91 3099 3120
+)
+"Source/builtin/tests/test_builtin_templates.ml" 92 3125 3174 "Source/builtin/tests/test_builtin_templates.ml" 92 3125 3184
+type(
+  'a * 'b
+)
+"Source/builtin/tests/test_builtin_templates.ml" 92 3125 3146 "Source/builtin/tests/test_builtin_templates.ml" 92 3125 3184
+call(
+  stack
+)
+type(
+  string
+)
+"Source/builtin/tests/test_builtin_templates.ml" 93 3188 3197 "Source/builtin/tests/test_builtin_templates.ml" 93 3188 3202
+type(
+  string
+)
+ident(
+  int_ref title "Source/builtin/tests/test_builtin_templates.ml" 92 3125 3138 "Source/builtin/tests/test_builtin_templates.ml" 92 3125 3143
+)
+"Source/builtin/tests/test_builtin_templates.ml" 93 3188 3203 "Source/builtin/tests/test_builtin_templates.ml" 93 3188 3206
+type(
+  string -> OUnit2.test_fun -> OUnit2.test
+)
+ident(
+  int_ref OUnit2.( >:: ) "src/oUnit2.mli" 204 7783 7783 "src/oUnit2.mli" 204 7783 7821
+)
+"Source/builtin/tests/test_builtin_templates.ml" 94 3207 3223 "Source/builtin/tests/test_builtin_templates.ml" 94 3207 3232
+type(
+  OUnit2.test_ctxt
+)
+ident(
+  def test_ctxt "Source/builtin/tests/test_builtin_templates.ml" 94 3207 3236 "Source/builtin/tests/test_builtin_templates.ml" 97 3344 3400
+)
+"Source/builtin/tests/test_builtin_templates.ml" 94 3207 3236 "Source/builtin/tests/test_builtin_templates.ml" 94 3207 3248
+type(
+  ?ctxt:OUnit2.test_ctxt ->
+  ?cmp:('b -> 'b -> bool) ->
+  ?printer:('b -> string) ->
+  ?pp_diff:(Format.formatter -> 'b * 'b -> unit) ->
+  ?msg:string -> 'b -> 'b -> unit
+)
+ident(
+  int_ref OUnit2.assert_equal "src/oUnit2.mli" 109 4685 4685 "src/oUnit2.mli" 114 4837 4870
+)
+"Source/builtin/tests/test_builtin_templates.ml" 95 3249 3286 "Source/builtin/tests/test_builtin_templates.ml" 95 3249 3292
+type(
+  string
+)
+ident(
+  int_ref t_name "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3044 "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3050
+)
+"Source/builtin/tests/test_builtin_templates.ml" 96 3293 3334 "Source/builtin/tests/test_builtin_templates.ml" 96 3293 3343
+type(
+  'b -> string
+)
+ident(
+  int_ref o_printer "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3034 "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3043
+)
+"Source/builtin/tests/test_builtin_templates.ml" 97 3344 3374 "Source/builtin/tests/test_builtin_templates.ml" 97 3344 3377
+type(
+  'b
+)
+ident(
+  int_ref res "Source/builtin/tests/test_builtin_templates.ml" 91 3099 3117 "Source/builtin/tests/test_builtin_templates.ml" 91 3099 3120
+)
+"Source/builtin/tests/test_builtin_templates.ml" 97 3344 3380 "Source/builtin/tests/test_builtin_templates.ml" 97 3344 3383
+type(
+  'c -> 'a -> 'b
+)
+ident(
+  int_ref det "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3030 "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3033
+)
+"Source/builtin/tests/test_builtin_templates.ml" 97 3344 3384 "Source/builtin/tests/test_builtin_templates.ml" 97 3344 3394
+type(
+  'c
+)
+ident(
+  int_ref t_function "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3051 "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3061
+)
+"Source/builtin/tests/test_builtin_templates.ml" 97 3344 3379 "Source/builtin/tests/test_builtin_templates.ml" 97 3344 3395
+type(
+  'a -> 'b
+)
+"Source/builtin/tests/test_builtin_templates.ml" 97 3344 3396 "Source/builtin/tests/test_builtin_templates.ml" 97 3344 3399
+type(
+  'a
+)
+ident(
+  int_ref arg "Source/builtin/tests/test_builtin_templates.ml" 91 3099 3112 "Source/builtin/tests/test_builtin_templates.ml" 91 3099 3115
+)
+"Source/builtin/tests/test_builtin_templates.ml" 97 3344 3378 "Source/builtin/tests/test_builtin_templates.ml" 97 3344 3400
+call(
+  stack
+)
+type(
+  'b
+)
+"Source/builtin/tests/test_builtin_templates.ml" 94 3207 3236 "Source/builtin/tests/test_builtin_templates.ml" 97 3344 3400
+call(
+  tail
+)
+type(
+  unit
+)
+"Source/builtin/tests/test_builtin_templates.ml" 94 3207 3218 "Source/builtin/tests/test_builtin_templates.ml" 97 3344 3401
+type(
+  OUnit2.test_fun
+)
+"Source/builtin/tests/test_builtin_templates.ml" 93 3188 3197 "Source/builtin/tests/test_builtin_templates.ml" 97 3344 3401
+call(
+  tail
+)
+type(
+  OUnit2.test
+)
+"Source/builtin/tests/test_builtin_templates.ml" 92 3125 3134 "Source/builtin/tests/test_builtin_templates.ml" 97 3344 3401
+type(
+  OUnit2.test
+)
+"Source/builtin/tests/test_builtin_templates.ml" 91 3099 3106 "Source/builtin/tests/test_builtin_templates.ml" 98 3402 3410
+type(
+  'a * 'b -> OUnit2.test
+)
+"Source/builtin/tests/test_builtin_templates.ml" 99 3411 3418 "Source/builtin/tests/test_builtin_templates.ml" 99 3411 3424
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref t_list "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3062 "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3068
+)
+"Source/builtin/tests/test_builtin_templates.ml" 90 3085 3089 "Source/builtin/tests/test_builtin_templates.ml" 100 3425 3430
+call(
+  stack
+)
+type(
+  OUnit2.test list
+)
+"Source/builtin/tests/test_builtin_templates.ml" 89 3071 3073 "Source/builtin/tests/test_builtin_templates.ml" 100 3425 3430
+call(
+  tail
+)
+type(
+  OUnit2.test
+)
+"Source/builtin/tests/test_builtin_templates.ml" 102 3432 3436 "Source/builtin/tests/test_builtin_templates.ml" 102 3432 3448
+type(
+  string -> (int -> int) -> (int * int) list -> OUnit2.test
+)
+ident(
+  def template_1_1 "Source/builtin/tests/test_builtin_templates.ml" 103 3489 3489 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 102 3432 3451 "Source/builtin/tests/test_builtin_templates.ml" 102 3432 3459
+type(
+  (unit -> int * int -> string) ->
+  ((int -> int) -> int -> int) ->
+  (int -> string) ->
+  string -> (int -> int) -> (int * int) list -> OUnit2.test
+)
+ident(
+  int_ref template "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3013 "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3021
+)
+"Source/builtin/tests/test_builtin_templates.ml" 102 3432 3460 "Source/builtin/tests/test_builtin_templates.ml" 102 3432 3470
+type(
+  unit -> int * int -> string
+)
+ident(
+  int_ref format_1_1 "Source/builtin/tests/test_builtin_templates.ml" 33 924 928 "Source/builtin/tests/test_builtin_templates.ml" 33 924 938
+)
+"Source/builtin/tests/test_builtin_templates.ml" 102 3432 3471 "Source/builtin/tests/test_builtin_templates.ml" 102 3432 3476
+type(
+  (int -> int) -> int -> int
+)
+ident(
+  int_ref det_1 "Source/builtin/tests/test_builtin_templates.ml" 81 2812 2816 "Source/builtin/tests/test_builtin_templates.ml" 81 2812 2821
+)
+"Source/builtin/tests/test_builtin_templates.ml" 102 3432 3477 "Source/builtin/tests/test_builtin_templates.ml" 102 3432 3488
+type(
+  int -> string
+)
+ident(
+  int_ref o_printer_1 "Source/builtin/tests/test_builtin_templates.ml" 71 2430 2434 "Source/builtin/tests/test_builtin_templates.ml" 71 2430 2445
+)
+"Source/builtin/tests/test_builtin_templates.ml" 102 3432 3451 "Source/builtin/tests/test_builtin_templates.ml" 102 3432 3488
+call(
+  stack
+)
+type(
+  string -> (int -> int) -> (int * int) list -> OUnit2.test
+)
+"Source/builtin/tests/test_builtin_templates.ml" 103 3489 3493 "Source/builtin/tests/test_builtin_templates.ml" 103 3489 3505
+type(
+  string -> (int -> int -> int) -> ((int * int) * int) list -> OUnit2.test
+)
+ident(
+  def template_2_1 "Source/builtin/tests/test_builtin_templates.ml" 104 3546 3546 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 103 3489 3508 "Source/builtin/tests/test_builtin_templates.ml" 103 3489 3516
+type(
+  (unit -> (int * int) * int -> string) ->
+  ((int -> int -> int) -> int * int -> int) ->
+  (int -> string) ->
+  string -> (int -> int -> int) -> ((int * int) * int) list -> OUnit2.test
+)
+ident(
+  int_ref template "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3013 "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3021
+)
+"Source/builtin/tests/test_builtin_templates.ml" 103 3489 3517 "Source/builtin/tests/test_builtin_templates.ml" 103 3489 3527
+type(
+  unit -> (int * int) * int -> string
+)
+ident(
+  int_ref format_2_1 "Source/builtin/tests/test_builtin_templates.ml" 34 950 954 "Source/builtin/tests/test_builtin_templates.ml" 34 950 964
+)
+"Source/builtin/tests/test_builtin_templates.ml" 103 3489 3528 "Source/builtin/tests/test_builtin_templates.ml" 103 3489 3533
+type(
+  (int -> int -> int) -> int * int -> int
+)
+ident(
+  int_ref det_2 "Source/builtin/tests/test_builtin_templates.ml" 82 2828 2832 "Source/builtin/tests/test_builtin_templates.ml" 82 2828 2837
+)
+"Source/builtin/tests/test_builtin_templates.ml" 103 3489 3534 "Source/builtin/tests/test_builtin_templates.ml" 103 3489 3545
+type(
+  int -> string
+)
+ident(
+  int_ref o_printer_1 "Source/builtin/tests/test_builtin_templates.ml" 71 2430 2434 "Source/builtin/tests/test_builtin_templates.ml" 71 2430 2445
+)
+"Source/builtin/tests/test_builtin_templates.ml" 103 3489 3508 "Source/builtin/tests/test_builtin_templates.ml" 103 3489 3545
+call(
+  stack
+)
+type(
+  string -> (int -> int -> int) -> ((int * int) * int) list -> OUnit2.test
+)
+"Source/builtin/tests/test_builtin_templates.ml" 104 3546 3550 "Source/builtin/tests/test_builtin_templates.ml" 104 3546 3562
+type(
+  string ->
+  (int -> int -> int * int) ->
+  ((int * int) * (int * int)) list -> OUnit2.test
+)
+ident(
+  def template_2_2 "Source/builtin/tests/test_builtin_templates.ml" 105 3603 3603 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 104 3546 3565 "Source/builtin/tests/test_builtin_templates.ml" 104 3546 3573
+type(
+  (unit -> (int * int) * (int * int) -> string) ->
+  ((int -> int -> int * int) -> int * int -> int * int) ->
+  (int * int -> string) ->
+  string ->
+  (int -> int -> int * int) ->
+  ((int * int) * (int * int)) list -> OUnit2.test
+)
+ident(
+  int_ref template "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3013 "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3021
+)
+"Source/builtin/tests/test_builtin_templates.ml" 104 3546 3574 "Source/builtin/tests/test_builtin_templates.ml" 104 3546 3584
+type(
+  unit -> (int * int) * (int * int) -> string
+)
+ident(
+  int_ref format_2_2 "Source/builtin/tests/test_builtin_templates.ml" 36 1025 1029 "Source/builtin/tests/test_builtin_templates.ml" 36 1025 1039
+)
+"Source/builtin/tests/test_builtin_templates.ml" 104 3546 3585 "Source/builtin/tests/test_builtin_templates.ml" 104 3546 3590
+type(
+  (int -> int -> int * int) -> int * int -> int * int
+)
+ident(
+  int_ref det_2 "Source/builtin/tests/test_builtin_templates.ml" 82 2828 2832 "Source/builtin/tests/test_builtin_templates.ml" 82 2828 2837
+)
+"Source/builtin/tests/test_builtin_templates.ml" 104 3546 3591 "Source/builtin/tests/test_builtin_templates.ml" 104 3546 3602
+type(
+  int * int -> string
+)
+ident(
+  int_ref o_printer_2 "Source/builtin/tests/test_builtin_templates.ml" 72 2468 2472 "Source/builtin/tests/test_builtin_templates.ml" 72 2468 2483
+)
+"Source/builtin/tests/test_builtin_templates.ml" 104 3546 3565 "Source/builtin/tests/test_builtin_templates.ml" 104 3546 3602
+call(
+  stack
+)
+type(
+  string ->
+  (int -> int -> int * int) ->
+  ((int * int) * (int * int)) list -> OUnit2.test
+)
+"Source/builtin/tests/test_builtin_templates.ml" 105 3603 3607 "Source/builtin/tests/test_builtin_templates.ml" 105 3603 3619
+type(
+  string ->
+  (int -> int -> int * int * int) ->
+  ((int * int) * (int * int * int)) list -> OUnit2.test
+)
+ident(
+  def template_2_3 "Source/builtin/tests/test_builtin_templates.ml" 106 3660 3660 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 105 3603 3622 "Source/builtin/tests/test_builtin_templates.ml" 105 3603 3630
+type(
+  (unit -> (int * int) * (int * int * int) -> string) ->
+  ((int -> int -> int * int * int) -> int * int -> int * int * int) ->
+  (int * int * int -> string) ->
+  string ->
+  (int -> int -> int * int * int) ->
+  ((int * int) * (int * int * int)) list -> OUnit2.test
+)
+ident(
+  int_ref template "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3013 "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3021
+)
+"Source/builtin/tests/test_builtin_templates.ml" 105 3603 3631 "Source/builtin/tests/test_builtin_templates.ml" 105 3603 3641
+type(
+  unit -> (int * int) * (int * int * int) -> string
+)
+ident(
+  int_ref format_2_3 "Source/builtin/tests/test_builtin_templates.ml" 37 1052 1056 "Source/builtin/tests/test_builtin_templates.ml" 37 1052 1066
+)
+"Source/builtin/tests/test_builtin_templates.ml" 105 3603 3642 "Source/builtin/tests/test_builtin_templates.ml" 105 3603 3647
+type(
+  (int -> int -> int * int * int) -> int * int -> int * int * int
+)
+ident(
+  int_ref det_2 "Source/builtin/tests/test_builtin_templates.ml" 82 2828 2832 "Source/builtin/tests/test_builtin_templates.ml" 82 2828 2837
+)
+"Source/builtin/tests/test_builtin_templates.ml" 105 3603 3648 "Source/builtin/tests/test_builtin_templates.ml" 105 3603 3659
+type(
+  int * int * int -> string
+)
+ident(
+  int_ref o_printer_3 "Source/builtin/tests/test_builtin_templates.ml" 73 2515 2519 "Source/builtin/tests/test_builtin_templates.ml" 73 2515 2530
+)
+"Source/builtin/tests/test_builtin_templates.ml" 105 3603 3622 "Source/builtin/tests/test_builtin_templates.ml" 105 3603 3659
+call(
+  stack
+)
+type(
+  string ->
+  (int -> int -> int * int * int) ->
+  ((int * int) * (int * int * int)) list -> OUnit2.test
+)
+"Source/builtin/tests/test_builtin_templates.ml" 106 3660 3664 "Source/builtin/tests/test_builtin_templates.ml" 106 3660 3676
+type(
+  string ->
+  (int -> int -> int -> int) -> ((int * int * int) * int) list -> OUnit2.test
+)
+ident(
+  def template_3_1 "Source/builtin/tests/test_builtin_templates.ml" 107 3717 3717 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 106 3660 3679 "Source/builtin/tests/test_builtin_templates.ml" 106 3660 3687
+type(
+  (unit -> (int * int * int) * int -> string) ->
+  ((int -> int -> int -> int) -> int * int * int -> int) ->
+  (int -> string) ->
+  string ->
+  (int -> int -> int -> int) -> ((int * int * int) * int) list -> OUnit2.test
+)
+ident(
+  int_ref template "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3013 "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3021
+)
+"Source/builtin/tests/test_builtin_templates.ml" 106 3660 3688 "Source/builtin/tests/test_builtin_templates.ml" 106 3660 3698
+type(
+  unit -> (int * int * int) * int -> string
+)
+ident(
+  int_ref format_3_1 "Source/builtin/tests/test_builtin_templates.ml" 39 1140 1144 "Source/builtin/tests/test_builtin_templates.ml" 39 1140 1154
+)
+"Source/builtin/tests/test_builtin_templates.ml" 106 3660 3699 "Source/builtin/tests/test_builtin_templates.ml" 106 3660 3704
+type(
+  (int -> int -> int -> int) -> int * int * int -> int
+)
+ident(
+  int_ref det_3 "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2859 "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2864
+)
+"Source/builtin/tests/test_builtin_templates.ml" 106 3660 3705 "Source/builtin/tests/test_builtin_templates.ml" 106 3660 3716
+type(
+  int -> string
+)
+ident(
+  int_ref o_printer_1 "Source/builtin/tests/test_builtin_templates.ml" 71 2430 2434 "Source/builtin/tests/test_builtin_templates.ml" 71 2430 2445
+)
+"Source/builtin/tests/test_builtin_templates.ml" 106 3660 3679 "Source/builtin/tests/test_builtin_templates.ml" 106 3660 3716
+call(
+  stack
+)
+type(
+  string ->
+  (int -> int -> int -> int) -> ((int * int * int) * int) list -> OUnit2.test
+)
+"Source/builtin/tests/test_builtin_templates.ml" 107 3717 3721 "Source/builtin/tests/test_builtin_templates.ml" 107 3717 3733
+type(
+  string -> (int -> bool) -> (int * bool) list -> OUnit2.test
+)
+ident(
+  def template_1_b "Source/builtin/tests/test_builtin_templates.ml" 108 3774 3774 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 107 3717 3736 "Source/builtin/tests/test_builtin_templates.ml" 107 3717 3744
+type(
+  (unit -> int * bool -> string) ->
+  ((int -> bool) -> int -> bool) ->
+  (bool -> string) ->
+  string -> (int -> bool) -> (int * bool) list -> OUnit2.test
+)
+ident(
+  int_ref template "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3013 "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3021
+)
+"Source/builtin/tests/test_builtin_templates.ml" 107 3717 3745 "Source/builtin/tests/test_builtin_templates.ml" 107 3717 3755
+type(
+  unit -> int * bool -> string
+)
+ident(
+  int_ref format_1_b "Source/builtin/tests/test_builtin_templates.ml" 45 1386 1390 "Source/builtin/tests/test_builtin_templates.ml" 45 1386 1400
+)
+"Source/builtin/tests/test_builtin_templates.ml" 107 3717 3756 "Source/builtin/tests/test_builtin_templates.ml" 107 3717 3761
+type(
+  (int -> bool) -> int -> bool
+)
+ident(
+  int_ref det_1 "Source/builtin/tests/test_builtin_templates.ml" 81 2812 2816 "Source/builtin/tests/test_builtin_templates.ml" 81 2812 2821
+)
+"Source/builtin/tests/test_builtin_templates.ml" 107 3717 3762 "Source/builtin/tests/test_builtin_templates.ml" 107 3717 3773
+type(
+  bool -> string
+)
+ident(
+  int_ref o_printer_b "Source/builtin/tests/test_builtin_templates.ml" 75 2611 2615 "Source/builtin/tests/test_builtin_templates.ml" 75 2611 2626
+)
+"Source/builtin/tests/test_builtin_templates.ml" 107 3717 3736 "Source/builtin/tests/test_builtin_templates.ml" 107 3717 3773
+call(
+  stack
+)
+type(
+  string -> (int -> bool) -> (int * bool) list -> OUnit2.test
+)
+"Source/builtin/tests/test_builtin_templates.ml" 108 3774 3778 "Source/builtin/tests/test_builtin_templates.ml" 108 3774 3790
+type(
+  string ->
+  (int -> int -> int -> bool) ->
+  ((int * int * int) * bool) list -> OUnit2.test
+)
+ident(
+  def template_3_b "Source/builtin/tests/test_builtin_templates.ml" 109 3831 3831 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 108 3774 3793 "Source/builtin/tests/test_builtin_templates.ml" 108 3774 3801
+type(
+  (unit -> (int * int * int) * bool -> string) ->
+  ((int -> int -> int -> bool) -> int * int * int -> bool) ->
+  (bool -> string) ->
+  string ->
+  (int -> int -> int -> bool) ->
+  ((int * int * int) * bool) list -> OUnit2.test
+)
+ident(
+  int_ref template "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3013 "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3021
+)
+"Source/builtin/tests/test_builtin_templates.ml" 108 3774 3802 "Source/builtin/tests/test_builtin_templates.ml" 108 3774 3812
+type(
+  unit -> (int * int * int) * bool -> string
+)
+ident(
+  int_ref format_3_b "Source/builtin/tests/test_builtin_templates.ml" 47 1450 1454 "Source/builtin/tests/test_builtin_templates.ml" 47 1450 1464
+)
+"Source/builtin/tests/test_builtin_templates.ml" 108 3774 3813 "Source/builtin/tests/test_builtin_templates.ml" 108 3774 3818
+type(
+  (int -> int -> int -> bool) -> int * int * int -> bool
+)
+ident(
+  int_ref det_3 "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2859 "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2864
+)
+"Source/builtin/tests/test_builtin_templates.ml" 108 3774 3819 "Source/builtin/tests/test_builtin_templates.ml" 108 3774 3830
+type(
+  bool -> string
+)
+ident(
+  int_ref o_printer_b "Source/builtin/tests/test_builtin_templates.ml" 75 2611 2615 "Source/builtin/tests/test_builtin_templates.ml" 75 2611 2626
+)
+"Source/builtin/tests/test_builtin_templates.ml" 108 3774 3793 "Source/builtin/tests/test_builtin_templates.ml" 108 3774 3830
+call(
+  stack
+)
+type(
+  string ->
+  (int -> int -> int -> bool) ->
+  ((int * int * int) * bool) list -> OUnit2.test
+)
+"Source/builtin/tests/test_builtin_templates.ml" 109 3831 3835 "Source/builtin/tests/test_builtin_templates.ml" 109 3831 3847
+type(
+  string -> (int -> int list) -> (int * int list) list -> OUnit2.test
+)
+ident(
+  def template_1_L "Source/builtin/tests/test_builtin_templates.ml" 110 3888 3888 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 109 3831 3850 "Source/builtin/tests/test_builtin_templates.ml" 109 3831 3858
+type(
+  (unit -> int * int list -> string) ->
+  ((int -> int list) -> int -> int list) ->
+  (int list -> string) ->
+  string -> (int -> int list) -> (int * int list) list -> OUnit2.test
+)
+ident(
+  int_ref template "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3013 "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3021
+)
+"Source/builtin/tests/test_builtin_templates.ml" 109 3831 3859 "Source/builtin/tests/test_builtin_templates.ml" 109 3831 3869
+type(
+  unit -> int * int list -> string
+)
+ident(
+  int_ref format_1_L "Source/builtin/tests/test_builtin_templates.ml" 49 1527 1531 "Source/builtin/tests/test_builtin_templates.ml" 49 1527 1541
+)
+"Source/builtin/tests/test_builtin_templates.ml" 109 3831 3870 "Source/builtin/tests/test_builtin_templates.ml" 109 3831 3875
+type(
+  (int -> int list) -> int -> int list
+)
+ident(
+  int_ref det_1 "Source/builtin/tests/test_builtin_templates.ml" 81 2812 2816 "Source/builtin/tests/test_builtin_templates.ml" 81 2812 2821
+)
+"Source/builtin/tests/test_builtin_templates.ml" 109 3831 3876 "Source/builtin/tests/test_builtin_templates.ml" 109 3831 3887
+type(
+  int list -> string
+)
+ident(
+  int_ref o_printer_L "Source/builtin/tests/test_builtin_templates.ml" 76 2649 2653 "Source/builtin/tests/test_builtin_templates.ml" 76 2649 2664
+)
+"Source/builtin/tests/test_builtin_templates.ml" 109 3831 3850 "Source/builtin/tests/test_builtin_templates.ml" 109 3831 3887
+call(
+  stack
+)
+type(
+  string -> (int -> int list) -> (int * int list) list -> OUnit2.test
+)
+"Source/builtin/tests/test_builtin_templates.ml" 110 3888 3892 "Source/builtin/tests/test_builtin_templates.ml" 110 3888 3905
+type(
+  string ->
+  (int -> int list -> bool) -> ((int * int list) * bool) list -> OUnit2.test
+)
+ident(
+  def template_1L_b "Source/builtin/tests/test_builtin_templates.ml" 111 3947 3947 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 110 3888 3908 "Source/builtin/tests/test_builtin_templates.ml" 110 3888 3916
+type(
+  (unit -> (int * int list) * bool -> string) ->
+  ((int -> int list -> bool) -> int * int list -> bool) ->
+  (bool -> string) ->
+  string ->
+  (int -> int list -> bool) -> ((int * int list) * bool) list -> OUnit2.test
+)
+ident(
+  int_ref template "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3013 "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3021
+)
+"Source/builtin/tests/test_builtin_templates.ml" 110 3888 3917 "Source/builtin/tests/test_builtin_templates.ml" 110 3888 3928
+type(
+  unit -> (int * int list) * bool -> string
+)
+ident(
+  int_ref format_1L_b "Source/builtin/tests/test_builtin_templates.ml" 51 1600 1604 "Source/builtin/tests/test_builtin_templates.ml" 51 1600 1615
+)
+"Source/builtin/tests/test_builtin_templates.ml" 110 3888 3929 "Source/builtin/tests/test_builtin_templates.ml" 110 3888 3934
+type(
+  (int -> int list -> bool) -> int * int list -> bool
+)
+ident(
+  int_ref det_2 "Source/builtin/tests/test_builtin_templates.ml" 82 2828 2832 "Source/builtin/tests/test_builtin_templates.ml" 82 2828 2837
+)
+"Source/builtin/tests/test_builtin_templates.ml" 110 3888 3935 "Source/builtin/tests/test_builtin_templates.ml" 110 3888 3946
+type(
+  bool -> string
+)
+ident(
+  int_ref o_printer_b "Source/builtin/tests/test_builtin_templates.ml" 75 2611 2615 "Source/builtin/tests/test_builtin_templates.ml" 75 2611 2626
+)
+"Source/builtin/tests/test_builtin_templates.ml" 110 3888 3908 "Source/builtin/tests/test_builtin_templates.ml" 110 3888 3946
+call(
+  stack
+)
+type(
+  string ->
+  (int -> int list -> bool) -> ((int * int list) * bool) list -> OUnit2.test
+)
+"Source/builtin/tests/test_builtin_templates.ml" 111 3947 3951 "Source/builtin/tests/test_builtin_templates.ml" 111 3947 3963
+type(
+  string ->
+  (int -> int -> int -> int list) ->
+  ((int * int * int) * int list) list -> OUnit2.test
+)
+ident(
+  def template_3_L "Source/builtin/tests/test_builtin_templates.ml" 112 4004 4004 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 111 3947 3966 "Source/builtin/tests/test_builtin_templates.ml" 111 3947 3974
+type(
+  (unit -> (int * int * int) * int list -> string) ->
+  ((int -> int -> int -> int list) -> int * int * int -> int list) ->
+  (int list -> string) ->
+  string ->
+  (int -> int -> int -> int list) ->
+  ((int * int * int) * int list) list -> OUnit2.test
+)
+ident(
+  int_ref template "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3013 "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3021
+)
+"Source/builtin/tests/test_builtin_templates.ml" 111 3947 3975 "Source/builtin/tests/test_builtin_templates.ml" 111 3947 3985
+type(
+  unit -> (int * int * int) * int list -> string
+)
+ident(
+  int_ref format_3_L "Source/builtin/tests/test_builtin_templates.ml" 53 1688 1692 "Source/builtin/tests/test_builtin_templates.ml" 53 1688 1702
+)
+"Source/builtin/tests/test_builtin_templates.ml" 111 3947 3986 "Source/builtin/tests/test_builtin_templates.ml" 111 3947 3991
+type(
+  (int -> int -> int -> int list) -> int * int * int -> int list
+)
+ident(
+  int_ref det_3 "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2859 "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2864
+)
+"Source/builtin/tests/test_builtin_templates.ml" 111 3947 3992 "Source/builtin/tests/test_builtin_templates.ml" 111 3947 4003
+type(
+  int list -> string
+)
+ident(
+  int_ref o_printer_L "Source/builtin/tests/test_builtin_templates.ml" 76 2649 2653 "Source/builtin/tests/test_builtin_templates.ml" 76 2649 2664
+)
+"Source/builtin/tests/test_builtin_templates.ml" 111 3947 3966 "Source/builtin/tests/test_builtin_templates.ml" 111 3947 4003
+call(
+  stack
+)
+type(
+  string ->
+  (int -> int -> int -> int list) ->
+  ((int * int * int) * int list) list -> OUnit2.test
+)
+"Source/builtin/tests/test_builtin_templates.ml" 112 4004 4008 "Source/builtin/tests/test_builtin_templates.ml" 112 4004 4020
+type(
+  string -> (int list -> int) -> (int list * int) list -> OUnit2.test
+)
+ident(
+  def template_L_1 "Source/builtin/tests/test_builtin_templates.ml" 113 4061 4061 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 112 4004 4023 "Source/builtin/tests/test_builtin_templates.ml" 112 4004 4031
+type(
+  (unit -> int list * int -> string) ->
+  ((int list -> int) -> int list -> int) ->
+  (int -> string) ->
+  string -> (int list -> int) -> (int list * int) list -> OUnit2.test
+)
+ident(
+  int_ref template "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3013 "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3021
+)
+"Source/builtin/tests/test_builtin_templates.ml" 112 4004 4032 "Source/builtin/tests/test_builtin_templates.ml" 112 4004 4042
+type(
+  unit -> int list * int -> string
+)
+ident(
+  int_ref format_L_1 "Source/builtin/tests/test_builtin_templates.ml" 55 1774 1778 "Source/builtin/tests/test_builtin_templates.ml" 55 1774 1788
+)
+"Source/builtin/tests/test_builtin_templates.ml" 112 4004 4043 "Source/builtin/tests/test_builtin_templates.ml" 112 4004 4048
+type(
+  (int list -> int) -> int list -> int
+)
+ident(
+  int_ref det_1 "Source/builtin/tests/test_builtin_templates.ml" 81 2812 2816 "Source/builtin/tests/test_builtin_templates.ml" 81 2812 2821
+)
+"Source/builtin/tests/test_builtin_templates.ml" 112 4004 4049 "Source/builtin/tests/test_builtin_templates.ml" 112 4004 4060
+type(
+  int -> string
+)
+ident(
+  int_ref o_printer_1 "Source/builtin/tests/test_builtin_templates.ml" 71 2430 2434 "Source/builtin/tests/test_builtin_templates.ml" 71 2430 2445
+)
+"Source/builtin/tests/test_builtin_templates.ml" 112 4004 4023 "Source/builtin/tests/test_builtin_templates.ml" 112 4004 4060
+call(
+  stack
+)
+type(
+  string -> (int list -> int) -> (int list * int) list -> OUnit2.test
+)
+"Source/builtin/tests/test_builtin_templates.ml" 113 4061 4065 "Source/builtin/tests/test_builtin_templates.ml" 113 4061 4077
+type(
+  string ->
+  (int list -> int * int) -> (int list * (int * int)) list -> OUnit2.test
+)
+ident(
+  def template_L_2 "Source/builtin/tests/test_builtin_templates.ml" 114 4118 4118 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 113 4061 4080 "Source/builtin/tests/test_builtin_templates.ml" 113 4061 4088
+type(
+  (unit -> int list * (int * int) -> string) ->
+  ((int list -> int * int) -> int list -> int * int) ->
+  (int * int -> string) ->
+  string ->
+  (int list -> int * int) -> (int list * (int * int)) list -> OUnit2.test
+)
+ident(
+  int_ref template "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3013 "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3021
+)
+"Source/builtin/tests/test_builtin_templates.ml" 113 4061 4089 "Source/builtin/tests/test_builtin_templates.ml" 113 4061 4099
+type(
+  unit -> int list * (int * int) -> string
+)
+ident(
+  int_ref format_L_2 "Source/builtin/tests/test_builtin_templates.ml" 57 1847 1851 "Source/builtin/tests/test_builtin_templates.ml" 57 1847 1861
+)
+"Source/builtin/tests/test_builtin_templates.ml" 113 4061 4100 "Source/builtin/tests/test_builtin_templates.ml" 113 4061 4105
+type(
+  (int list -> int * int) -> int list -> int * int
+)
+ident(
+  int_ref det_1 "Source/builtin/tests/test_builtin_templates.ml" 81 2812 2816 "Source/builtin/tests/test_builtin_templates.ml" 81 2812 2821
+)
+"Source/builtin/tests/test_builtin_templates.ml" 113 4061 4106 "Source/builtin/tests/test_builtin_templates.ml" 113 4061 4117
+type(
+  int * int -> string
+)
+ident(
+  int_ref o_printer_2 "Source/builtin/tests/test_builtin_templates.ml" 72 2468 2472 "Source/builtin/tests/test_builtin_templates.ml" 72 2468 2483
+)
+"Source/builtin/tests/test_builtin_templates.ml" 113 4061 4080 "Source/builtin/tests/test_builtin_templates.ml" 113 4061 4117
+call(
+  stack
+)
+type(
+  string ->
+  (int list -> int * int) -> (int list * (int * int)) list -> OUnit2.test
+)
+"Source/builtin/tests/test_builtin_templates.ml" 114 4118 4122 "Source/builtin/tests/test_builtin_templates.ml" 114 4118 4136
+type(
+  string ->
+  (int -> (int -> bool) -> (int * int) list) ->
+  ((int * (int -> bool)) * (int * int) list) list -> OUnit2.test
+)
+ident(
+  def template_1f_L2 "Source/builtin/tests/test_builtin_templates.ml" 115 4181 4181 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 114 4118 4139 "Source/builtin/tests/test_builtin_templates.ml" 114 4118 4147
+type(
+  (unit -> (int * (int -> bool)) * (int * int) list -> string) ->
+  ((int -> (int -> bool) -> (int * int) list) ->
+   int * (int -> bool) -> (int * int) list) ->
+  ((int * int) list -> string) ->
+  string ->
+  (int -> (int -> bool) -> (int * int) list) ->
+  ((int * (int -> bool)) * (int * int) list) list -> OUnit2.test
+)
+ident(
+  int_ref template "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3013 "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3021
+)
+"Source/builtin/tests/test_builtin_templates.ml" 114 4118 4148 "Source/builtin/tests/test_builtin_templates.ml" 114 4118 4160
+type(
+  unit -> (int * (int -> bool)) * (int * int) list -> string
+)
+ident(
+  int_ref format_1f_L2 "Source/builtin/tests/test_builtin_templates.ml" 59 1933 1937 "Source/builtin/tests/test_builtin_templates.ml" 59 1933 1949
+)
+"Source/builtin/tests/test_builtin_templates.ml" 114 4118 4161 "Source/builtin/tests/test_builtin_templates.ml" 114 4118 4167
+type(
+  (int -> (int -> bool) -> (int * int) list) ->
+  int * (int -> bool) -> (int * int) list
+)
+ident(
+  int_ref det_1f "Source/builtin/tests/test_builtin_templates.ml" 85 2919 2923 "Source/builtin/tests/test_builtin_templates.ml" 85 2919 2929
+)
+"Source/builtin/tests/test_builtin_templates.ml" 114 4118 4168 "Source/builtin/tests/test_builtin_templates.ml" 114 4118 4180
+type(
+  (int * int) list -> string
+)
+ident(
+  int_ref o_printer_L2 "Source/builtin/tests/test_builtin_templates.ml" 77 2696 2700 "Source/builtin/tests/test_builtin_templates.ml" 77 2696 2712
+)
+"Source/builtin/tests/test_builtin_templates.ml" 114 4118 4139 "Source/builtin/tests/test_builtin_templates.ml" 114 4118 4180
+call(
+  stack
+)
+type(
+  string ->
+  (int -> (int -> bool) -> (int * int) list) ->
+  ((int * (int -> bool)) * (int * int) list) list -> OUnit2.test
+)
+"Source/builtin/tests/test_builtin_templates.ml" 115 4181 4185 "Source/builtin/tests/test_builtin_templates.ml" 115 4181 4198
+type(
+  string ->
+  (string -> int -> int) -> ((string * int) * int) list -> OUnit2.test
+)
+ident(
+  def template_s1_1 "Source/builtin/tests/test_builtin_templates.ml" 116 4240 4240 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 115 4181 4201 "Source/builtin/tests/test_builtin_templates.ml" 115 4181 4209
+type(
+  (unit -> (string * int) * int -> string) ->
+  ((string -> int -> int) -> string * int -> int) ->
+  (int -> string) ->
+  string ->
+  (string -> int -> int) -> ((string * int) * int) list -> OUnit2.test
+)
+ident(
+  int_ref template "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3013 "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3021
+)
+"Source/builtin/tests/test_builtin_templates.ml" 115 4181 4210 "Source/builtin/tests/test_builtin_templates.ml" 115 4181 4221
+type(
+  unit -> (string * int) * int -> string
+)
+ident(
+  int_ref format_s1_1 "Source/builtin/tests/test_builtin_templates.ml" 61 2019 2023 "Source/builtin/tests/test_builtin_templates.ml" 61 2019 2034
+)
+"Source/builtin/tests/test_builtin_templates.ml" 115 4181 4222 "Source/builtin/tests/test_builtin_templates.ml" 115 4181 4227
+type(
+  (string -> int -> int) -> string * int -> int
+)
+ident(
+  int_ref det_2 "Source/builtin/tests/test_builtin_templates.ml" 82 2828 2832 "Source/builtin/tests/test_builtin_templates.ml" 82 2828 2837
+)
+"Source/builtin/tests/test_builtin_templates.ml" 115 4181 4228 "Source/builtin/tests/test_builtin_templates.ml" 115 4181 4239
+type(
+  int -> string
+)
+ident(
+  int_ref o_printer_1 "Source/builtin/tests/test_builtin_templates.ml" 71 2430 2434 "Source/builtin/tests/test_builtin_templates.ml" 71 2430 2445
+)
+"Source/builtin/tests/test_builtin_templates.ml" 115 4181 4201 "Source/builtin/tests/test_builtin_templates.ml" 115 4181 4239
+call(
+  stack
+)
+type(
+  string ->
+  (string -> int -> int) -> ((string * int) * int) list -> OUnit2.test
+)
+"Source/builtin/tests/test_builtin_templates.ml" 116 4240 4244 "Source/builtin/tests/test_builtin_templates.ml" 116 4240 4256
+type(
+  string ->
+  (int -> int -> string) -> ((int * int) * string) list -> OUnit2.test
+)
+ident(
+  def template_2_s "Source/builtin/tests/test_builtin_templates.ml" 117 4297 4297 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 116 4240 4259 "Source/builtin/tests/test_builtin_templates.ml" 116 4240 4267
+type(
+  (unit -> (int * int) * string -> string) ->
+  ((int -> int -> string) -> int * int -> string) ->
+  (string -> string) ->
+  string ->
+  (int -> int -> string) -> ((int * int) * string) list -> OUnit2.test
+)
+ident(
+  int_ref template "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3013 "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3021
+)
+"Source/builtin/tests/test_builtin_templates.ml" 116 4240 4268 "Source/builtin/tests/test_builtin_templates.ml" 116 4240 4278
+type(
+  unit -> (int * int) * string -> string
+)
+ident(
+  int_ref format_2_s "Source/builtin/tests/test_builtin_templates.ml" 63 2095 2099 "Source/builtin/tests/test_builtin_templates.ml" 63 2095 2109
+)
+"Source/builtin/tests/test_builtin_templates.ml" 116 4240 4279 "Source/builtin/tests/test_builtin_templates.ml" 116 4240 4284
+type(
+  (int -> int -> string) -> int * int -> string
+)
+ident(
+  int_ref det_2 "Source/builtin/tests/test_builtin_templates.ml" 82 2828 2832 "Source/builtin/tests/test_builtin_templates.ml" 82 2828 2837
+)
+"Source/builtin/tests/test_builtin_templates.ml" 116 4240 4285 "Source/builtin/tests/test_builtin_templates.ml" 116 4240 4296
+type(
+  string -> string
+)
+ident(
+  int_ref o_printer_s "Source/builtin/tests/test_builtin_templates.ml" 78 2745 2749 "Source/builtin/tests/test_builtin_templates.ml" 78 2745 2760
+)
+"Source/builtin/tests/test_builtin_templates.ml" 116 4240 4259 "Source/builtin/tests/test_builtin_templates.ml" 116 4240 4296
+call(
+  stack
+)
+type(
+  string ->
+  (int -> int -> string) -> ((int * int) * string) list -> OUnit2.test
+)
+"Source/builtin/tests/test_builtin_templates.ml" 117 4297 4301 "Source/builtin/tests/test_builtin_templates.ml" 117 4297 4314
+type(
+  string ->
+  (int -> int * int -> int) ->
+  ((int * (int * int)) * int) list -> OUnit2.test
+)
+ident(
+  def template_12_1 "Source/builtin/tests/test_builtin_templates.ml" 118 4357 4357 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 117 4297 4317 "Source/builtin/tests/test_builtin_templates.ml" 117 4297 4325
+type(
+  (unit -> (int * (int * int)) * int -> string) ->
+  ((int -> int * int -> int) -> int * (int * int) -> int) ->
+  (int -> string) ->
+  string ->
+  (int -> int * int -> int) ->
+  ((int * (int * int)) * int) list -> OUnit2.test
+)
+ident(
+  int_ref template "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3013 "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3021
+)
+"Source/builtin/tests/test_builtin_templates.ml" 117 4297 4326 "Source/builtin/tests/test_builtin_templates.ml" 117 4297 4337
+type(
+  unit -> (int * (int * int)) * int -> string
+)
+ident(
+  int_ref format_12_1 "Source/builtin/tests/test_builtin_templates.ml" 41 1215 1219 "Source/builtin/tests/test_builtin_templates.ml" 41 1215 1230
+)
+"Source/builtin/tests/test_builtin_templates.ml" 117 4297 4338 "Source/builtin/tests/test_builtin_templates.ml" 117 4297 4344
+type(
+  (int -> int * int -> int) -> int * (int * int) -> int
+)
+ident(
+  int_ref det_12 "Source/builtin/tests/test_builtin_templates.ml" 84 2887 2891 "Source/builtin/tests/test_builtin_templates.ml" 84 2887 2897
+)
+"Source/builtin/tests/test_builtin_templates.ml" 117 4297 4345 "Source/builtin/tests/test_builtin_templates.ml" 117 4297 4356
+type(
+  int -> string
+)
+ident(
+  int_ref o_printer_1 "Source/builtin/tests/test_builtin_templates.ml" 71 2430 2434 "Source/builtin/tests/test_builtin_templates.ml" 71 2430 2445
+)
+"Source/builtin/tests/test_builtin_templates.ml" 117 4297 4317 "Source/builtin/tests/test_builtin_templates.ml" 117 4297 4356
+call(
+  stack
+)
+type(
+  string ->
+  (int -> int * int -> int) ->
+  ((int * (int * int)) * int) list -> OUnit2.test
+)
+"Source/builtin/tests/test_builtin_templates.ml" 118 4357 4361 "Source/builtin/tests/test_builtin_templates.ml" 118 4357 4374
+type(
+  string ->
+  (int -> int -> (int * int) * (int * int)) ->
+  ((int * int) * ((int * int) * (int * int))) list -> OUnit2.test
+)
+ident(
+  def template_2_22 "Source/builtin/tests/test_builtin_templates.ml" 119 4417 4417 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 118 4357 4377 "Source/builtin/tests/test_builtin_templates.ml" 118 4357 4385
+type(
+  (unit -> (int * int) * ((int * int) * (int * int)) -> string) ->
+  ((int -> int -> (int * int) * (int * int)) ->
+   int * int -> (int * int) * (int * int)) ->
+  ((int * int) * (int * int) -> string) ->
+  string ->
+  (int -> int -> (int * int) * (int * int)) ->
+  ((int * int) * ((int * int) * (int * int))) list -> OUnit2.test
+)
+ident(
+  int_ref template "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3013 "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3021
+)
+"Source/builtin/tests/test_builtin_templates.ml" 118 4357 4386 "Source/builtin/tests/test_builtin_templates.ml" 118 4357 4397
+type(
+  unit -> (int * int) * ((int * int) * (int * int)) -> string
+)
+ident(
+  int_ref format_2_22 "Source/builtin/tests/test_builtin_templates.ml" 43 1294 1298 "Source/builtin/tests/test_builtin_templates.ml" 43 1294 1309
+)
+"Source/builtin/tests/test_builtin_templates.ml" 118 4357 4398 "Source/builtin/tests/test_builtin_templates.ml" 118 4357 4403
+type(
+  (int -> int -> (int * int) * (int * int)) ->
+  int * int -> (int * int) * (int * int)
+)
+ident(
+  int_ref det_2 "Source/builtin/tests/test_builtin_templates.ml" 82 2828 2832 "Source/builtin/tests/test_builtin_templates.ml" 82 2828 2837
+)
+"Source/builtin/tests/test_builtin_templates.ml" 118 4357 4404 "Source/builtin/tests/test_builtin_templates.ml" 118 4357 4416
+type(
+  (int * int) * (int * int) -> string
+)
+ident(
+  int_ref o_printer_22 "Source/builtin/tests/test_builtin_templates.ml" 74 2562 2566 "Source/builtin/tests/test_builtin_templates.ml" 74 2562 2578
+)
+"Source/builtin/tests/test_builtin_templates.ml" 118 4357 4377 "Source/builtin/tests/test_builtin_templates.ml" 118 4357 4416
+call(
+  stack
+)
+type(
+  string ->
+  (int -> int -> (int * int) * (int * int)) ->
+  ((int * int) * ((int * int) * (int * int))) list -> OUnit2.test
+)
+"Source/builtin/tests/test_builtin_templates.ml" 119 4417 4421 "Source/builtin/tests/test_builtin_templates.ml" 119 4417 4436
+type(
+  string ->
+  (int * int -> int * int) -> ((int * int) * (int * int)) list -> OUnit2.test
+)
+ident(
+  def template_cple_2 "Source/builtin/tests/test_builtin_templates.ml" 120 4477 4477 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 119 4417 4439 "Source/builtin/tests/test_builtin_templates.ml" 119 4417 4447
+type(
+  (unit -> (int * int) * (int * int) -> string) ->
+  ((int * int -> int * int) -> int * int -> int * int) ->
+  (int * int -> string) ->
+  string ->
+  (int * int -> int * int) -> ((int * int) * (int * int)) list -> OUnit2.test
+)
+ident(
+  int_ref template "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3013 "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3021
+)
+"Source/builtin/tests/test_builtin_templates.ml" 119 4417 4448 "Source/builtin/tests/test_builtin_templates.ml" 119 4417 4458
+type(
+  unit -> (int * int) * (int * int) -> string
+)
+ident(
+  int_ref format_2_2 "Source/builtin/tests/test_builtin_templates.ml" 36 1025 1029 "Source/builtin/tests/test_builtin_templates.ml" 36 1025 1039
+)
+"Source/builtin/tests/test_builtin_templates.ml" 119 4417 4459 "Source/builtin/tests/test_builtin_templates.ml" 119 4417 4464
+type(
+  (int * int -> int * int) -> int * int -> int * int
+)
+ident(
+  int_ref det_1 "Source/builtin/tests/test_builtin_templates.ml" 81 2812 2816 "Source/builtin/tests/test_builtin_templates.ml" 81 2812 2821
+)
+"Source/builtin/tests/test_builtin_templates.ml" 119 4417 4465 "Source/builtin/tests/test_builtin_templates.ml" 119 4417 4476
+type(
+  int * int -> string
+)
+ident(
+  int_ref o_printer_2 "Source/builtin/tests/test_builtin_templates.ml" 72 2468 2472 "Source/builtin/tests/test_builtin_templates.ml" 72 2468 2483
+)
+"Source/builtin/tests/test_builtin_templates.ml" 119 4417 4439 "Source/builtin/tests/test_builtin_templates.ml" 119 4417 4476
+call(
+  stack
+)
+type(
+  string ->
+  (int * int -> int * int) -> ((int * int) * (int * int)) list -> OUnit2.test
+)
+"Source/builtin/tests/test_builtin_templates.ml" 120 4477 4481 "Source/builtin/tests/test_builtin_templates.ml" 120 4477 4495
+type(
+  string ->
+  (int -> int list -> int -> int list) ->
+  ((int * int list * int) * int list) list -> OUnit2.test
+)
+ident(
+  def template_1L1_L "Source/builtin/tests/test_builtin_templates.ml" 121 4538 4538 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 120 4477 4498 "Source/builtin/tests/test_builtin_templates.ml" 120 4477 4506
+type(
+  (unit -> (int * int list * int) * int list -> string) ->
+  ((int -> int list -> int -> int list) -> int * int list * int -> int list) ->
+  (int list -> string) ->
+  string ->
+  (int -> int list -> int -> int list) ->
+  ((int * int list * int) * int list) list -> OUnit2.test
+)
+ident(
+  int_ref template "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3013 "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3021
+)
+"Source/builtin/tests/test_builtin_templates.ml" 120 4477 4507 "Source/builtin/tests/test_builtin_templates.ml" 120 4477 4519
+type(
+  unit -> (int * int list * int) * int list -> string
+)
+ident(
+  int_ref format_1L1_L "Source/builtin/tests/test_builtin_templates.ml" 65 2170 2174 "Source/builtin/tests/test_builtin_templates.ml" 65 2170 2186
+)
+"Source/builtin/tests/test_builtin_templates.ml" 120 4477 4520 "Source/builtin/tests/test_builtin_templates.ml" 120 4477 4525
+type(
+  (int -> int list -> int -> int list) -> int * int list * int -> int list
+)
+ident(
+  int_ref det_3 "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2859 "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2864
+)
+"Source/builtin/tests/test_builtin_templates.ml" 120 4477 4526 "Source/builtin/tests/test_builtin_templates.ml" 120 4477 4537
+type(
+  int list -> string
+)
+ident(
+  int_ref o_printer_L "Source/builtin/tests/test_builtin_templates.ml" 76 2649 2653 "Source/builtin/tests/test_builtin_templates.ml" 76 2649 2664
+)
+"Source/builtin/tests/test_builtin_templates.ml" 120 4477 4498 "Source/builtin/tests/test_builtin_templates.ml" 120 4477 4537
+call(
+  stack
+)
+type(
+  string ->
+  (int -> int list -> int -> int list) ->
+  ((int * int list * int) * int list) list -> OUnit2.test
+)
+"Source/builtin/tests/test_builtin_templates.ml" 121 4538 4542 "Source/builtin/tests/test_builtin_templates.ml" 121 4538 4556
+type(
+  string ->
+  (int * int -> int -> int * int -> int) ->
+  (((int * int) * int * (int * int)) * int) list -> OUnit2.test
+)
+ident(
+  def template_212_1 "Source/builtin/tests/test_builtin_templates.ml" 124 4625 4625 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 121 4538 4559 "Source/builtin/tests/test_builtin_templates.ml" 121 4538 4567
+type(
+  (unit -> ((int * int) * int * (int * int)) * int -> string) ->
+  ((int * int -> int -> int * int -> int) ->
+   (int * int) * int * (int * int) -> int) ->
+  (int -> string) ->
+  string ->
+  (int * int -> int -> int * int -> int) ->
+  (((int * int) * int * (int * int)) * int) list -> OUnit2.test
+)
+ident(
+  int_ref template "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3013 "Source/builtin/tests/test_builtin_templates.ml" 88 3009 3021
+)
+"Source/builtin/tests/test_builtin_templates.ml" 121 4538 4568 "Source/builtin/tests/test_builtin_templates.ml" 121 4538 4580
+type(
+  unit -> ((int * int) * int * (int * int)) * int -> string
+)
+ident(
+  int_ref format_212_1 "Source/builtin/tests/test_builtin_templates.ml" 67 2280 2284 "Source/builtin/tests/test_builtin_templates.ml" 67 2280 2296
+)
+"Source/builtin/tests/test_builtin_templates.ml" 121 4538 4581 "Source/builtin/tests/test_builtin_templates.ml" 121 4538 4586
+type(
+  (int * int -> int -> int * int -> int) ->
+  (int * int) * int * (int * int) -> int
+)
+ident(
+  int_ref det_3 "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2859 "Source/builtin/tests/test_builtin_templates.ml" 83 2855 2864
+)
+"Source/builtin/tests/test_builtin_templates.ml" 121 4538 4587 "Source/builtin/tests/test_builtin_templates.ml" 121 4538 4598
+type(
+  int -> string
+)
+ident(
+  int_ref o_printer_1 "Source/builtin/tests/test_builtin_templates.ml" 71 2430 2434 "Source/builtin/tests/test_builtin_templates.ml" 71 2430 2445
+)
+"Source/builtin/tests/test_builtin_templates.ml" 121 4538 4559 "Source/builtin/tests/test_builtin_templates.ml" 121 4538 4598
+call(
+  stack
+)
+type(
+  string ->
+  (int * int -> int -> int * int -> int) ->
+  (((int * int) * int * (int * int)) * int) list -> OUnit2.test
+)
+"Source/builtin/tests/test_builtin_templates.ml" 124 4625 4629 "Source/builtin/tests/test_builtin_templates.ml" 124 4625 4637
+type(
+  ('a -> 'b -> 'c -> OUnit2.test) -> 'a -> 'b -> 'c -> unit
+)
+ident(
+  def run_test "Source/builtin/tests/test_builtin_templates.ml" 126 4731 4759 "Source/builtin/tests/test_builtin_templates.ml" 1 0 -1
+)
+"Source/builtin/tests/test_builtin_templates.ml" 124 4625 4638 "Source/builtin/tests/test_builtin_templates.ml" 124 4625 4647
+type(
+  'a -> 'b -> 'c -> OUnit2.test
+)
+ident(
+  def template_ "Source/builtin/tests/test_builtin_templates.ml" 124 4625 4648 "Source/builtin/tests/test_builtin_templates.ml" 126 4731 4759
+)
+"Source/builtin/tests/test_builtin_templates.ml" 124 4625 4648 "Source/builtin/tests/test_builtin_templates.ml" 124 4625 4654
+type(
+  'a
+)
+ident(
+  def t_name "Source/builtin/tests/test_builtin_templates.ml" 124 4625 4655 "Source/builtin/tests/test_builtin_templates.ml" 126 4731 4759
+)
+"Source/builtin/tests/test_builtin_templates.ml" 124 4625 4655 "Source/builtin/tests/test_builtin_templates.ml" 124 4625 4665
+type(
+  'b
+)
+ident(
+  def t_function "Source/builtin/tests/test_builtin_templates.ml" 124 4625 4666 "Source/builtin/tests/test_builtin_templates.ml" 126 4731 4759
+)
+"Source/builtin/tests/test_builtin_templates.ml" 124 4625 4666 "Source/builtin/tests/test_builtin_templates.ml" 124 4625 4672
+type(
+  'c
+)
+ident(
+  def t_list "Source/builtin/tests/test_builtin_templates.ml" 125 4675 4677 "Source/builtin/tests/test_builtin_templates.ml" 126 4731 4759
+)
+"Source/builtin/tests/test_builtin_templates.ml" 125 4675 4681 "Source/builtin/tests/test_builtin_templates.ml" 125 4675 4690
+type(
+  OUnit2.test
+)
+ident(
+  def temp_test "Source/builtin/tests/test_builtin_templates.ml" 126 4731 4733 "Source/builtin/tests/test_builtin_templates.ml" 126 4731 4759
+)
+"Source/builtin/tests/test_builtin_templates.ml" 125 4675 4693 "Source/builtin/tests/test_builtin_templates.ml" 125 4675 4702
+type(
+  'a -> 'b -> 'c -> OUnit2.test
+)
+ident(
+  int_ref template_ "Source/builtin/tests/test_builtin_templates.ml" 124 4625 4638 "Source/builtin/tests/test_builtin_templates.ml" 124 4625 4647
+)
+"Source/builtin/tests/test_builtin_templates.ml" 125 4675 4703 "Source/builtin/tests/test_builtin_templates.ml" 125 4675 4709
+type(
+  'a
+)
+ident(
+  int_ref t_name "Source/builtin/tests/test_builtin_templates.ml" 124 4625 4648 "Source/builtin/tests/test_builtin_templates.ml" 124 4625 4654
+)
+"Source/builtin/tests/test_builtin_templates.ml" 125 4675 4710 "Source/builtin/tests/test_builtin_templates.ml" 125 4675 4720
+type(
+  'b
+)
+ident(
+  int_ref t_function "Source/builtin/tests/test_builtin_templates.ml" 124 4625 4655 "Source/builtin/tests/test_builtin_templates.ml" 124 4625 4665
+)
+"Source/builtin/tests/test_builtin_templates.ml" 125 4675 4721 "Source/builtin/tests/test_builtin_templates.ml" 125 4675 4727
+type(
+  'c
+)
+ident(
+  int_ref t_list "Source/builtin/tests/test_builtin_templates.ml" 124 4625 4666 "Source/builtin/tests/test_builtin_templates.ml" 124 4625 4672
+)
+"Source/builtin/tests/test_builtin_templates.ml" 125 4675 4693 "Source/builtin/tests/test_builtin_templates.ml" 125 4675 4727
+call(
+  stack
+)
+type(
+  OUnit2.test
+)
+"Source/builtin/tests/test_builtin_templates.ml" 126 4731 4733 "Source/builtin/tests/test_builtin_templates.ml" 126 4731 4749
+type(
+  ?exit:(int -> unit) -> OUnit2.test -> unit
+)
+ident(
+  int_ref OUnit2.run_test_tt_main "src/oUnit2.mli" 307 11248 11248 "src/oUnit2.mli" 307 11248 11306
+)
+"Source/builtin/tests/test_builtin_templates.ml" 126 4731 4750 "Source/builtin/tests/test_builtin_templates.ml" 126 4731 4759
+type(
+  OUnit2.test
+)
+ident(
+  int_ref temp_test "Source/builtin/tests/test_builtin_templates.ml" 125 4675 4681 "Source/builtin/tests/test_builtin_templates.ml" 125 4675 4690
+)
+"Source/builtin/tests/test_builtin_templates.ml" 126 4731 4733 "Source/builtin/tests/test_builtin_templates.ml" 126 4731 4759
+call(
+  tail
+)
+type(
+  unit
+)
+"Source/builtin/tests/test_builtin_templates.ml" 125 4675 4677 "Source/builtin/tests/test_builtin_templates.ml" 126 4731 4759
+type(
+  unit
+)
